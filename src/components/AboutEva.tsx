@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Award, Heart } from "lucide-react";
+import evaImage from "@/assets/eva-andersson.png";
 
 const AboutEva = () => {
   return (
@@ -14,6 +15,13 @@ const AboutEva = () => {
           </div>
 
           <div className="bg-card rounded-2xl shadow-lg p-8 md:p-12">
+            <div className="flex justify-center mb-8">
+              <img 
+                src={evaImage} 
+                alt="Eva Andersson - DNS Certified Practitioner" 
+                className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg border-4 border-primary/10"
+              />
+            </div>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="flex flex-col items-center text-center p-6 bg-muted/50 rounded-xl">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">

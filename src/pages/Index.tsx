@@ -5,14 +5,18 @@ import Services from "@/components/Services";
 import HowDNSWorks from "@/components/HowDNSWorks";
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import AboutEva from "@/components/AboutEva";
+import WhatToExpect from "@/components/WhatToExpect";
+import Testimonials from "@/components/Testimonials";
 import BookingCTA from "@/components/BookingCTA";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <StructuredData />
+      <GoogleAnalytics />
       <Navigation />
       <main className="pt-16">
         <Hero />
@@ -21,6 +25,8 @@ const Index = () => {
         <HowDNSWorks />
         <DevelopmentalPatterns />
         <AboutEva />
+        <WhatToExpect />
+        <Testimonials />
         <BookingCTA />
       </main>
       <Footer />

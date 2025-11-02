@@ -7,10 +7,13 @@ const WhatIsDNS = () => {
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Understanding Dynamic Neuromuscular Stabilization
+            What is Dynamic Neuromuscular Stabilization?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            DNS is a revolutionary approach that enhances movement patterns by focusing on spinal stability and functional alignment.
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">
+            DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns. It focuses on retraining the central nervous system to activate optimal movement patterns learned in infancy.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+            The foundation of DNS is <span className="font-semibold text-foreground">"central stability for peripheral mobility"</span> - establishing dynamic stability through coordinated activation of deep core stabilizers (diaphragm, pelvic floor, transversus abdominis, and multifidus) to create an optimal foundation for efficient movement and injury prevention.
           </p>
         </div>
 
@@ -20,9 +23,9 @@ const WhatIsDNS = () => {
               <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <Activity className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Holistic Approach</h3>
+              <h3 className="text-xl font-semibold mb-3">Developmental Kinesiology Foundation</h3>
               <p className="text-muted-foreground">
-                DNS emphasizes a holistic approach to rehabilitation, integrating principles of early human development to optimize movement. This method trains the body's movement systems effectively and safely.
+                DNS leverages innate, hard-wired motor programs that develop predictably in infancy. By reactivating these optimal movement patterns through specific developmental positions (supine, prone, quadruped), we restore proper neuromuscular coordination and postural-locomotion function.
               </p>
             </CardContent>
           </Card>
@@ -32,9 +35,9 @@ const WhatIsDNS = () => {
               <div className="mb-4 w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center">
                 <Users className="w-6 h-6 text-secondary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Personalized Coaching</h3>
+              <h3 className="text-xl font-semibold mb-3">Intra-Abdominal Pressure Regulation</h3>
               <p className="text-muted-foreground">
-                With one-on-one coaching sessions, clients receive personalized guidance tailored to their unique needs. This ensures effective learning and application of DNS principles for better health outcomes.
+                Proper DNS training establishes optimal intra-abdominal pressure (IAP) through coordinated breathing mechanics and core muscle activation. This creates a stable cylinder that protects the spine during all functional movements and athletic performance.
               </p>
             </CardContent>
           </Card>
@@ -44,9 +47,9 @@ const WhatIsDNS = () => {
               <div className="mb-4 w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
                 <TrendingUp className="w-6 h-6 text-accent" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Proven Results</h3>
+              <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">
-                Many clients have experienced significant improvements in their movement patterns and overall well-being through DNS. Join the success stories and start your journey towards better health.
+                DNS is effective for injury rehabilitation, chronic pain management (back pain, neck pain, shoulder dysfunction), sports performance enhancement, and pre-habilitation programs. Research demonstrates improvements in pain, disability scores, and quality of life metrics across diverse patient populations.
               </p>
             </CardContent>
           </Card>

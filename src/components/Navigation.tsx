@@ -15,13 +15,13 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <a href="#what-is-dns" className="text-foreground hover:text-primary transition-colors">
+            <a href="/#what-is-dns" className="text-foreground hover:text-primary transition-colors">
               What is DNS
             </a>
-            <a href="#how-it-works" className="text-foreground hover:text-primary transition-colors">
-              How It Works
+            <a href="/#services" className="text-foreground hover:text-primary transition-colors">
+              Services
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            <a href="/#about" className="text-foreground hover:text-primary transition-colors">
               About Eva
             </a>
             <Button asChild>
@@ -48,21 +48,21 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden py-4 space-y-4">
             <a 
-              href="#what-is-dns" 
+              href="/#what-is-dns" 
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
               What is DNS
             </a>
             <a 
-              href="#how-it-works" 
+              href="/#services" 
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              How It Works
+              Services
             </a>
             <a 
-              href="#about" 
+              href="/#about" 
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >

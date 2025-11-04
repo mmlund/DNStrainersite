@@ -31,9 +31,8 @@ const Hero = () => {
                 asChild
               >
                 <a 
-                  href="https://scandinavianclinic.com/dns-coaching/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  id="Setmore_button_iframe"
+                  href="https://scandinavianclinic.setmore.com"
                   className="group"
                 >
                   Book Your Session

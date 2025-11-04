@@ -9,6 +9,7 @@ import MoveBetter from "./pages/MoveBetter";
 import InjuryRehabilitation from "./pages/InjuryRehabilitation";
 import SportsPerformance from "./pages/SportsPerformance";
 import ChronicPain from "./pages/ChronicPain";
+import BookingTerms from "./pages/BookingTerms";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/injury-rehabilitation" element={<InjuryRehabilitation />} />
           <Route path="/sports-performance" element={<SportsPerformance />} />
           <Route path="/chronic-pain" element={<ChronicPain />} />
+          <Route path="/booking-terms" element={<BookingTerms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

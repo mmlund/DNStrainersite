@@ -66,9 +66,8 @@ const Footer = () => {
               </a>
               <div className="mt-4">
                 <a 
-                  href="https://scandinavianclinic.com/dns-coaching/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  id="Setmore_button_iframe"
+                  href="https://scandinavianclinic.setmore.com"
                   className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
                 >
                   Book Your Session

@@ -24,7 +24,7 @@ const Hero = () => {
               Dynamic Neuromuscular Stabilization (DNS) from The Prague School optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement in North Vancouver.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+            <div className="flex justify-center lg:justify-start">
               <Button 
                 size="lg" 
                 variant="hero"
@@ -37,17 +37,6 @@ const Hero = () => {
                 >
                   Book Your Session
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </Button>
-              
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary"
-                asChild
-              >
-                <a href="#what-is-dns">
-                  Learn More
                 </a>
               </Button>
             </div>

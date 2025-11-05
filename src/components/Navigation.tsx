@@ -26,9 +26,8 @@ const Navigation = () => {
             </a>
             <Button asChild>
               <a 
-                href="https://scandinavianclinic.com/dns-coaching/" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                id="Setmore_button_iframe"
+                href="https://scandinavianclinic.setmore.com"
               >
                 Book Session
               </a>
@@ -70,9 +69,8 @@ const Navigation = () => {
             </a>
             <Button className="w-full" asChild>
               <a 
-                href="https://scandinavianclinic.com/dns-coaching/" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                id="Setmore_button_iframe"
+                href="https://scandinavianclinic.setmore.com"
               >
                 Book Session
               </a>

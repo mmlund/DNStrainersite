@@ -43,6 +43,7 @@ All colors MUST be HSL.
     
     --gradient-hero: linear-gradient(135deg, hsl(195 85% 35%), hsl(195 75% 45%));
     --gradient-accent: linear-gradient(135deg, hsl(15 85% 62%), hsl(25 90% 65%));
+    --gradient-page-bg: linear-gradient(180deg, hsl(195 60% 96%), hsl(0 0% 99%));
     --shadow-soft: 0 4px 16px hsla(195, 85%, 35%, 0.08);
     --shadow-medium: 0 8px 32px hsla(195, 85%, 35%, 0.12);
 
@@ -115,6 +116,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background: var(--gradient-page-bg);
+    background-attachment: fixed;
   }
 }

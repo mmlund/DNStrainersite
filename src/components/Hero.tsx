@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroIllustration from "@/assets/dns-hero-illustration.jpg";
+import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
 
 const Hero = () => {
   return (
@@ -42,7 +43,14 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="relative">
+          <div className="relative flex flex-col items-center gap-8">
+            <div className="flex justify-center">
+              <img 
+                src={dnsLogoLarge} 
+                alt="DNS Trainer Logo" 
+                className="w-64 h-64 object-contain"
+              />
+            </div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={heroIllustration} 

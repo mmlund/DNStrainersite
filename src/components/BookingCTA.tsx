@@ -23,9 +23,9 @@ const BookingCTA = () => {
             asChild
           >
             <a 
-              id="Setmore_button_iframe"
+              id="Setmore_button_iframe_cta"
               href="https://scandinavianclinic.setmore.com"
-              className="group"
+              className="group setmore-booking-button"
             >
               Schedule Your Session Now
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />

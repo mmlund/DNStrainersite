@@ -66,9 +66,9 @@ const Footer = () => {
               </a>
               <div className="mt-4">
                 <a 
-                  id="Setmore_button_iframe"
+                  id="Setmore_button_iframe_footer"
                   href="https://scandinavianclinic.setmore.com"
-                  className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+                  className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors setmore-booking-button"
                 >
                   Book Your Session
                 </a>

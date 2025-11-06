@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Zap, Heart, TrendingUp, Target } from "lucide-react";
+import painCollage from "@/assets/pain-collage.png";
 
 const Services = () => {
   const services = [
@@ -68,6 +69,14 @@ const Services = () => {
               </a>
             );
           })}
+          
+          <Card className="border-2 h-full overflow-hidden">
+            <img 
+              src={painCollage} 
+              alt="Common pain areas treated with DNS - neck, back, shoulder, knee, and joint pain management" 
+              className="w-full h-full object-cover"
+            />
+          </Card>
         </div>
 
         <div className="bg-card border-2 rounded-lg p-8 max-w-4xl mx-auto">

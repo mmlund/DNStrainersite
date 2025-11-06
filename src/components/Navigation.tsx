@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import dnsLogo from "@/assets/dns-trainer-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,9 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container px-4">
         <div className="flex items-center justify-between h-16">
-          <a href="/" className="text-2xl font-bold text-primary">
-            DNS Coach
+          <a href="/" className="flex items-center gap-3">
+            <img src={dnsLogo} alt="DNS Training Logo" className="h-12 w-12" />
+            <span className="text-2xl font-bold text-primary">DNS Trainer</span>
           </a>
 
           {/* Desktop Navigation */}

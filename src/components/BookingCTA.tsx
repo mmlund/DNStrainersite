@@ -9,7 +9,7 @@ const BookingCTA = () => {
           <Calendar className="w-16 h-16 mx-auto mb-6 text-white" />
           
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Book Your DNS Coaching Session
+            Book Your DNS Training Session
           </h2>
           
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">

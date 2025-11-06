@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <div className="inline-block mb-4 px-6 py-2 bg-accent/20 rounded-full">
-              <span className="text-accent font-bold text-xl tracking-wider">DNS COACHING</span>
+              <span className="text-accent font-bold text-xl tracking-wider">DNS TRAINING</span>
             </div>
             
             <h1 className="mb-6 text-5xl md:text-7xl font-bold text-white leading-tight">

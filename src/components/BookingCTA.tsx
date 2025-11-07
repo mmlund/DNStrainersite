@@ -24,7 +24,7 @@ const BookingCTA = () => {
           >
             <a 
               id="Setmore_button_iframe_cta"
-              href="https://scandinavianclinic.setmore.com"
+              href="https://dnstrainer.setmore.com"
               className="group setmore-booking-button"
             >
               Schedule Your Session Now

@@ -33,7 +33,7 @@ const Hero = () => {
               >
                 <a 
                   id="Setmore_button_iframe"
-                  href="https://scandinavianclinic.setmore.com"
+                  href="https://dnstrainer.setmore.com"
                   className="group setmore-booking-button"
                 >
                   Book Your Session

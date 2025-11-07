@@ -29,7 +29,7 @@ const Navigation = () => {
             <Button asChild>
               <a 
                 id="Setmore_button_iframe_nav"
-                href="https://scandinavianclinic.setmore.com"
+                href="https://dnstrainer.setmore.com"
                 className="setmore-booking-button"
               >
                 Book Session
@@ -73,7 +73,7 @@ const Navigation = () => {
             <Button className="w-full" asChild>
               <a 
                 id="Setmore_button_iframe_nav_mobile"
-                href="https://scandinavianclinic.setmore.com"
+                href="https://dnstrainer.setmore.com"
                 className="setmore-booking-button"
               >
                 Book Session

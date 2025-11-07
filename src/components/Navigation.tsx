@@ -30,7 +30,7 @@ const Navigation = () => {
               <a 
                 id="Setmore_button_iframe_nav"
                 href="https://dnstrainer.setmore.com"
-                className="setmore-booking-button"
+                className="a-btn-iframe"
               >
                 Book Session
               </a>
@@ -74,7 +74,7 @@ const Navigation = () => {
               <a 
                 id="Setmore_button_iframe_nav_mobile"
                 href="https://dnstrainer.setmore.com"
-                className="setmore-booking-button"
+                className="a-btn-iframe"
               >
                 Book Session
               </a>

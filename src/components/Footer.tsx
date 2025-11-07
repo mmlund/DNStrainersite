@@ -73,7 +73,7 @@ const Footer = () => {
                 <a 
                   id="Setmore_button_iframe_footer"
                   href="https://dnstrainer.setmore.com"
-                  className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors setmore-booking-button"
+                  className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors a-btn-iframe"
                 >
                   Book Your Session
                 </a>

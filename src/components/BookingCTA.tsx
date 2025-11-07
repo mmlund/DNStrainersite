@@ -25,7 +25,7 @@ const BookingCTA = () => {
             <a 
               id="Setmore_button_iframe_cta"
               href="https://dnstrainer.setmore.com"
-              className="group setmore-booking-button"
+              className="group a-btn-iframe"
             >
               Schedule Your Session Now
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />

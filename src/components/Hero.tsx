@@ -34,7 +34,7 @@ const Hero = () => {
                 <a 
                   id="Setmore_button_iframe"
                   href="https://dnstrainer.setmore.com"
-                  className="group setmore-booking-button"
+                  className="group a-btn-iframe"
                 >
                   Book Your Session
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />

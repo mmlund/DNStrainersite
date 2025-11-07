@@ -45,6 +45,11 @@ const Footer = () => {
                   Move Better, Move Stronger
                 </a>
               </li>
+              <li>
+                <a href="/booking-terms" className="text-white/80 hover:text-white transition-colors">
+                  Booking Terms & Conditions
+                </a>
+              </li>
             </ul>
           </div>
 

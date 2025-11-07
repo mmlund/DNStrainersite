@@ -11,14 +11,12 @@ import BookingCTA from "@/components/BookingCTA";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import SetmoreIntegration from "@/components/SetmoreIntegration";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <StructuredData />
       <GoogleAnalytics />
-      <SetmoreIntegration />
       <Navigation />
       <main className="pt-16">
         <Hero />

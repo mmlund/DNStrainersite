@@ -19,7 +19,7 @@ const Services = () => {
     {
       icon: Heart,
       title: "Chronic Pain Management",
-      description: "Address persistent pain conditions (chronic back pain, neck pain, shoulder dysfunction) by correcting underlying movement dysfunction and restoring proper joint centration and muscle coordination patterns.",
+      description: "Address persistent pain conditions (chronic low back pain, neck and shoulder pain, hip, knee, and foot problems) by correcting underlying movement dysfunction and restoring proper muscle function patterns.",
       link: "/chronic-pain"
     },
     {

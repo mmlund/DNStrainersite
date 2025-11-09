@@ -10,7 +10,7 @@ const WhatIsDNS = () => {
             What is Dynamic Neuromuscular Stabilization?
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">
-            DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns. It focuses on retraining the central nervous system to activate optimal movement patterns learned in infancy.
+            DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns. It focuses on reactivating the central nervous system to activate optimal movement patterns learned in infancy.
           </p>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             The foundation of DNS is <span className="font-semibold text-foreground">"central stability for peripheral mobility"</span> - establishing dynamic stability through coordinated activation of deep core stabilizers (diaphragm, pelvic floor, transversus abdominis, and multifidus) to create an optimal foundation for efficient movement and injury prevention.

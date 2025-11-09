@@ -44,7 +44,7 @@ const HowDNSWorks = () => {
             <img 
               src={iapDiagram} 
               alt="Intra-abdominal pressure stabilizes the spine" 
-              className="rounded-lg shadow-lg max-w-full h-auto"
+              className="rounded-lg shadow-lg max-w-md w-full h-auto"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@ const HowDNSWorks = () => {
               <img 
                 src={stabilityDiagram} 
                 alt="Comparison of proper versus poor spinal stability showing optimal and dysfunctional posture patterns" 
-                className="rounded-lg max-w-full h-auto"
+                className="rounded-lg max-w-md w-full h-auto"
               />
             </div>
           </div>

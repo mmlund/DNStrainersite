@@ -1,4 +1,5 @@
 import iapDiagram from "@/assets/iap-diagram.jpg";
+import stabilityDiagram from "@/assets/good-versus-poor-stability.jpg";
 
 const HowDNSWorks = () => {
   return (
@@ -51,7 +52,7 @@ const HowDNSWorks = () => {
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-md">
           <h3 className="text-3xl font-bold mb-6">The Role of Breathing in Movement</h3>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h4 className="text-xl font-semibold mb-4 text-primary">Proper Breathing</h4>
               <p className="text-muted-foreground">
@@ -59,26 +60,12 @@ const HowDNSWorks = () => {
               </p>
             </div>
             
-            <div>
-              <h4 className="text-xl font-semibold mb-4 text-accent">Why It Matters</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Enhanced core control for all movements</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Better coordination between muscle groups</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Reduced risk of injury, especially lower back</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Improved athletic performance</span>
-                </li>
-              </ul>
+            <div className="flex justify-center">
+              <img 
+                src={stabilityDiagram} 
+                alt="Comparison of proper versus poor spinal stability showing optimal and dysfunctional posture patterns" 
+                className="rounded-lg max-w-full h-auto"
+              />
             </div>
           </div>
         </div>

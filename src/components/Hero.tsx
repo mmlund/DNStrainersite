@@ -18,11 +18,11 @@ const Hero = () => {
             <h1 className="mb-6 text-5xl md:text-7xl font-bold text-white leading-tight">
               Master Dynamic Stability
               <br />
-              <span className="text-accent">Move Better on The North Shore</span>
+              <span className="text-accent">Move Better</span>
             </h1>
             
             <p className="max-w-2xl mb-8 text-xl md:text-2xl text-white/90 leading-relaxed">
-              Dynamic Neuromuscular Stabilization (DNS) from The Prague School optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement in North Vancouver.
+              Dynamic Neuromuscular Stabilization (DNS) from The Prague School optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
             </p>
             
             <div className="flex justify-center lg:justify-start">

@@ -41,7 +41,7 @@ const Services = () => {
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            DNS Services in North Vancouver
+            DNS Training in North Vancouver
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Specialized Dynamic Neuromuscular Stabilization training and rehabilitation services for The North Shore community.

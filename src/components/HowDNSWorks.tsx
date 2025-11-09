@@ -22,19 +22,19 @@ const HowDNSWorks = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
-                <span className="text-lg"><strong>Diaphragm:</strong> More than just a breathing muscle, it's key to core stability</span>
+                <span className="text-lg"><strong>Diaphragm</strong></span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
-                <span className="text-lg"><strong>Pelvic floor muscles:</strong> Foundation of the core system</span>
+                <span className="text-lg"><strong>Pelvic floor muscles</strong></span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
-                <span className="text-lg"><strong>Abdominal wall:</strong> Complete integration for optimal support</span>
+                <span className="text-lg"><strong>Abdominal wall</strong></span>
               </li>
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
-                <span className="text-lg"><strong>Deep spinal muscles:</strong> Critical for spinal stability</span>
+                <span className="text-lg"><strong>Deep spinal muscles</strong></span>
               </li>
             </ul>
           </div>

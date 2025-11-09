@@ -49,7 +49,7 @@ const WhatIsDNS = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">
-                DNS is effective for injury rehabilitation, chronic pain management (back pain, neck pain, shoulder dysfunction), sports performance enhancement, and pre-habilitation programs. Research demonstrates improvements in pain, disability scores, and quality of life metrics across diverse patient populations.
+                DNS is effective for injury rehabilitation, chronic pain management (back pain, neck pain, shoulder and knee problems), sports performance enhancement, and pre-habilitation programs. Research demonstrates improvements in pain, disability scores, and quality of life metrics across diverse patient populations.
               </p>
             </CardContent>
           </Card>

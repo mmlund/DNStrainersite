@@ -18,7 +18,7 @@ const Hero = () => {
             <h1 className="mb-6 text-5xl md:text-7xl font-bold text-white leading-tight">
               Master Dynamic Stability
               <br />
-              <span className="text-accent">Move Better</span>
+              <span className="text-accent">Move Better, Feel Better, Perform Better</span>
             </h1>
             
             <p className="max-w-2xl mb-8 text-xl md:text-2xl text-white/90 leading-relaxed">

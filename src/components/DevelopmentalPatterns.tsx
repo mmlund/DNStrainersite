@@ -13,7 +13,7 @@ const DevelopmentalPatterns = () => {
             Based on Developmental Kinesiology
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Central movement patterns are innate and established during the first critical years of life. These patterns form the basis for ideal posture, breathing, and joint function throughout life.
+            DNS is a versatile approach that can be tailored to individuals of all ages and fitness levels, making it an effective tool for both rehabilitation and performance enhancement
           </p>
         </div>
 

@@ -2,9 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import dnsLogo from "@/assets/dns-trainer-logo.png";
+import BookingPoliciesModal from "@/components/BookingPoliciesModal";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showBookingModal, setShowBookingModal] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
@@ -26,14 +28,8 @@ const Navigation = () => {
             <a href="/#about" className="text-foreground hover:text-primary transition-colors">
               About Eva
             </a>
-            <Button asChild>
-              <a 
-                id="Setmore_button_iframe_nav"
-                href="https://dnstrainer.setmore.com"
-                className="a-btn-iframe"
-              >
-                Book Session
-              </a>
+            <Button onClick={() => setShowBookingModal(true)}>
+              Book Session
             </Button>
           </div>
 
@@ -70,18 +66,23 @@ const Navigation = () => {
             >
               About Eva
             </a>
-            <Button className="w-full" asChild>
-              <a 
-                id="Setmore_button_iframe_nav_mobile"
-                href="https://dnstrainer.setmore.com"
-                className="a-btn-iframe"
-              >
-                Book Session
-              </a>
+            <Button 
+              className="w-full" 
+              onClick={() => {
+                setShowBookingModal(true);
+                setIsOpen(false);
+              }}
+            >
+              Book Session
             </Button>
           </div>
         )}
       </div>
+      
+      <BookingPoliciesModal 
+        open={showBookingModal} 
+        onOpenChange={setShowBookingModal} 
+      />
     </nav>
   );
 };

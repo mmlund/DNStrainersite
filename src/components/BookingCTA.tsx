@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { ArrowRight, Calendar } from "lucide-react";
-import BookingPoliciesModal from "@/components/BookingPoliciesModal";
 
 const BookingCTA = () => {
-  const [showBookingModal, setShowBookingModal] = useState(false);
   return (
     <section className="py-20 bg-gradient-to-br from-accent via-accent to-accent/90">
       <div className="container px-4">
@@ -23,16 +21,13 @@ const BookingCTA = () => {
             size="lg" 
             variant="outline"
             className="bg-white text-accent hover:bg-white/90 hover:text-accent border-0 shadow-xl group"
-            onClick={() => setShowBookingModal(true)}
+            asChild
           >
-            Schedule Your Session Now
-            <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+            <Link to="/booking-terms">
+              Schedule Your Session Now
+              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </Button>
-          
-          <BookingPoliciesModal 
-            open={showBookingModal} 
-            onOpenChange={setShowBookingModal} 
-          />
 
           <p className="mt-6 text-white/80">
             Or email us at{" "}

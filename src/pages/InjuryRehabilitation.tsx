@@ -32,7 +32,7 @@ const InjuryRehabilitation = () => {
                   Evidence-based rehabilitation using Dynamic Neuromuscular Stabilization to restore optimal movement patterns and accelerate recovery
                 </p>
                 <Button size="lg" asChild>
-                  <a href="mailto:info@scandinavianclinic.com">Book Your Assessment</a>
+                  <a href="/booking-terms">Book Your Assessment</a>
                 </Button>
               </div>
             </div>

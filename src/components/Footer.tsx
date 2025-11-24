@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { Mail } from "lucide-react";
-import BookingPoliciesModal from "@/components/BookingPoliciesModal";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const [showBookingModal, setShowBookingModal] = useState(false);
   return (
     <footer className="bg-primary text-white py-12">
       <div className="container px-4">
@@ -73,12 +71,12 @@ const Footer = () => {
                 info@scandinavianclinic.com
               </a>
               <div className="mt-4">
-                <button 
-                  onClick={() => setShowBookingModal(true)}
+                <Link 
+                  to="/booking-terms"
                   className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
                 >
                   Book Your Session
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -88,11 +86,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} DNS Training North Vancouver - Eva Andersson. All rights reserved.</p>
         </div>
       </div>
-      
-      <BookingPoliciesModal 
-        open={showBookingModal} 
-        onOpenChange={setShowBookingModal} 
-      />
     </footer>
   );
 };

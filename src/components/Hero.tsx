@@ -1,12 +1,10 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import heroIllustration from "@/assets/dns-hero-illustration.jpg";
 import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
-import BookingPoliciesModal from "@/components/BookingPoliciesModal";
 
 const Hero = () => {
-  const [showBookingModal, setShowBookingModal] = useState(false);
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
@@ -32,18 +30,15 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 variant="hero"
-                onClick={() => setShowBookingModal(true)}
                 className="group"
+                asChild
               >
-                Book Your Session
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <Link to="/booking-terms">
+                  Book Your Session
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
             </div>
-            
-            <BookingPoliciesModal 
-              open={showBookingModal} 
-              onOpenChange={setShowBookingModal} 
-            />
           </div>
           
           <div className="relative flex flex-col items-center gap-8">

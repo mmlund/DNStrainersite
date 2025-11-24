@@ -33,7 +33,7 @@ const Hero = () => {
                 className="group"
                 asChild
               >
-                <Link to="/booking-terms">
+                <Link to="/book-session">
                   Book Your Session
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>

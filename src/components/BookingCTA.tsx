@@ -23,7 +23,7 @@ const BookingCTA = () => {
             className="bg-white text-accent hover:bg-white/90 hover:text-accent border-0 shadow-xl group"
             asChild
           >
-            <Link to="/booking-terms">
+            <Link to="/book-session">
               Schedule Your Session Now
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>

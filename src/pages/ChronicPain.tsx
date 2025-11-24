@@ -32,7 +32,7 @@ const ChronicPain = () => {
                   Address the root neuromuscular causes of persistent pain through Dynamic Neuromuscular Stabilization in North Vancouver
                 </p>
                 <Button size="lg" asChild>
-                  <a href="mailto:info@scandinavianclinic.com">Start Your Recovery</a>
+                  <a href="/book-session">Start Your Recovery</a>
                 </Button>
               </div>
             </div>

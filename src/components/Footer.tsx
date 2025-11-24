@@ -72,7 +72,7 @@ const Footer = () => {
               </a>
               <div className="mt-4">
                 <Link 
-                  to="/booking-terms"
+                  to="/book-session"
                   className="inline-block px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
                 >
                   Book Your Session

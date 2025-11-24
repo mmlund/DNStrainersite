@@ -28,7 +28,7 @@ const Navigation = () => {
               About Eva
             </a>
             <Button asChild>
-              <Link to="/booking-terms">Book Session</Link>
+              <Link to="/book-session">Book Session</Link>
             </Button>
           </div>
 
@@ -69,7 +69,7 @@ const Navigation = () => {
               className="w-full" 
               asChild
             >
-              <Link to="/booking-terms" onClick={() => setIsOpen(false)}>
+              <Link to="/book-session" onClick={() => setIsOpen(false)}>
                 Book Session
               </Link>
             </Button>

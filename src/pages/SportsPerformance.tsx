@@ -32,7 +32,7 @@ const SportsPerformance = () => {
                   Unlock athletic potential through optimized dynamic stability and neuromuscular efficiency - The Prague School advantage for North Shore athletes
                 </p>
                 <Button size="lg" asChild>
-                  <a href="/booking-terms">Elevate Your Performance</a>
+                  <a href="/book-session">Elevate Your Performance</a>
                 </Button>
               </div>
             </div>

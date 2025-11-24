@@ -9,8 +9,12 @@ const BookSession = () => {
   const [agreed, setAgreed] = useState(false);
 
   const handleBookNow = () => {
+    console.log("BOOK NOW clicked, agreed:", agreed);
     if (agreed) {
+      console.log("Redirecting to booking site...");
       window.location.href = "http://www.booking.dnstrainer.com/";
+    } else {
+      console.log("User has not agreed to policies");
     }
   };
 

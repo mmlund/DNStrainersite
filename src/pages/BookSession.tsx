@@ -10,7 +10,7 @@ const BookSession = () => {
 
   const handleBookNow = () => {
     if (agreed) {
-      window.location.href = "http://www.booking.dnstrainer.com/";
+      window.open("http://www.booking.dnstrainer.com/", "_blank");
     }
   };
 

@@ -1,7 +1,19 @@
 import { Helmet } from "react-helmet";
+import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { ArrowRight } from "lucide-react";
 
 const BookingTerms = () => {
+  const [agreed, setAgreed] = useState(false);
+
+  const handleBookNow = () => {
+    if (agreed) {
+      window.location.href = "http://www.booking.dnstrainer.com/";
+    }
+  };
+
   return (
     <>
       <Helmet>
@@ -71,9 +83,29 @@ const BookingTerms = () => {
               If canceling within 24 hours of your appointment please call 604-926-4883. A fee may apply for late cancellations, &lt;24 hours.
             </p>
 
-            <p className="font-semibold pt-4">
-              By clicking on BOOK NOW below I agree to the booking policies.
-            </p>
+            <div className="flex items-start gap-3 pt-6 pb-4">
+              <Checkbox 
+                id="agree" 
+                checked={agreed}
+                onCheckedChange={(checked) => setAgreed(checked as boolean)}
+              />
+              <label 
+                htmlFor="agree" 
+                className="text-sm font-medium leading-none cursor-pointer"
+              >
+                I agree to the booking policies
+              </label>
+            </div>
+
+            <Button 
+              onClick={handleBookNow}
+              disabled={!agreed}
+              className="w-full"
+              size="lg"
+            >
+              BOOK NOW
+              <ArrowRight className="ml-2" />
+            </Button>
           </CardContent>
         </Card>
       </div>

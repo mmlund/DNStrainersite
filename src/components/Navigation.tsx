@@ -1,12 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import dnsLogo from "@/assets/dns-trainer-logo.png";
-import BookingPoliciesModal from "@/components/BookingPoliciesModal";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showBookingModal, setShowBookingModal] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
@@ -28,8 +27,8 @@ const Navigation = () => {
             <a href="/#about" className="text-foreground hover:text-primary transition-colors">
               About Eva
             </a>
-            <Button onClick={() => setShowBookingModal(true)}>
-              Book Session
+            <Button asChild>
+              <Link to="/booking-terms">Book Session</Link>
             </Button>
           </div>
 
@@ -68,21 +67,15 @@ const Navigation = () => {
             </a>
             <Button 
               className="w-full" 
-              onClick={() => {
-                setShowBookingModal(true);
-                setIsOpen(false);
-              }}
+              asChild
             >
-              Book Session
+              <Link to="/booking-terms" onClick={() => setIsOpen(false)}>
+                Book Session
+              </Link>
             </Button>
           </div>
         )}
       </div>
-      
-      <BookingPoliciesModal 
-        open={showBookingModal} 
-        onOpenChange={setShowBookingModal} 
-      />
     </nav>
   );
 };

@@ -21,18 +21,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
+      - name: Build site
         run: npm run build
 
-      - name: Upload via SFTP
-        uses: appleboy/scp-action@v0.1.7
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_SERVER }}
           port: 22
-          source: "dist/*"
-          target: "./"
-          overwrite: true
-          rm: false
-    
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_path: "./dist/*"
+          remote_path: "/"
+          delete_remote_files: false

@@ -3,39 +3,37 @@ name: Deploy to IONOS via SFTP
 on:
   push:
     branches:
-      - main   # or 'master' — whichever your main branch is
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout your code
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      # 2️⃣ Install Node and dependencies
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      # 3️⃣ Build the static site
-      - name: Build site
+      - name: Build project
         run: npm run build
 
-      # 4️⃣ Upload via SFTP to IONOS
-      - name: Deploy via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Upload via SFTP
+        uses: appleboy/scp-action@v0.1.7
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps          # or sftp if your plan supports it
-          local-dir: ./dist/       # your build output folder
-          server-dir: /    # your IONOS web root
-          state-name: .ftp-deploy-sync-state.json
-          dangerous-clean-slate: false
+          port: 22
+          source: "dist/*"
+          target: "/"
+          overwrite: true
+          rm: false
+          exclude: |
+            DNStrainer

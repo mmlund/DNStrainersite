@@ -1,0 +1,29 @@
+name: Deploy Booking System to IONOS via SFTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # No build step needed — PHP runs as-is on IONOS
+
+      - name: Deploy via SFTP to IONOS
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.BOOKING_FTP_SERVER }}
+          username: ${{ secrets.BOOKING_FTP_USERNAME }}
+          password: ${{ secrets.BOOKING_FTP_PASSWORD }}
+          port: 22
+          local_path: "./"            # Upload everything
+          remote_path: "/booking"      # Folder for booking.dnstrainer.com
+          sftp_only: true
+          delete_remote_files: false   # safer: only overwrite changed files
+          ssh_private_key: ""

@@ -1,5 +1,5 @@
 (function() {
-    const TRACKING_API_URL = 'https://dnstracking.onrender.com/track';
+    const TRACKING_API_URL = 'https://digitaltrackingsite.onrender.com/track';
 
     function getUrlParams() {
         const params = new URLSearchParams(window.location.search);

@@ -5,7 +5,7 @@ const Testimonials = () => {
   // Placeholder testimonials - to be replaced with real client testimonials
   const testimonials = [
     {
-      text: "Testimonials and case studies will be added here as they become available. Eva's Prague School DNS training provides evidence-based rehabilitation and performance enhancement for clients across The North Shore.",
+      text: "Testimonials and case studies will be added here as they become available. Eva's Prague School DNS training provides evidence-based rehabilitation and performance enhancement for clients across The North Shore and Vancouver.",
       author: "Coming Soon",
       condition: "Client Success Stories"
     }

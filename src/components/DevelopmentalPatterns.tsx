@@ -3,6 +3,7 @@ import womanCrawl from "@/assets/woman-crawl.png";
 import surfer from "@/assets/surfer.png";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import womanSquat from "@/assets/woman-squat.png";
+import babyStanding from "@/assets/baby-standing.jpg";
 
 const DevelopmentalPatterns = () => {
   return (
@@ -65,6 +66,17 @@ const DevelopmentalPatterns = () => {
 
             <div className="group relative overflow-hidden rounded-xl">
               <img 
+                src={babyStanding} 
+                alt="Baby standing demonstrating foundational movement pattern" 
+                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <p className="text-white font-semibold text-lg">Basic Patterns - Foundational for Movement</p>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl">
+              <img 
                 src={womanSquat} 
                 alt="Woman in functional squat position" 
                 className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
@@ -73,14 +85,14 @@ const DevelopmentalPatterns = () => {
                 <p className="text-white font-semibold text-lg">Functional Strength</p>
               </div>
             </div>
-
-            <div className="bg-accent/10 rounded-xl p-8 flex flex-col justify-center">
-              <h3 className="text-2xl font-bold mb-4">The DNS Difference</h3>
-              <p className="text-muted-foreground">
-                Unfortunately, it is much easier to understand the basic concepts of DNS than it is to actually do it. That's where expert coaching makes all the difference.
-              </p>
-            </div>
           </div>
+        </div>
+
+        <div className="text-center mb-12">
+          <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">The DNS Difference</h3>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Unfortunately, it is much easier to understand the basic concepts of DNS than it is to actually do it. That's where expert coaching makes all the difference.
+          </p>
         </div>
 
         <div className="bg-gradient-to-br from-primary to-primary-light rounded-2xl p-8 md:p-12 text-white">

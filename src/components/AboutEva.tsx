@@ -59,7 +59,7 @@ const AboutEva = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Eva combines cutting-edge research on dynamic stability and motor control with Prague School DNS methodology to provide comprehensive rehabilitation and performance training for clients across The North Shore. Whether you're recovering from injury, managing chronic pain, or optimizing athletic performance, Eva's evidence-based approach delivers measurable results.
+                Eva combines cutting-edge research on dynamic stability and motor control with Prague School DNS methodology to provide comprehensive rehabilitation and performance training for clients across The North Shore and Vancouver. Whether you're recovering from injury, managing chronic pain, or optimizing athletic performance, Eva's evidence-based approach delivers measurable results.
               </p>
             </div>
 

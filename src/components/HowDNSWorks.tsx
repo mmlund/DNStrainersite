@@ -1,5 +1,5 @@
+import iapDiagram from "@/assets/iap-diagram.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
-import stabilityDiagram from "@/assets/good-versus-poor-stability.jpg";
 
 const HowDNSWorks = () => {
   return (
@@ -42,8 +42,8 @@ const HowDNSWorks = () => {
 
           <div className="flex justify-center">
             <img 
-              src={abBreathingDiagram} 
-              alt="A/B comparison of proper breathing mechanics for spinal stability" 
+              src={iapDiagram} 
+              alt="Intra-abdominal pressure stabilizes the spine" 
               className="rounded-lg shadow-lg max-w-md w-full h-auto"
             />
           </div>
@@ -62,8 +62,8 @@ const HowDNSWorks = () => {
             
             <div className="flex justify-center">
               <img 
-                src={stabilityDiagram} 
-                alt="Comparison of proper versus poor spinal stability showing optimal and dysfunctional posture patterns" 
+                src={abBreathingDiagram} 
+                alt="A/B comparison of proper breathing mechanics for spinal stability" 
                 className="rounded-lg max-w-md w-full h-auto"
               />
             </div>

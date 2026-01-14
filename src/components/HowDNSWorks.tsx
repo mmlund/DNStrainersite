@@ -40,11 +40,11 @@ const HowDNSWorks = () => {
             </ul>
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <img 
               src={iapDiagram} 
               alt="Intra-abdominal pressure stabilizes the spine" 
-              className="rounded-lg shadow-lg max-w-md w-full h-auto"
+              className="rounded-lg shadow-lg w-full max-w-sm h-72 object-cover"
             />
           </div>
         </div>

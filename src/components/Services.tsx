@@ -79,7 +79,7 @@ const Services = () => {
           </Card>
         </div>
 
-        <div className="bg-card border-2 rounded-lg p-8 max-w-4xl mx-auto">
+        <div className="bg-card border-2 rounded-lg p-8">
           <h3 className="text-2xl font-bold text-foreground mb-4">
             The Dynamic Stability Advantage
           </h3>

@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import heroIllustration from "@/assets/dns-hero-illustration.jpg";
 import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
+  return <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
       
       <div className="container relative z-10 px-4 py-20">
@@ -27,12 +25,7 @@ const Hero = () => {
             </p>
             
             <div className="flex justify-center lg:justify-start">
-              <Button 
-                size="lg" 
-                variant="hero"
-                className="group"
-                asChild
-              >
+              <Button size="lg" variant="hero" className="group" asChild>
                 <Link to="/book-session">
                   Book Your Session
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -43,24 +36,14 @@ const Hero = () => {
           
           <div className="relative flex flex-col items-center gap-8">
             <div className="flex justify-center">
-              <img 
-                src={dnsLogoLarge} 
-                alt="DNS Trainer Logo" 
-                className="w-64 h-64 object-contain"
-              />
+              
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src={heroIllustration} 
-                alt="DNS Core Stability and Movement Illustration" 
-                className="w-full h-auto"
-              />
+              <img src={heroIllustration} alt="DNS Core Stability and Movement Illustration" className="w-full h-auto" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

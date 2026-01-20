@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="container px-4">
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-3">
-            <img src={dnsLogo} alt="DNS Training Logo" className="h-12 w-12" />
+            
             
           </a>
 

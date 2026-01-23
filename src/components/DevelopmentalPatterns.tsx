@@ -64,7 +64,10 @@ const DevelopmentalPatterns = () => {
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-primary to-primary-light rounded-2xl p-8 md:p-12 text-white">
+      </div>
+      
+      <div className="bg-gradient-to-br from-primary to-primary-light p-8 md:p-12 text-white w-full">
+        <div className="container px-4">
           <h3 className="text-3xl font-bold mb-6">Core Principles</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>

@@ -55,7 +55,7 @@ const HowDNSWorks = () => {
             </div>
             
             <div className="flex justify-center">
-              <img src={abBreathingDiagram} alt="A/B comparison of proper breathing mechanics for spinal stability" className="rounded-lg max-w-md w-full h-auto" />
+              <img src={abBreathingDiagram} alt="A/B comparison of proper breathing mechanics for spinal stability" className="rounded-lg w-full h-full object-cover" />
             </div>
           </div>
         </div>

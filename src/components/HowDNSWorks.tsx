@@ -52,7 +52,7 @@ const HowDNSWorks = () => {
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-md">
           <h3 className="text-3xl font-bold mb-6">The Role of Breathing in Movement</h3>
           
-          <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h4 className="text-xl font-semibold mb-4 text-primary">Proper Breathing</h4>
               <p className="text-muted-foreground">

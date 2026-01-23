@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import heroIllustration from "@/assets/dns-hero-illustration.jpg";
 import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
 const Hero = () => {
-  return <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
+  return <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
       
       <div className="container relative z-10 px-4 py-20">

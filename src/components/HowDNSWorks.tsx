@@ -49,7 +49,10 @@ const HowDNSWorks = () => {
           </div>
         </div>
 
-        <div className="bg-card rounded-2xl p-8 md:p-12 shadow-md">
+      </div>
+      
+      <div className="bg-card shadow-md w-full">
+        <div className="container px-4 py-8 md:py-12">
           <h3 className="text-3xl font-bold mb-6">The Role of Breathing in Movement</h3>
           
           <div className="grid md:grid-cols-2 gap-8 items-center">

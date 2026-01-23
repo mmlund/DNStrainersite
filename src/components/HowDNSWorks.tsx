@@ -46,8 +46,8 @@ const HowDNSWorks = () => {
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-md">
           <h3 className="text-3xl font-bold mb-6">The Role of Breathing in Movement</h3>
           
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
+          <div className="grid md:grid-cols-2 gap-8 items-end">
+            <div className="flex flex-col justify-end h-full">
               <h4 className="text-xl font-semibold mb-4 text-primary">Proper Breathing</h4>
               <p className="text-muted-foreground">
                 When you breathe correctly using your diaphragm, it helps maintain good posture and spinal stability. This creates optimal intra-abdominal pressure that supports your spine during movement.

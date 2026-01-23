@@ -4,10 +4,8 @@ import surfer from "@/assets/surfer.png";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import womanSquat from "@/assets/woman-squat.png";
 import babyStanding from "@/assets/baby-standing.jpg";
-
 const DevelopmentalPatterns = () => {
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -21,66 +19,37 @@ const DevelopmentalPatterns = () => {
         <div className="mb-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={babyCrawl} 
-                alt="Baby demonstrating natural crawling pattern" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <img src={babyCrawl} alt="Baby demonstrating natural crawling pattern" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Natural Movement Patterns</p>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={womanCrawl} 
-                alt="Woman performing developmental crawling exercise" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <img src={womanCrawl} alt="Woman performing developmental crawling exercise" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={dnsTherapyFemale} 
-                alt="Therapist guiding client through DNS position" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <img src={dnsTherapyFemale} alt="Therapist guiding client through DNS position" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">For All Ages & Abilities</p>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={surfer} 
-                alt="Surfer demonstrating dynamic stability on a wave" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <img src={surfer} alt="Surfer demonstrating dynamic stability on a wave" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Core Integration</p>
               </div>
             </div>
 
-            <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={babyStanding} 
-                alt="Baby standing demonstrating foundational movement pattern" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
-                <p className="text-white font-semibold text-lg">Basic Patterns - Foundational for Movement</p>
-              </div>
-            </div>
+            
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img 
-                src={womanSquat} 
-                alt="Woman in functional squat position" 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <img src={womanSquat} alt="Woman in functional squat position" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Functional Strength</p>
               </div>
@@ -125,8 +94,6 @@ const DevelopmentalPatterns = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default DevelopmentalPatterns;

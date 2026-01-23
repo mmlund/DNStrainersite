@@ -1,9 +1,7 @@
 import iapDiagram from "@/assets/iap-diagram.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
-
 const HowDNSWorks = () => {
-  return (
-    <section id="how-it-works" className="py-20 bg-muted/30">
+  return <section id="how-it-works" className="py-20 bg-muted/30">
       <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -41,11 +39,7 @@ const HowDNSWorks = () => {
           </div>
 
           <div className="flex justify-center">
-            <img 
-              src={iapDiagram} 
-              alt="Intra-abdominal pressure stabilizes the spine" 
-              className="rounded-lg shadow-lg max-w-md w-full h-auto"
-            />
+            <img src={iapDiagram} alt="Intra-abdominal pressure stabilizes the spine" className="rounded-lg shadow-lg max-w-md w-full h-auto" />
           </div>
         </div>
 
@@ -61,17 +55,11 @@ const HowDNSWorks = () => {
             </div>
             
             <div className="flex justify-center">
-              <img 
-                src={abBreathingDiagram} 
-                alt="A/B comparison of proper breathing mechanics for spinal stability" 
-                className="rounded-lg max-w-md w-full h-auto"
-              />
+              <img src={abBreathingDiagram} alt="A/B comparison of proper breathing mechanics for spinal stability" className="rounded-lg max-w-md w-full h-auto" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HowDNSWorks;

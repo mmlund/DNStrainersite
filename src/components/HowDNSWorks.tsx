@@ -43,20 +43,17 @@ const HowDNSWorks = () => {
           </div>
         </div>
 
-        <div className="bg-card rounded-2xl p-6 md:p-8 shadow-md">
-          <h3 className="text-3xl font-bold mb-4">The Role of Breathing in Movement</h3>
+        <div className="flex flex-col lg:flex-row gap-6 items-center justify-center">
+          <div className="max-w-sm">
+            <h3 className="text-3xl font-bold mb-4">The Role of Breathing in Movement</h3>
+            <h4 className="text-xl font-semibold mb-3 text-primary">Proper Breathing</h4>
+            <p className="text-muted-foreground">
+              When you breathe correctly using your diaphragm, it helps maintain good posture and spinal stability. This creates optimal intra-abdominal pressure that supports your spine during movement.
+            </p>
+          </div>
           
-          <div className="flex flex-col md:flex-row gap-6 items-end justify-center">
-            <div className="flex flex-col justify-end max-w-sm">
-              <h4 className="text-xl font-semibold mb-3 text-primary">Proper Breathing</h4>
-              <p className="text-muted-foreground">
-                When you breathe correctly using your diaphragm, it helps maintain good posture and spinal stability. This creates optimal intra-abdominal pressure that supports your spine during movement.
-              </p>
-            </div>
-            
-            <div className="flex justify-center">
-              <img src={abBreathingDiagram} alt="A/B comparison of proper breathing mechanics for spinal stability" className="rounded-lg max-w-xs w-full h-auto" />
-            </div>
+          <div className="flex justify-center">
+            <img src={abBreathingDiagram} alt="A/B comparison of proper breathing mechanics for spinal stability" className="rounded-lg max-w-xs w-full h-auto" />
           </div>
         </div>
       </div>

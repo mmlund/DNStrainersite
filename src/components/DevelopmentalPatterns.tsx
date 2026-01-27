@@ -1,5 +1,5 @@
 import babyCrawl from "@/assets/baby-crawl.png";
-import womanCrawl from "@/assets/woman-crawl.png";
+import restoringMovementVideo from "@/assets/restoring-movement-video.mp4";
 import surfer from "@/assets/surfer.png";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";
@@ -26,7 +26,14 @@ const DevelopmentalPatterns = () => {
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img src={womanCrawl} alt="Woman performing developmental crawling exercise" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+              <video 
+                src={restoringMovementVideo} 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" 
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
               </div>

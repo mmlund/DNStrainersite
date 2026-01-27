@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import heroIllustration from "@/assets/dns-hero-illustration.jpg";
+import heroVideo from "@/assets/hero-video.mp4";
 import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
 const Hero = () => {
   return <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
@@ -39,7 +39,14 @@ const Hero = () => {
               
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src={heroIllustration} alt="DNS Core Stability and Movement Illustration" className="w-full h-auto" />
+              <video 
+                src={heroVideo} 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import iapDiagram from "@/assets/iap-diagram.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
 const HowDNSWorks = () => {
-  return <section id="how-it-works" className="py-12 bg-background">
+  return <section id="how-it-works" className="py-12 bg-muted/30">
       <div className="container px-4">
         <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -39,7 +39,7 @@ const HowDNSWorks = () => {
           </div>
 
           <div className="flex justify-center">
-            <img src={iapDiagram} alt="Intra-abdominal pressure stabilizes the spine" className="rounded-lg shadow-lg max-w-xs w-full h-auto" />
+            <img alt="Intra-abdominal pressure stabilizes the spine" className="rounded-lg shadow-lg max-w-xs w-full h-auto" src="/lovable-uploads/28566379-5b5a-4f17-811e-b218ee067831.png" />
           </div>
         </div>
 

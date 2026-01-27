@@ -1,7 +1,7 @@
 import iapDiagram from "@/assets/iap-diagram.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
 const HowDNSWorks = () => {
-  return <section id="how-it-works" className="py-12 bg-muted/30">
+  return <section id="how-it-works" className="py-12 bg-background">
       <div className="container px-4">
         <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">

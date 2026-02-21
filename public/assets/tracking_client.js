@@ -1,6 +1,25 @@
 (function() {
     const TRACKING_API_URL = 'https://digitaltrackingsite.onrender.com/track';
 
+    function getDeviceId() {
+        const cookieName = '_dts_id';
+        const match = document.cookie.match(new RegExp('(?:^|; )' + cookieName + '=([^;]*)'));
+        if (match) return match[1];
+
+        const id = crypto.randomUUID ? crypto.randomUUID() : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            const r = Math.random() * 16 | 0;
+            return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+
+        const expires = new Date(Date.now() + 730 * 24 * 60 * 60 * 1000).toUTCString();
+        const hostParts = window.location.hostname.split('.');
+        const domain = hostParts.length >= 2 ? '.' + hostParts.slice(-2).join('.') : window.location.hostname;
+        document.cookie = cookieName + '=' + id + '; expires=' + expires + '; path=/; domain=' + domain + '; SameSite=Lax';
+        return id;
+    }
+
+    const deviceId = getDeviceId();
+
     function getUrlParams() {
         const params = new URLSearchParams(window.location.search);
         const entries = {};
@@ -13,6 +32,7 @@
     function sendTrackingData(data) {
         const payload = {
             ...data,
+            device_id: deviceId,
             url: window.location.href,
             referrer: document.referrer,
             user_agent: navigator.userAgent,

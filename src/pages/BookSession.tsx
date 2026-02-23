@@ -70,7 +70,7 @@ const BookSession = () => {
                 <div>
                   <strong className="text-foreground">Cancellations:</strong>{" "}
                   <span className="text-muted-foreground">
-                    Cancel at least 24 hours in advance via your email link to avoid a potential late cancellation fee. For urgent changes, please call 604-926-4883.
+                    Cancel at least 24 hours in advance via your email link to avoid a full cancellation fee. For urgent changes, please call 604-926-4883.
                   </span>
                 </div>
               </div>

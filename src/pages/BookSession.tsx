@@ -40,7 +40,7 @@ const BookSession = () => {
                 <div>
                   <strong className="text-foreground">Insurance:</strong>{" "}
                   <span className="text-muted-foreground">
-                    DNS Trainer sessions focus on movement rehabilitation and neuromuscular retraining. When clinically indicated and delivered within scope of practice, sessions may be provided as Registered Massage Therapy (RMT). In such cases, insurance receipts are issued through Scandinavian Clinic. Performance-focused training sessions are not eligible for insurance reimbursement.
+                    DNS Trainer sessions focus on movement rehabilitation and neuromuscular retraining. Most sessions are provided as Registered Massage Therapy (RMT), and insurance receipts are issued through Scandinavian Clinic. However, some performance-focused training sessions may not be eligible for insurance reimbursement and are not provided as RMT sessions.
                   </span>
                 </div>
               </div>

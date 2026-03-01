@@ -40,7 +40,7 @@ const BookSession = () => {
                 <div>
                   <strong className="text-foreground">Insurance:</strong>{" "}
                   <span className="text-muted-foreground">
-                    Most extended health plans cover Registered Massage Therapy. Please check your specific plan.
+                    DNS Trainer sessions focus on movement rehabilitation and neuromuscular retraining. When clinically indicated and delivered within scope of practice, sessions may be provided as Registered Massage Therapy (RMT). In such cases, insurance receipts are issued through Scandinavian Clinic. Performance-focused training sessions are not eligible for insurance reimbursement.
                   </span>
                 </div>
               </div>

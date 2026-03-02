@@ -11,6 +11,7 @@ const Hero = () => {
         src={heroBg}
         alt="DNS training session demonstrating neuromuscular stabilization"
         className="absolute inset-0 w-full h-full object-cover object-center"
+        style={{ transform: "scaleX(-1)" }}
       />
 
       {/* Gradient overlay: heavy blur/tint on left, fading to clear on right */}

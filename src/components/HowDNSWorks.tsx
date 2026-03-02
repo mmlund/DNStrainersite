@@ -12,8 +12,8 @@ const HowDNSWorks = () => {
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-6 items-center justify-center mb-10">
-          <div className="max-w-sm">
+        <div className="flex flex-col lg:flex-row gap-8 items-center mb-10">
+          <div className="flex-1">
             <h3 className="text-3xl font-bold mb-4">Core Stability System</h3>
             <p className="text-muted-foreground mb-4">
               DNS emphasizes the importance of the Integrated Spinal Stabilization System, which involves the coordinated action of several key muscle groups:
@@ -43,8 +43,8 @@ const HowDNSWorks = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-6 items-center justify-center">
-          <div className="max-w-sm">
+        <div className="flex flex-col lg:flex-row gap-8 items-center">
+          <div className="flex-1">
             <h3 className="text-3xl font-bold mb-4">The Role of Breathing in Movement</h3>
             <h4 className="text-xl font-semibold mb-3 text-primary">Proper Breathing</h4>
             <p className="text-muted-foreground">

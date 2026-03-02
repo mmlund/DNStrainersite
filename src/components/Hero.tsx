@@ -5,12 +5,12 @@ import heroVideo from "@/assets/hero-video.mp4";
 import dnsLogoLarge from "@/assets/dns-trainer-logo-large.png";
 import dnsLogo from "@/assets/dns-trainer-logo.png";
 const Hero = () => {
-  return <>
-    <div className="bg-background py-4 flex items-center justify-center gap-4">
-      <img src={dnsLogo} alt="DNS Trainer Logo" className="h-10" />
-      <span className="text-accent font-bold text-xl tracking-wider">DNS TRAINING</span>
-    </div>
-    <section className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
+  return <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary-light to-secondary">
+      <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
+      
+      <div className="container relative z-10 px-4 py-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left">
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
       
       <div className="container relative z-10 px-4 py-20">

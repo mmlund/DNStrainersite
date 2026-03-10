@@ -35,7 +35,9 @@ const Services = () => {
       link: "/chronic-pain"
     },
     {
-      icon: TrendingUp,
+      icon: null as any,
+      customIcon: movementQualityIcon,
+      customIconAlt: "Movement quality icon",
       title: "Movement Quality Improvement",
       description: "Enhance everyday functional movement through DNS developmental positions. Improve posture, breathing mechanics, and motor control for better quality of life and long-term musculoskeletal health.",
       link: "/#services"

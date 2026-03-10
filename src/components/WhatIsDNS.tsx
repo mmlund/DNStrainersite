@@ -45,7 +45,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8 flex flex-col items-center text-center">
               <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={dnsCoreIcon} alt="Core stability" className="w-12 h-12" style={{ filter: iconFilter }} />
+                <img src={dnsCoreIcon} alt="Core stability" className="w-12 h-12 object-contain" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Intra-Abdominal Pressure Regulation</h3>
               <p className="text-muted-foreground">

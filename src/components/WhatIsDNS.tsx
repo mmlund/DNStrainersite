@@ -5,13 +5,13 @@ const WhatIsDNS = () => {
   return (
     <section id="what-is-dns" className="py-20 bg-background">
       <div className="container px-4">
-        <div className="max-w-[42%] mx-auto mb-16">
+        <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
             What is Dynamic Neuromuscular Stabilization?
           </h2>
-          <div className="max-w-[80%] mx-auto">
+          <div>
             <p className="text-xl text-muted-foreground mb-6 text-left">
-              DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns.
+              DNS is a rehabilitation and training approach developed by The Prague School of Rehabilitation and Manual Medicine that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns.
             </p>
             <p className="text-xl text-muted-foreground mb-6 text-left">
               DNS focuses on reactivating the central nervous system to activate optimal movement patterns learned in infancy.

@@ -31,8 +31,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8">
               <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <Activity className="w-6 h-6 text-primary" />
-              </div>
+                <img src={babyCrawlIcon} alt="Baby crawling" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
               <h3 className="text-xl font-semibold mb-3">Developmental Kinesiology Foundation</h3>
               <p className="text-muted-foreground">
                 DNS leverages innate, hard-wired motor programs that develop predictably in infancy. By reactivating these optimal movement patterns through specific developmental positions (supine, prone, quadruped), we restore proper neuromuscular coordination and postural-locomotion function.

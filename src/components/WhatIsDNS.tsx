@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Activity, Users, TrendingUp } from "lucide-react";
+import { Users } from "lucide-react";
+import babyCrawlIcon from "@/assets/baby-crawl-icon.png";
+import firstAidIcon from "@/assets/first-aid-icon.png";
 
 const WhatIsDNS = () => {
   return (
@@ -29,7 +31,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8">
               <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <Activity className="w-6 h-6 text-primary" />
+                <img src={babyCrawlIcon} alt="Baby crawling" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Developmental Kinesiology Foundation</h3>
               <p className="text-muted-foreground">
@@ -52,8 +54,8 @@ const WhatIsDNS = () => {
 
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8">
-              <div className="mb-4 w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
-                <TrendingUp className="w-6 h-6 text-accent" />
+              <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                <img src={firstAidIcon} alt="Clinical applications" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">

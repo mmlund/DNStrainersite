@@ -54,8 +54,9 @@ const WhatIsDNS = () => {
 
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8">
-              <div className="mb-4 w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+              <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <img src={firstAidIcon} alt="Clinical applications" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
+              </div>
               <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">
                 DNS is effective for injury rehabilitation, chronic pain management (back pain, neck pain, shoulder and knee problems), sports performance enhancement, and pre-habilitation programs. Research demonstrates improvements in pain, disability scores, and quality of life metrics across diverse patient populations.

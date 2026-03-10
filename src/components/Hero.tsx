@@ -51,11 +51,11 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-2xl">
           <h1 className="mb-6 font-bold leading-tight">
-            <span className="text-primary-foreground text-5xl md:text-7xl whitespace-nowrap">Master Dynamic Stability</span>
-            <br />
-            <span className="text-accent text-4xl md:text-6xl block">Move Better</span>
-            <span className="text-accent text-4xl md:text-6xl block">Feel Better</span>
-            <span className="text-accent text-4xl md:text-6xl block">Perform Better</span>
+            <span className="text-primary-foreground text-5xl md:text-7xl block">Master Dynamic</span>
+            <span className="text-primary-foreground text-5xl md:text-7xl block">Stability</span>
+            <span className="text-accent text-4xl md:text-6xl block text-right">Move Better</span>
+            <span className="text-accent text-4xl md:text-6xl block text-right">Feel Better</span>
+            <span className="text-accent text-4xl md:text-6xl block text-right">Perform Better</span>
           </h1>
 
           <p className="max-w-xl mb-8 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">

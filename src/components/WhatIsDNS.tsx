@@ -33,7 +33,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8 flex flex-col items-center text-center">
               <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={babyCrawlIcon} alt="Baby crawling" className="w-9 h-9" style={{ filter: iconFilter }} />
+                <img src={babyCrawlIcon} alt="Baby crawling" className="w-12 h-12" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Developmental Kinesiology Foundation</h3>
               <p className="text-muted-foreground">
@@ -45,7 +45,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8 flex flex-col items-center text-center">
               <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={dnsCoreIcon} alt="Core stability" className="w-9 h-9" style={{ filter: iconFilter }} />
+                <img src={dnsCoreIcon} alt="Core stability" className="w-12 h-12" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Intra-Abdominal Pressure Regulation</h3>
               <p className="text-muted-foreground">
@@ -57,7 +57,7 @@ const WhatIsDNS = () => {
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8 flex flex-col items-center text-center">
               <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={firstAidIcon} alt="Clinical applications" className="w-9 h-9" style={{ filter: iconFilter }} />
+                <img src={firstAidIcon} alt="Clinical applications" className="w-12 h-12" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">

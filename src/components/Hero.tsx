@@ -6,12 +6,12 @@ import heroBg from "@/assets/hero-bg.jpg";
 const Hero = () => {
   return (
     <section className="relative h-screen w-full flex items-center overflow-hidden">
-      {/* Solid color strip on the left 20% */}
+      {/* Solid color strip on the left 20% with gradient fade into image */}
       <div
         className="absolute left-0 top-0 bottom-0 z-[1]"
         style={{
-          width: "20%",
-          background: "hsl(195 85% 30%)",
+          width: "30%",
+          background: "linear-gradient(to right, hsl(195 85% 30%) 0%, hsl(195 85% 30%) 66%, hsl(195 85% 30% / 0) 100%)",
         }}
       />
 
@@ -33,7 +33,7 @@ const Hero = () => {
         className="absolute inset-0 z-[2]"
         style={{
           background:
-            "linear-gradient(to right, hsl(195 85% 30% / 0.92) 0%, hsl(195 85% 35% / 0.75) 35%, hsl(195 75% 45% / 0.35) 60%, transparent 85%)",
+            "linear-gradient(to right, hsl(195 85% 30% / 0.95) 0%, hsl(195 85% 30% / 0.85) 20%, hsl(195 85% 33% / 0.6) 40%, hsl(195 75% 45% / 0.25) 60%, transparent 80%)",
         }}
       />
 
@@ -59,7 +59,7 @@ const Hero = () => {
           </h1>
 
           <p className="max-w-xl mb-8 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">
-            Dynamic Neuromuscular Stabilization (DNS) from The Prague School optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
+            Dynamic Neuromuscular Stabilization (DNS) optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
           </p>
 
           <div className="flex justify-start">

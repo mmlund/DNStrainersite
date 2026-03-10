@@ -9,18 +9,20 @@ const WhatIsDNS = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
             What is Dynamic Neuromuscular Stabilization?
           </h2>
-          <p className="text-xl text-muted-foreground mb-6 text-left">
-            DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns.
-          </p>
-          <p className="text-xl text-muted-foreground mb-6 text-left">
-            DNS focuses on reactivating the central nervous system to activate optimal movement patterns learned in infancy.
-          </p>
-          <p className="text-lg text-muted-foreground text-left">
-            Dynamic Neuromuscular Stabilization (DNS) is grounded in developmental kinesiology.
-          </p>
-          <p className="text-lg text-muted-foreground text-left">
-            Its guiding principle—<span className="font-semibold text-foreground">"central stability for peripheral mobility"</span>—highlights the importance of a well-functioning spine, diaphragm, and pelvis. When these core structures are stable, your limbs and extremities can perform with greater precision and efficiency.
-          </p>
+          <div className="max-w-[80%] mx-auto">
+            <p className="text-xl text-muted-foreground mb-6 text-left">
+              DNS is a rehabilitation and training approach developed by The Prague School that uses principles of developmental kinesiology to improve movement by correcting dysfunctional motor patterns.
+            </p>
+            <p className="text-xl text-muted-foreground mb-6 text-left">
+              DNS focuses on reactivating the central nervous system to activate optimal movement patterns learned in infancy.
+            </p>
+            <p className="text-xl text-muted-foreground text-left">
+              Dynamic Neuromuscular Stabilization (DNS) is grounded in developmental kinesiology.
+            </p>
+            <p className="text-xl text-muted-foreground text-left">
+              Its guiding principle—<span className="font-semibold text-foreground">"central stability for peripheral mobility"</span>—highlights the importance of a well-functioning spine, diaphragm, and pelvis. When these core structures are stable, your limbs and extremities can perform with greater precision and efficiency.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">

@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Activity, Users, TrendingUp } from "lucide-react";
+import { Users } from "lucide-react";
+import babyCrawlIcon from "@/assets/baby-crawl-icon.png";
+import firstAidIcon from "@/assets/first-aid-icon.png";
 
 const WhatIsDNS = () => {
   return (

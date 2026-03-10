@@ -1,7 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Users } from "lucide-react";
 import babyCrawlIcon from "@/assets/baby-crawl-icon.png";
 import firstAidIcon from "@/assets/first-aid-icon.png";
+import dnsCoreIcon from "@/assets/dns-core-icon.png";
+
+const iconFilter = "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)";
 
 const WhatIsDNS = () => {
   return (
@@ -29,9 +31,9 @@ const WhatIsDNS = () => {
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="border-2 hover:border-primary transition-colors duration-300">
-            <CardContent className="pt-8">
-              <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={babyCrawlIcon} alt="Baby crawling" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
+            <CardContent className="pt-8 flex flex-col items-center text-center">
+              <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                <img src={babyCrawlIcon} alt="Baby crawling" className="w-9 h-9" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Developmental Kinesiology Foundation</h3>
               <p className="text-muted-foreground">
@@ -41,9 +43,9 @@ const WhatIsDNS = () => {
           </Card>
 
           <Card className="border-2 hover:border-primary transition-colors duration-300">
-            <CardContent className="pt-8">
-              <div className="mb-4 w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center">
-                <Users className="w-6 h-6 text-secondary" />
+            <CardContent className="pt-8 flex flex-col items-center text-center">
+              <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                <img src={dnsCoreIcon} alt="Core stability" className="w-9 h-9" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Intra-Abdominal Pressure Regulation</h3>
               <p className="text-muted-foreground">
@@ -53,9 +55,9 @@ const WhatIsDNS = () => {
           </Card>
 
           <Card className="border-2 hover:border-primary transition-colors duration-300">
-            <CardContent className="pt-8">
-              <div className="mb-4 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <img src={firstAidIcon} alt="Clinical applications" className="w-6 h-6" style={{ filter: "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)" }} />
+            <CardContent className="pt-8 flex flex-col items-center text-center">
+              <div className="mb-4 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                <img src={firstAidIcon} alt="Clinical applications" className="w-9 h-9" style={{ filter: iconFilter }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">Clinical Applications</h3>
               <p className="text-muted-foreground">

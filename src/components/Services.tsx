@@ -64,15 +64,19 @@ const Services = () => {
             const Icon = service.icon;
             return (
               <a key={index} href={service.link} className="block group">
-                <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg h-full">
-                  <CardHeader>
-                    <div className="mb-4 w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Icon className="w-7 h-7 text-primary" />
+                <Card className="border-2 hover:border-accent transition-all duration-300 hover:shadow-lg h-full">
+                  <CardHeader className="flex flex-col items-center">
+                    <div className="mb-4 w-[84px] h-[84px] rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      {(service as any).customIcon ? (
+                        <img src={(service as any).customIcon} alt={(service as any).customIconAlt || ""} className="w-11 h-11 object-contain" style={{ filter: accentFilter }} />
+                      ) : Icon ? (
+                        <Icon className="w-11 h-11 text-accent" />
+                      ) : null}
                     </div>
-                    <CardTitle className="text-2xl group-hover:text-primary transition-colors">{service.title}</CardTitle>
+                    <CardTitle className="text-2xl group-hover:text-accent transition-colors text-center">{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed text-center">
                       {service.description}
                     </p>
                   </CardContent>

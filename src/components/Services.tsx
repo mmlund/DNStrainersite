@@ -1,9 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { TrendingUp, Target } from "lucide-react";
+import { Target } from "lucide-react";
 import painCollage from "@/assets/pain-collage.png";
 import bandaidIcon from "@/assets/bandaid-icon.png";
 import soccerPlayerIcon from "@/assets/soccer-player-icon.png";
 import chronicPainIcon from "@/assets/chronic-pain-icon.png";
+import movementQualityIcon from "@/assets/movement-quality-icon.png";
 
 const accentFilter = "invert(52%) sepia(78%) saturate(1200%) hue-rotate(345deg) brightness(95%) contrast(90%)";
 
@@ -34,7 +35,9 @@ const Services = () => {
       link: "/chronic-pain"
     },
     {
-      icon: TrendingUp,
+      icon: null as any,
+      customIcon: movementQualityIcon,
+      customIconAlt: "Movement quality icon",
       title: "Movement Quality Improvement",
       description: "Enhance everyday functional movement through DNS developmental positions. Improve posture, breathing mechanics, and motor control for better quality of life and long-term musculoskeletal health.",
       link: "/#services"

@@ -6,17 +6,31 @@ import heroBg from "@/assets/hero-bg.jpg";
 const Hero = () => {
   return (
     <section className="relative h-screen w-full flex items-center overflow-hidden">
-      {/* Full background image */}
+      {/* Solid color strip on the left 20% */}
+      <div
+        className="absolute left-0 top-0 bottom-0 z-[1]"
+        style={{
+          width: "20%",
+          background: "hsl(195 85% 30%)",
+        }}
+      />
+
+      {/* Background image shifted right and zoomed out */}
       <img
         src={heroBg}
         alt="DNS training session demonstrating neuromuscular stabilization"
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        style={{ transform: "scaleX(-1)" }}
+        className="absolute top-0 bottom-0 h-full object-cover"
+        style={{
+          transform: "scaleX(-1)",
+          left: "20%",
+          width: "80%",
+          objectPosition: "center center",
+        }}
       />
 
       {/* Gradient overlay: heavy blur/tint on left, fading to clear on right */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 z-[2]"
         style={{
           background:
             "linear-gradient(to right, hsl(195 85% 30% / 0.92) 0%, hsl(195 85% 35% / 0.75) 35%, hsl(195 75% 45% / 0.35) 60%, transparent 85%)",
@@ -25,7 +39,7 @@ const Hero = () => {
 
       {/* Blur layer on left side only */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 z-[2]"
         style={{
           backdropFilter: "blur(6px)",
           WebkitBackdropFilter: "blur(6px)",
@@ -36,10 +50,12 @@ const Hero = () => {
 
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-2xl">
-          <h1 className="mb-6 text-5xl md:text-7xl font-bold leading-tight">
-            <span className="text-primary-foreground">Master Dynamic Stability</span>
+          <h1 className="mb-6 font-bold leading-tight">
+            <span className="text-primary-foreground text-5xl md:text-7xl whitespace-nowrap">Master Dynamic Stability</span>
             <br />
-            <span className="text-accent">Move Better, Feel Better, Perform Better</span>
+            <span className="text-accent text-4xl md:text-6xl block">Move Better</span>
+            <span className="text-accent text-4xl md:text-6xl block">Feel Better</span>
+            <span className="text-accent text-4xl md:text-6xl block">Perform Better</span>
           </h1>
 
           <p className="max-w-xl mb-8 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">

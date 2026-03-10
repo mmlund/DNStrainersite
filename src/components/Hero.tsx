@@ -59,7 +59,7 @@ const Hero = () => {
           </h1>
 
           <p className="max-w-xl mb-8 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">
-            Dynamic Neuromuscular Stabilization (DNS) from The Prague School optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
+            Dynamic Neuromuscular Stabilization (DNS) optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
           </p>
 
           <div className="flex justify-start">

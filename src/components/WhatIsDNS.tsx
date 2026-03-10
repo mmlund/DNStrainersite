@@ -5,7 +5,7 @@ const WhatIsDNS = () => {
   return (
     <section id="what-is-dns" className="py-20 bg-background">
       <div className="container px-4">
-        <div className="max-w-[60%] mx-auto mb-16">
+        <div className="max-w-[42%] mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
             What is Dynamic Neuromuscular Stabilization?
           </h2>

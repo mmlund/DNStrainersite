@@ -1,23 +1,34 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Shield, Zap, Heart, TrendingUp, Target } from "lucide-react";
+import { TrendingUp, Target } from "lucide-react";
 import painCollage from "@/assets/pain-collage.png";
+import bandaidIcon from "@/assets/bandaid-icon.png";
+import soccerPlayerIcon from "@/assets/soccer-player-icon.png";
+import chronicPainIcon from "@/assets/chronic-pain-icon.png";
+
+const accentFilter = "invert(52%) sepia(78%) saturate(1200%) hue-rotate(345deg) brightness(95%) contrast(90%)";
 
 const Services = () => {
   const services = [
     {
-      icon: Shield,
+      icon: null as any,
+      customIcon: bandaidIcon,
+      customIconAlt: "Bandaid icon for injury rehabilitation",
       title: "Injury Rehabilitation",
       description: "Evidence-based DNS protocols for post-injury recovery. We address musculoskeletal dysfunctions by restoring optimal movement patterns and neuromuscular coordination, accelerating healing and preventing re-injury.",
       link: "/injury-rehabilitation"
     },
     {
-      icon: Zap,
+      icon: null as any,
+      customIcon: soccerPlayerIcon,
+      customIconAlt: "Soccer player icon for sports performance",
       title: "Sports Performance Enhancement",
       description: "Elevate athletic performance through improved dynamic stability, power transfer efficiency, and movement quality. DNS training optimizes the kinetic chain for sport-specific demands and competitive advantage.",
       link: "/sports-performance"
     },
     {
-      icon: Heart,
+      icon: null as any,
+      customIcon: chronicPainIcon,
+      customIconAlt: "Pain management icon",
       title: "Chronic Pain Management",
       description: "Address persistent pain conditions (chronic low back pain, neck and shoulder pain, hip, knee, and foot problems) by correcting underlying movement dysfunction and restoring proper muscle function patterns.",
       link: "/chronic-pain"

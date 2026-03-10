@@ -49,7 +49,7 @@ const Hero = () => {
       />
 
       <div className="container relative z-10 px-4 py-20 flex flex-col h-full">
-        <div className="max-w-2xl mt-[5vh]">
+        <div className="max-w-2xl mt-[-1vh]">
           <h1 className="mb-6 font-bold leading-tight">
             <span className="text-primary-foreground text-5xl md:text-7xl block">Master Dynamic</span>
             <span className="text-primary-foreground text-5xl md:text-7xl block">Stability</span>

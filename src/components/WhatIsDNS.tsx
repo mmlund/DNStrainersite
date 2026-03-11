@@ -7,7 +7,7 @@ const iconFilter = "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) br
 
 const WhatIsDNS = () => {
   return (
-    <section id="what-is-dns" className="py-20 bg-background">
+    <section id="what-is-dns" className="pt-20 pb-6 bg-background">
       <div className="container px-4">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">

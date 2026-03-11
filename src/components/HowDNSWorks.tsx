@@ -2,7 +2,7 @@ import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
 
 const HowDNSWorks = () => {
   return (
-    <section id="how-it-works" className="py-20 bg-background">
+    <section id="how-it-works" className="pt-6 pb-20 bg-background">
       <div className="container px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">

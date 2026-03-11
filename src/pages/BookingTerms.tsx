@@ -52,7 +52,7 @@ const BookingTerms = () => {
             <div>
               <h3 className="font-semibold mb-2">ICBC, Workers Compensation Board, RCMP, DVA, MSP exempt status</h3>
               <p>
-                If your visit is paid for by the bodies above, or you expect it to be, the online booking system is NOT available for your initial visit. Instead, please call me first at 604-926-4883.
+                If your visit is paid for by the bodies above, or you expect it to be, the online booking system is NOT available for your initial visit. Instead, please call me first at 604-305-1418.
               </p>
             </div>
 

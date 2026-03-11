@@ -20,8 +20,8 @@ const Index = () => {
       <main className="pt-16">
         <Hero />
         <WhatIsDNS />
-        <Services />
         <HowDNSWorks />
+        <Services />
         <DevelopmentalPatterns />
         <AboutEva />
         <Testimonials />

@@ -12,8 +12,8 @@ const Footer = () => {
               Prague School-certified Dynamic Neuromuscular Stabilization training and rehabilitation on The North Shore.
             </p>
             <p className="text-white/80 text-sm">
-              <strong>Scandinavian Clinic</strong><br />
-              Suite 202 - 101 West 16th Street<br />
+               <strong>Liberation Fitness / Scandinavian Clinic</strong><br />
+              Suite 202B - 101 West 16th Street<br />
               North Vancouver, BC V7M 1T3
             </p>
           </div>

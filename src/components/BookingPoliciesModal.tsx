@@ -92,7 +92,7 @@ const BookingPoliciesModal = ({ open, onOpenChange }: BookingPoliciesModalProps)
               <div>
                 <strong className="text-foreground">Special Programs:</strong>{" "}
                 <span className="text-muted-foreground">
-                  (ICBC, WCB, RCMP, DVA, MSP exempt): Do not use online booking. Please call 604-926-4883 directly to schedule your appointment.
+                  (ICBC, WCB, RCMP, DVA, MSP exempt): Do not use online booking. Please call 604-305-1418 directly to schedule your appointment.
                 </span>
               </div>
             </div>

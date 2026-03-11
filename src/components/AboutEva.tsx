@@ -72,8 +72,8 @@ const AboutEva = () => {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:604-926-4883">
-                    Call: (604) 926-4883
+                  <a href="tel:604-305-1418">
+                    Call: (604) 305 1418
                   </a>
                 </Button>
               </div>

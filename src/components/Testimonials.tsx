@@ -44,7 +44,7 @@ const Testimonials = () => {
           <div className="mt-12 text-center">
             <p className="text-muted-foreground">
               If you're a current or former client and would like to share your experience, please{" "}
-              <a href="mailto:info@scandinavianclinic.com" className="text-primary hover:underline font-semibold">
+              <a href="mailto:info@dnstrainer.com" className="text-primary hover:underline font-semibold">
                 contact us
               </a>
               .

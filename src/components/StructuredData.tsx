@@ -108,7 +108,7 @@ const StructuredData = () => {
           "name": "Where is DNS training available in North Vancouver?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "DNS training is available at Scandinavian Clinic, Suite 202 - 101 West 16th Street, North Vancouver, BC V7M 1T3. Eva Andersson provides Prague School-certified DNS training for clients across The North Shore and Vancouver."
+            "text": "DNS training is available at Liberation Fitness / Scandinavian Clinic, Suite 202B - 101 West 16th Street, North Vancouver, BC V7M 1T3. Eva Andersson provides Prague School-certified DNS training for clients across The North Shore and Vancouver."
           }
         },
         {

@@ -64,11 +64,11 @@ const Footer = () => {
                 📞 (604) 305 1418
               </a>
               <a 
-                href="mailto:info@scandinavianclinic.com" 
+                href="mailto:info@dnstrainer.com" 
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@scandinavianclinic.com
+                info@dnstrainer.com
               </a>
               <div className="mt-4">
                 <Link 

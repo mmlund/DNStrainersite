@@ -66,7 +66,7 @@ const AboutEva = () => {
             <div className="text-center">
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <Button size="lg" variant="default" asChild>
-                  <a href="mailto:info@scandinavianclinic.com">
+                  <a href="mailto:info@dnstrainer.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Eva
                   </a>

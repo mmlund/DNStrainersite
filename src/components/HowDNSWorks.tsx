@@ -1,4 +1,4 @@
-import iapDiagram from "@/assets/iap-diagram.jpg";
+import goodVsPoorStability from "@/assets/good-versus-poor-stability.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
 
 const HowDNSWorks = () => {
@@ -17,16 +17,11 @@ const HowDNSWorks = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Core Stability Card */}
           <div className="bg-muted/40 rounded-2xl p-8 flex flex-col">
-            <div className="flex items-center justify-center gap-4 mb-6">
+            <div className="flex items-center justify-center mb-6">
               <img
-                src="/lovable-uploads/28566379-5b5a-4f17-811e-b218ee067831.png"
-                alt="Intra-abdominal pressure stabilizes the spine"
-                className="max-h-56 w-auto object-contain"
-              />
-              <img
-                src={iapDiagram}
-                alt="IAP diagram showing core stabilization"
-                className="max-h-56 w-auto object-contain"
+                src={goodVsPoorStability}
+                alt="Good versus poor spinal stability comparison"
+                className="max-h-56 w-auto object-contain mix-blend-multiply"
               />
             </div>
             <h3 className="text-2xl font-bold mb-3">Core Stability System</h3>
@@ -59,7 +54,7 @@ const HowDNSWorks = () => {
               <img
                 src={abBreathingDiagram}
                 alt="A/B comparison of proper breathing mechanics for spinal stability"
-                className="max-h-56 w-auto object-contain"
+                className="max-h-56 w-auto object-contain mix-blend-multiply"
               />
             </div>
             <h3 className="text-2xl font-bold mb-3">The Role of Breathing in Movement</h3>

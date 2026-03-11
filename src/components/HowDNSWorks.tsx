@@ -48,7 +48,7 @@ const HowDNSWorks = () => {
           </div>
 
           {/* Breathing Card */}
-          <div className="bg-card rounded-2xl p-8 flex flex-col shadow-sm">
+          <div className="rounded-2xl p-8 flex flex-col" style={{ backgroundColor: '#e8eeef' }}>
             <div className="flex items-center justify-center mb-6">
               <img
                 src={abBreathingDiagram}

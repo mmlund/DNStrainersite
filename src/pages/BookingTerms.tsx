@@ -80,7 +80,7 @@ const BookingTerms = () => {
             </p>
 
             <p>
-              If canceling within 24 hours of your appointment please call 604-926-4883. A fee may apply for late cancellations, &lt;24 hours.
+              If canceling within 24 hours of your appointment please call 604-305-1418. A fee may apply for late cancellations, &lt;24 hours.
             </p>
 
             <div className="flex items-start gap-3 pt-6 pb-4">

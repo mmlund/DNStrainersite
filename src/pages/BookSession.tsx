@@ -115,10 +115,10 @@ const BookSession = () => {
               <Phone className="inline w-4 h-4 mr-1" />
               Questions?{" "}
               <a
-                href="tel:604-926-4883"
+                href="tel:604-305-1418"
                 className="text-primary hover:underline font-semibold"
               >
-                Call 604-926-4883
+                Call 604-305-1418
               </a>
             </div>
           </CardContent>

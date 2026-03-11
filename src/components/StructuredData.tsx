@@ -9,11 +9,11 @@ const StructuredData = () => {
       "name": "DNS Training North Vancouver - Eva Andersson",
       "description": "Prague School-certified Dynamic Neuromuscular Stabilization (DNS) training and rehabilitation. Expert injury rehabilitation, sports performance, and chronic pain management on The North Shore.",
       "url": window.location.origin,
-      "telephone": "+1-604-926-4883",
-      "email": "info@scandinavianclinic.com",
+      "telephone": "+1-604-305-1418",
+      "email": "info@dnstrainer.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Suite 202 - 101 West 16th Street",
+        "streetAddress": "Suite 202B - 101 West 16th Street",
         "addressLocality": "North Vancouver",
         "addressRegion": "BC",
         "postalCode": "V7M 1T3",
@@ -108,7 +108,7 @@ const StructuredData = () => {
           "name": "Where is DNS training available in North Vancouver?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "DNS training is available at Scandinavian Clinic, Suite 202 - 101 West 16th Street, North Vancouver, BC V7M 1T3. Eva Andersson provides Prague School-certified DNS training for clients across The North Shore and Vancouver."
+            "text": "DNS training is available at Liberation Fitness / Scandinavian Clinic, Suite 202B - 101 West 16th Street, North Vancouver, BC V7M 1T3. Eva Andersson provides Prague School-certified DNS training for clients across The North Shore and Vancouver."
           }
         },
         {

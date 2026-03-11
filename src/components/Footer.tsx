@@ -12,8 +12,8 @@ const Footer = () => {
               Prague School-certified Dynamic Neuromuscular Stabilization training and rehabilitation on The North Shore.
             </p>
             <p className="text-white/80 text-sm">
-              <strong>Scandinavian Clinic</strong><br />
-              Suite 202 - 101 West 16th Street<br />
+               <strong>Liberation Fitness / Scandinavian Clinic</strong><br />
+              Suite 202B - 101 West 16th Street<br />
               North Vancouver, BC V7M 1T3
             </p>
           </div>
@@ -58,17 +58,17 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-sm">
               <a 
-                href="tel:604-926-4883" 
+                href="tel:604-305-1418" 
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
-                📞 (604) 926-4883
+                📞 (604) 305 1418
               </a>
               <a 
-                href="mailto:info@scandinavianclinic.com" 
+                href="mailto:info@dnstrainer.com" 
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@scandinavianclinic.com
+                info@dnstrainer.com
               </a>
               <div className="mt-4">
                 <Link 

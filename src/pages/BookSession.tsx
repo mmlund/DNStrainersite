@@ -70,7 +70,7 @@ const BookSession = () => {
                 <div>
                   <strong className="text-foreground">Cancellations:</strong>{" "}
                   <span className="text-muted-foreground">
-                    Cancel at least 24 hours in advance via your email link to avoid a full cancellation fee. For urgent changes, please call 604-926-4883.
+                    Cancel at least 24 hours in advance via your email link to avoid a full cancellation fee. For urgent changes, please call 604-305-1418.
                   </span>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const BookSession = () => {
                 <div>
                   <strong className="text-foreground">Special Programs:</strong>{" "}
                   <span className="text-muted-foreground">
-                    (ICBC, WCB, RCMP, DVA, MSP exempt): Do not use online booking. Please call 604-926-4883 directly to schedule your appointment.
+                    (ICBC, WCB, RCMP, DVA, MSP exempt): Do not use online booking. Please call 604-305-1418 directly to schedule your appointment.
                   </span>
                 </div>
               </div>
@@ -115,10 +115,10 @@ const BookSession = () => {
               <Phone className="inline w-4 h-4 mr-1" />
               Questions?{" "}
               <a
-                href="tel:604-926-4883"
+                href="tel:604-305-1418"
                 className="text-primary hover:underline font-semibold"
               >
-                Call 604-926-4883
+                Call 604-305-1418
               </a>
             </div>
           </CardContent>

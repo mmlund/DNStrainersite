@@ -52,7 +52,7 @@ const BookingTerms = () => {
             <div>
               <h3 className="font-semibold mb-2">ICBC, Workers Compensation Board, RCMP, DVA, MSP exempt status</h3>
               <p>
-                If your visit is paid for by the bodies above, or you expect it to be, the online booking system is NOT available for your initial visit. Instead, please call me first at 604-926-4883.
+                If your visit is paid for by the bodies above, or you expect it to be, the online booking system is NOT available for your initial visit. Instead, please call me first at 604-305-1418.
               </p>
             </div>
 
@@ -80,7 +80,7 @@ const BookingTerms = () => {
             </p>
 
             <p>
-              If canceling within 24 hours of your appointment please call 604-926-4883. A fee may apply for late cancellations, &lt;24 hours.
+              If canceling within 24 hours of your appointment please call 604-305-1418. A fee may apply for late cancellations, &lt;24 hours.
             </p>
 
             <div className="flex items-start gap-3 pt-6 pb-4">

@@ -66,21 +66,21 @@ const AboutEva = () => {
             <div className="text-center">
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <Button size="lg" variant="default" asChild>
-                  <a href="mailto:info@scandinavianclinic.com">
+                  <a href="mailto:info@dnstrainer.com">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Eva
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:604-926-4883">
-                    Call: (604) 926-4883
+                  <a href="tel:604-305-1418">
+                    Call: (604) 305 1418
                   </a>
                 </Button>
               </div>
               
               <div className="text-sm text-muted-foreground">
-                <p className="font-semibold">Scandinavian Clinic</p>
-                <p>Suite 202 - 101 West 16th Street</p>
+                <p className="font-semibold">Liberation Fitness / Scandinavian Clinic</p>
+                <p>Suite 202B - 101 West 16th Street</p>
                 <p>North Vancouver, BC V7M 1T3</p>
               </div>
             </div>

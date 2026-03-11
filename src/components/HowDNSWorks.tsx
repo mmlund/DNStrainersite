@@ -1,4 +1,3 @@
-import goodVsPoorStability from "@/assets/good-versus-poor-stability.jpg";
 import abBreathingDiagram from "@/assets/ab-breathing-diagram.png";
 
 const HowDNSWorks = () => {
@@ -16,12 +15,12 @@ const HowDNSWorks = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Core Stability Card */}
-          <div className="bg-muted/40 rounded-2xl p-8 flex flex-col">
+          <div className="bg-card rounded-2xl p-8 flex flex-col shadow-sm">
             <div className="flex items-center justify-center mb-6">
               <img
-                src={goodVsPoorStability}
-                alt="Good versus poor spinal stability comparison"
-                className="max-h-56 w-auto object-contain mix-blend-multiply"
+                src="/lovable-uploads/28566379-5b5a-4f17-811e-b218ee067831.png"
+                alt="Intra-abdominal pressure stabilizes the spine"
+                className="max-h-56 w-auto object-contain"
               />
             </div>
             <h3 className="text-2xl font-bold mb-3">Core Stability System</h3>
@@ -49,12 +48,12 @@ const HowDNSWorks = () => {
           </div>
 
           {/* Breathing Card */}
-          <div className="bg-muted/40 rounded-2xl p-8 flex flex-col">
+          <div className="bg-card rounded-2xl p-8 flex flex-col shadow-sm">
             <div className="flex items-center justify-center mb-6">
               <img
                 src={abBreathingDiagram}
                 alt="A/B comparison of proper breathing mechanics for spinal stability"
-                className="max-h-56 w-auto object-contain mix-blend-multiply"
+                className="max-h-56 w-auto object-contain"
               />
             </div>
             <h3 className="text-2xl font-bold mb-3">The Role of Breathing in Movement</h3>

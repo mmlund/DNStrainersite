@@ -15,7 +15,7 @@ const HowDNSWorks = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Core Stability Card */}
-          <div className="bg-card rounded-2xl p-8 flex flex-col shadow-sm">
+          <div className="rounded-2xl p-8 flex flex-col" style={{ backgroundColor: '#e8eeef' }}>
             <div className="flex items-center justify-center mb-6">
               <img
                 src="/lovable-uploads/28566379-5b5a-4f17-811e-b218ee067831.png"

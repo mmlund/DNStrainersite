@@ -58,10 +58,10 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-sm">
               <a 
-                href="tel:604-926-4883" 
+                href="tel:604-305-1418" 
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
-                📞 (604) 926-4883
+                📞 (604) 305 1418
               </a>
               <a 
                 href="mailto:info@scandinavianclinic.com" 

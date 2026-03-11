@@ -9,8 +9,8 @@ const StructuredData = () => {
       "name": "DNS Training North Vancouver - Eva Andersson",
       "description": "Prague School-certified Dynamic Neuromuscular Stabilization (DNS) training and rehabilitation. Expert injury rehabilitation, sports performance, and chronic pain management on The North Shore.",
       "url": window.location.origin,
-      "telephone": "+1-604-926-4883",
-      "email": "info@scandinavianclinic.com",
+      "telephone": "+1-604-305-1418",
+      "email": "info@dnstrainer.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Suite 202 - 101 West 16th Street",

@@ -20,7 +20,7 @@ const HowDNSWorks = () => {
               <img
                 src="/lovable-uploads/28566379-5b5a-4f17-811e-b218ee067831.png"
                 alt="Intra-abdominal pressure stabilizes the spine"
-                className="max-h-56 w-auto object-contain"
+                className="max-h-56 w-auto object-contain mix-blend-multiply"
               />
             </div>
             <h3 className="text-2xl font-bold mb-3">Core Stability System</h3>

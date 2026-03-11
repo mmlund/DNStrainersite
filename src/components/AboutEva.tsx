@@ -79,8 +79,8 @@ const AboutEva = () => {
               </div>
               
               <div className="text-sm text-muted-foreground">
-                <p className="font-semibold">Scandinavian Clinic</p>
-                <p>Suite 202 - 101 West 16th Street</p>
+                <p className="font-semibold">Liberation Fitness / Scandinavian Clinic</p>
+                <p>Suite 202B - 101 West 16th Street</p>
                 <p>North Vancouver, BC V7M 1T3</p>
               </div>
             </div>

@@ -10,7 +10,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-1.5">
             <img src={dnsLogo} alt="DNS Trainer Logo" className="h-[4.2rem]" />
-            <span className="text-accent font-bold text-lg tracking-wider">DNS TRAINING</span>
+            <span className="text-accent font-bold text-lg tracking-wider">DNS TRAINER</span>
           </a>
 
           {/* Desktop Navigation */}

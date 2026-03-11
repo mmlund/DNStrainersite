@@ -13,7 +13,7 @@ const StructuredData = () => {
       "email": "info@dnstrainer.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Suite 202 - 101 West 16th Street",
+        "streetAddress": "Suite 202B - 101 West 16th Street",
         "addressLocality": "North Vancouver",
         "addressRegion": "BC",
         "postalCode": "V7M 1T3",

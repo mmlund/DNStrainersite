@@ -19,7 +19,7 @@ const DNSComparison = () => {
       <div className="container px-4">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            DNS Is Not Traditional Strength Training or Massage
+            DNS Is Not Traditional Strength Training
           </h2>
         </div>
 

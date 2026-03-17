@@ -1,9 +1,9 @@
 import naturalMovementVideo from "@/assets/natural-movement-video.mp4";
+import newNaturalMovementVideo from "@/assets/natural-movement-new.mp4";
 import restoringMovementVideo from "@/assets/dns-shorter.mp4";
 import surfer from "@/assets/surfer.png";
-import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";
-import babyStanding from "@/assets/baby-standing.jpg";
+import babyCrawlReaching from "@/assets/baby-crawl-reaching.png";
 const DevelopmentalPatterns = () => {
   return <section className="py-20 bg-background">
       <div className="container px-4">

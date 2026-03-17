@@ -1,9 +1,9 @@
 import naturalMovementVideo from "@/assets/natural-movement-video.mp4";
+import newNaturalMovementVideo from "@/assets/natural-movement-new.mp4";
 import restoringMovementVideo from "@/assets/dns-shorter.mp4";
 import surfer from "@/assets/surfer.png";
-import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";
-import babyStanding from "@/assets/baby-standing.jpg";
+import babyCrawlReaching from "@/assets/baby-crawl-reaching.png";
 const DevelopmentalPatterns = () => {
   return <section className="py-20 bg-background">
       <div className="container px-4">
@@ -20,7 +20,7 @@ const DevelopmentalPatterns = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="group relative overflow-hidden rounded-xl">
               <video 
-                src={naturalMovementVideo} 
+                src={newNaturalMovementVideo} 
                 autoPlay 
                 loop 
                 muted 
@@ -47,7 +47,14 @@ const DevelopmentalPatterns = () => {
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
-              <img src={dnsTherapyFemale} alt="Therapist guiding client through DNS position" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+              <video 
+                src={naturalMovementVideo} 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" 
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">For All Ages & Abilities</p>
               </div>
@@ -71,6 +78,13 @@ const DevelopmentalPatterns = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl">
+              <img src={babyCrawlReaching} alt="Baby crawling and reaching demonstrating natural developmental movement" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <p className="text-white font-semibold text-lg">Developmental Foundations</p>
               </div>
             </div>
           </div>

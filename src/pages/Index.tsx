@@ -26,6 +26,7 @@ const Index = () => {
         <WhatIsDNS />
         <StabilizationChecklist />
         <DNSComparison />
+        <DynamicStabilityAdvantage />
         <FirstDNSSession />
         <Services />
         <HowDNSWorks />

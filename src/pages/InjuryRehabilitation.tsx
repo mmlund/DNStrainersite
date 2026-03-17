@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
+import AboutEva from "@/components/AboutEva";
 import FirstDNSSession from "@/components/FirstDNSSession";
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import { Shield, CheckCircle } from "lucide-react";
@@ -126,6 +127,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
+          <AboutEva />
           <BookingCTA />
         </main>
         <Footer />

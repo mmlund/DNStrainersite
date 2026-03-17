@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import HowDNSWorks from "@/components/HowDNSWorks";
+import DynamicStabilityAdvantage from "@/components/DynamicStabilityAdvantage";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 
@@ -9,6 +10,7 @@ const ScienceBehindDNS = () => {
       <Navigation />
       <main className="pt-16">
         <HowDNSWorks />
+        <DynamicStabilityAdvantage />
         <Testimonials />
       </main>
       <Footer />

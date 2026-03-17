@@ -91,7 +91,6 @@ const InjuryRehabilitation = () => {
           </section>
 
           <DevelopmentalPatterns />
-          <FirstDNSSession />
           <section className="py-20">
             <div className="container px-4">
               <div className="max-w-4xl mx-auto">
@@ -127,6 +126,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
+          <FirstDNSSession />
           <AboutEva />
           <BookingCTA />
         </main>

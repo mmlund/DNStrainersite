@@ -34,7 +34,7 @@ const DevelopmentalPatterns = () => {
 
             <div className="group relative overflow-hidden rounded-xl">
               <video 
-                src={restoringMovementVideo} 
+                src={functionalStrengthVideo} 
                 autoPlay 
                 loop 
                 muted 
@@ -42,7 +42,7 @@ const DevelopmentalPatterns = () => {
                 className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
-                <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
+                <p className="text-white font-semibold text-lg">Functional Strength</p>
               </div>
             </div>
 
@@ -60,11 +60,9 @@ const DevelopmentalPatterns = () => {
               </div>
             </div>
 
-            
-
             <div className="group relative overflow-hidden rounded-xl">
               <video 
-                src={functionalStrengthVideo} 
+                src={restoringMovementVideo} 
                 autoPlay 
                 loop 
                 muted 
@@ -72,7 +70,7 @@ const DevelopmentalPatterns = () => {
                 className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
-                <p className="text-white font-semibold text-lg">Functional Strength</p>
+                <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
               </div>
             </div>
           </div>

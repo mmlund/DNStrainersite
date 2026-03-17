@@ -33,6 +33,10 @@ const DevelopmentalPatterns = () => {
             </div>
 
             <div className="group relative overflow-hidden rounded-xl">
+              <img src={babyCrawlReaching} alt="Baby crawling and reaching demonstrating natural developmental movement" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl">
               <video 
                 src={functionalStrengthVideo} 
                 autoPlay 
@@ -78,13 +82,6 @@ const DevelopmentalPatterns = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
                 <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
-              </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-xl">
-              <img src={babyCrawlReaching} alt="Baby crawling and reaching demonstrating natural developmental movement" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
-                <p className="text-white font-semibold text-lg">Developmental Foundations</p>
               </div>
             </div>
           </div>

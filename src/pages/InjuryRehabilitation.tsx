@@ -79,7 +79,7 @@ const InjuryRehabilitation = () => {
                     Through DNS rehabilitation, we <strong>retrain your central nervous system</strong> to activate optimal stabilization patterns established during infant development. This restores proper joint centration, muscle coordination, and intra-abdominal pressure regulation - the foundation for injury-resistant movement.
                   </p>
                   <p>
-                    Eva Andersson's Prague School training enables precise assessment of dysfunctional patterns and systematic progression through developmental positions to rebuild dynamic stability from the ground up.
+                    Eva Andersson's DNS training enables precise assessment of dysfunctional patterns and systematic progression through developmental positions to rebuild dynamic stability from the ground up.
                   </p>
                 </div>
 

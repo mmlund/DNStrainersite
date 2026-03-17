@@ -50,7 +50,7 @@ const ChronicPain = () => {
                   {[
                     {
                       condition: "Chronic Low Back Pain",
-                      description: "Non-specific back pain, disc-related pain, failed back surgery syndrome"
+                      description: "Non-specific back pain, disc-related pain"
                     },
                     {
                       condition: "Neck Pain & Dysfunction",

@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import FirstDNSSession from "@/components/FirstDNSSession";
+import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import { Shield, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
@@ -88,6 +89,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
+          <DevelopmentalPatterns />
           <FirstDNSSession />
           <section className="py-20">
             <div className="container px-4">

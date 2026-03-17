@@ -1,6 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import WhatIsDNS from "@/components/WhatIsDNS";
+import StabilizationChecklist from "@/components/StabilizationChecklist";
+import DNSComparison from "@/components/DNSComparison";
+import FirstDNSSession from "@/components/FirstDNSSession";
 import Services from "@/components/Services";
 import HowDNSWorks from "@/components/HowDNSWorks";
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
@@ -20,6 +23,9 @@ const Index = () => {
       <main className="pt-16">
         <Hero />
         <WhatIsDNS />
+        <StabilizationChecklist />
+        <DNSComparison />
+        <FirstDNSSession />
         <HowDNSWorks />
         <Services />
         <DevelopmentalPatterns />

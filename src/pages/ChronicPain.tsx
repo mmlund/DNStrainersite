@@ -6,6 +6,7 @@ import FirstDNSSession from "@/components/FirstDNSSession";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
 import chronicPainIcon from "@/assets/chronic-pain-icon.png";
+import painCollage from "@/assets/pain-collage-new.png";
 
 const ChronicPain = () => {
   return (

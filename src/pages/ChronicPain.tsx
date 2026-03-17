@@ -1,9 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
-import { Heart, AlertCircle } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
+import chronicPainIcon from "@/assets/chronic-pain-icon.png";
 
 const ChronicPain = () => {
   return (
@@ -23,7 +24,7 @@ const ChronicPain = () => {
             <div className="container px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
-                  <Heart className="w-8 h-8 text-primary" />
+                  <img src={chronicPainIcon} alt="Chronic pain icon" className="w-8 h-8" />
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                   Chronic Pain Management with DNS
@@ -49,7 +50,7 @@ const ChronicPain = () => {
                   {[
                     {
                       condition: "Chronic Low Back Pain",
-                      description: "Non-specific back pain, disc-related pain, failed back surgery syndrome"
+                      description: "Non-specific back pain, disc-related pain"
                     },
                     {
                       condition: "Neck Pain & Dysfunction",

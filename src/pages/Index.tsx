@@ -29,7 +29,7 @@ const Index = () => {
         <DynamicStabilityAdvantage />
         <FirstDNSSession />
         <Services />
-        <HowDNSWorks />
+        
         <DevelopmentalPatterns />
         <AboutEva />
         <Testimonials />

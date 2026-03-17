@@ -102,15 +102,6 @@ const SportsPerformance = () => {
                   </p>
                 </div>
 
-                <div className="mt-12 bg-card p-8 rounded-lg border-2">
-                  <h3 className="text-2xl font-bold mb-4 text-foreground flex items-center gap-3">
-                    <Target className="w-7 h-7 text-primary" />
-                    The Performance Advantage
-                  </h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
-                    Eva Andersson's Prague School DNS certification enables precise assessment of your stabilization patterns and systematic development of sport-specific dynamic stability. This translates to measurable improvements in strength expression, movement velocity, and injury resistance.
-                  </p>
-                </div>
               </div>
             </div>
           </section>

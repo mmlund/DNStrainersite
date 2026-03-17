@@ -4,6 +4,7 @@ import BookingCTA from "@/components/BookingCTA";
 import { AlertCircle } from "lucide-react";
 import DNSComparison from "@/components/DNSComparison";
 import FirstDNSSession from "@/components/FirstDNSSession";
+import WhatIsDNS from "@/components/WhatIsDNS";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
 import chronicPainIcon from "@/assets/chronic-pain-icon.png";
@@ -41,6 +42,9 @@ const ChronicPain = () => {
               </div>
             </div>
           </section>
+
+
+          <WhatIsDNS />
 
           {/* Pain Conditions */}
           <section className="py-20">

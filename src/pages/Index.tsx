@@ -6,7 +6,7 @@ import DNSComparison from "@/components/DNSComparison";
 import DynamicStabilityAdvantage from "@/components/DynamicStabilityAdvantage";
 import FirstDNSSession from "@/components/FirstDNSSession";
 import Services from "@/components/Services";
-import HowDNSWorks from "@/components/HowDNSWorks";
+
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import AboutEva from "@/components/AboutEva";
 import Testimonials from "@/components/Testimonials";

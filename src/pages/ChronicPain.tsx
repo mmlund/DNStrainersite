@@ -89,7 +89,7 @@ const ChronicPain = () => {
           {/* Why Pain Persists */}
           <section className="py-12 bg-muted/30">
             <div className="container px-4">
-              <div className="max-w-2xl mx-auto">
+              <div className="max-w-sm mx-auto">
                 <img src={painCollage} alt="Collage showing common chronic pain areas including back, neck, shoulder, knee, and wrist" className="w-full rounded-lg shadow-lg" />
               </div>
             </div>

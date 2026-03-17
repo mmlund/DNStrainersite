@@ -127,6 +127,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
+          <AboutEva />
           <BookingCTA />
         </main>
         <Footer />

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import WhatIsDNS from "@/components/WhatIsDNS";
 import StabilizationChecklist from "@/components/StabilizationChecklist";
 import DNSComparison from "@/components/DNSComparison";
+import DynamicStabilityAdvantage from "@/components/DynamicStabilityAdvantage";
 import FirstDNSSession from "@/components/FirstDNSSession";
 import Services from "@/components/Services";
 import HowDNSWorks from "@/components/HowDNSWorks";
@@ -25,6 +26,7 @@ const Index = () => {
         <WhatIsDNS />
         <StabilizationChecklist />
         <DNSComparison />
+        <DynamicStabilityAdvantage />
         <FirstDNSSession />
         <Services />
         <HowDNSWorks />

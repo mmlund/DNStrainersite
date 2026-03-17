@@ -89,6 +89,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
+          <DevelopmentalPatterns />
           <FirstDNSSession />
           <section className="py-20">
             <div className="container px-4">

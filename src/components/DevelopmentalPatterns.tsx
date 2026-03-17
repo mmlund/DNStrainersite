@@ -1,5 +1,5 @@
 import naturalMovementVideo from "@/assets/natural-movement-video.mp4";
-import restoringMovementVideo from "@/assets/restoring-movement-video.mp4";
+import restoringMovementVideo from "@/assets/dns-shorter.mp4";
 import surfer from "@/assets/surfer.png";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";

@@ -12,6 +12,7 @@ import ChronicPain from "./pages/ChronicPain";
 import BookingTerms from "./pages/BookingTerms";
 import BookSession from "./pages/BookSession";
 import Payment from "./pages/Payment";
+import ScienceBehindDNS from "./pages/ScienceBehindDNS";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/booking-terms" element={<BookingTerms />} />
           <Route path="/book-session" element={<BookSession />} />
           <Route path="/payment" element={<Payment />} />
+          <Route path="/science-behind-dns" element={<ScienceBehindDNS />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -9,7 +9,7 @@ import Services from "@/components/Services";
 
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import AboutEva from "@/components/AboutEva";
-import Testimonials from "@/components/Testimonials";
+
 import BookingCTA from "@/components/BookingCTA";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";

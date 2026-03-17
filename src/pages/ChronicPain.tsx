@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import { AlertCircle } from "lucide-react";
+import DNSComparison from "@/components/DNSComparison";
 import FirstDNSSession from "@/components/FirstDNSSession";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
@@ -88,47 +89,13 @@ const ChronicPain = () => {
           {/* Why Pain Persists */}
           <section className="py-12 bg-muted/30">
             <div className="container px-4">
-              <div className="max-w-4xl mx-auto">
+              <div className="max-w-2xl mx-auto">
                 <img src={painCollage} alt="Collage showing common chronic pain areas including back, neck, shoulder, knee, and wrist" className="w-full rounded-lg shadow-lg" />
               </div>
             </div>
           </section>
 
-          <section className="py-20 bg-muted/30">
-            <div className="container px-4">
-              <div className="max-w-4xl mx-auto">
-                <div className="bg-card p-8 rounded-lg border-2 border-primary/20 mb-12">
-                  <div className="flex items-start gap-4 mb-4">
-                    <AlertCircle className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
-                    <div>
-                      <h2 className="text-2xl font-bold text-foreground mb-4">
-                        Why Traditional Treatment Often Fails
-                      </h2>
-                      <p className="text-lg text-muted-foreground leading-relaxed">
-                        Most chronic pain persists not because of ongoing tissue damage, but due to <strong>dysfunctional neuromuscular patterns</strong> that perpetuate abnormal loading and movement compensation. Conventional approaches that focus solely on symptom management fail to address these root causes.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-                  The DNS Approach to Chronic Pain
-                </h2>
-                <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-                  <p>
-                    Dynamic Neuromuscular Stabilization addresses chronic pain by <strong>retraining the central nervous system</strong> to activate optimal stabilization patterns. This corrects faulty movement strategies that create excessive joint stress, muscle tension, and pain perpetuation.
-                  </p>
-                  <p>
-                    Through systematic progression of developmental positions, DNS restores proper <strong>intra-abdominal pressure regulation</strong>, joint centration, and coordinated muscle activation - the foundation for pain-free movement.
-                  </p>
-                  <p>
-                    Eva Andersson's Prague School training enables precise identification of dysfunctional patterns and targeted intervention to restore optimal neuromuscular coordination, breaking the chronic pain cycle.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-          </section>
+          <DNSComparison />
 
           <FirstDNSSession />
 

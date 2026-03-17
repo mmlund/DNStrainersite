@@ -4,7 +4,7 @@ const checklistItems = [
   "Pain returns despite previous treatment",
   "Your neck and shoulders constantly feel tense",
   "Your lower back is always tight",
-  "You get pain developing on one side of the body",
+  "You have recurring pain on one side of the body",
   "Injuries keep recurring",
   "You avoid certain movements because they trigger pain",
 ];

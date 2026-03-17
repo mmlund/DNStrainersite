@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
+import FirstDNSSession from "@/components/FirstDNSSession";
 import { Shield, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
@@ -83,25 +84,11 @@ const InjuryRehabilitation = () => {
                   </p>
                 </div>
 
-                <div className="mt-12 grid md:grid-cols-3 gap-6">
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Phase 1: Assessment</h3>
-                    <p className="text-muted-foreground">Comprehensive evaluation of movement patterns, stability deficits, and neuromuscular dysfunction</p>
-                  </div>
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Phase 2: Retraining</h3>
-                    <p className="text-muted-foreground">Systematic activation of deep stabilizers through developmental positions and breathing integration</p>
-                  </div>
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Phase 3: Integration</h3>
-                    <p className="text-muted-foreground">Progressive loading and sport-specific movement retraining with optimal stability patterns</p>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
 
-          {/* Why Choose DNS */}
+          <FirstDNSSession />
           <section className="py-20">
             <div className="container px-4">
               <div className="max-w-4xl mx-auto">

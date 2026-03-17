@@ -26,8 +26,8 @@ const Index = () => {
         <StabilizationChecklist />
         <DNSComparison />
         <FirstDNSSession />
-        <HowDNSWorks />
         <Services />
+        <HowDNSWorks />
         <DevelopmentalPatterns />
         <AboutEva />
         <Testimonials />

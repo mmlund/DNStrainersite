@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import { AlertCircle } from "lucide-react";
+import FirstDNSSession from "@/components/FirstDNSSession";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
 import chronicPainIcon from "@/assets/chronic-pain-icon.png";

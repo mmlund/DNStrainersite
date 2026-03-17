@@ -23,6 +23,9 @@ const Index = () => {
       <main className="pt-16">
         <Hero />
         <WhatIsDNS />
+        <StabilizationChecklist />
+        <DNSComparison />
+        <FirstDNSSession />
         <HowDNSWorks />
         <Services />
         <DevelopmentalPatterns />

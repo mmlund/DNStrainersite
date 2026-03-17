@@ -88,7 +88,7 @@ const InjuryRehabilitation = () => {
             </div>
           </section>
 
-          {/* Why Choose DNS */}
+          <FirstDNSSession />
           <section className="py-20">
             <div className="container px-4">
               <div className="max-w-4xl mx-auto">

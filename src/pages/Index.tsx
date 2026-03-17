@@ -32,7 +32,7 @@ const Index = () => {
         
         <DevelopmentalPatterns />
         <AboutEva />
-        <Testimonials />
+        
         <BookingCTA />
       </main>
       <Footer />

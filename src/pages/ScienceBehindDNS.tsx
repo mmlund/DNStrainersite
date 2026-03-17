@@ -9,6 +9,7 @@ const ScienceBehindDNS = () => {
       <Navigation />
       <main className="pt-16">
         <HowDNSWorks />
+        <Testimonials />
       </main>
       <Footer />
     </div>

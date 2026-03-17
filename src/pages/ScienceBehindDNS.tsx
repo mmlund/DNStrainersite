@@ -12,6 +12,7 @@ const ScienceBehindDNS = () => {
       <main className="pt-16">
         <HowDNSWorks />
         <DynamicStabilityAdvantage />
+        <CorePrinciples />
         <Testimonials />
       </main>
       <Footer />

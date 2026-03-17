@@ -117,23 +117,11 @@ const ChronicPain = () => {
                   </p>
                 </div>
 
-                <div className="mt-12 grid md:grid-cols-3 gap-6">
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Assessment</h3>
-                    <p className="text-muted-foreground">Comprehensive evaluation of movement patterns, stability deficits, and pain-generating compensations</p>
-                  </div>
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Retraining</h3>
-                    <p className="text-muted-foreground">Systematic neuromuscular re-education through developmental positions and breathing integration</p>
-                  </div>
-                  <div className="bg-card p-6 rounded-lg border-2">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">Restoration</h3>
-                    <p className="text-muted-foreground">Progressive return to pain-free functional movement and activity</p>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
+
+          <FirstDNSSession />
 
           {/* What Makes DNS Different */}
           <section className="py-20">

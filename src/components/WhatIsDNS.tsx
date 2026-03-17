@@ -21,6 +21,13 @@ const WhatIsDNS = () => {
             <p className="text-xl text-muted-foreground mb-6 text-left">
               DNS focuses on reactivating the central nervous system to activate optimal movement patterns learned in infancy.
             </p>
+            <div className="my-8 rounded-2xl overflow-hidden">
+              <img
+                src={developmentalDna}
+                alt="You were born to move perfectly - baby's innate foundation compared to adult reconnecting to stability through DNS"
+                className="w-full h-auto object-cover"
+              />
+            </div>
             <p className="text-xl text-muted-foreground text-left">
               Dynamic Neuromuscular Stabilization (DNS) is grounded in developmental kinesiology.
             </p>

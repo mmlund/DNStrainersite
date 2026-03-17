@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import HowDNSWorks from "@/components/HowDNSWorks";
+import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 
 const ScienceBehindDNS = () => {

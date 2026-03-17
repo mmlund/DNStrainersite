@@ -47,14 +47,12 @@ const InjuryRehabilitation = () => {
                 </h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   {[
-                    "Post-surgical rehabilitation",
                     "Sports injuries (ACL, rotator cuff, ankle sprains)",
                     "Chronic back and neck pain",
                     "Shoulder dysfunction and impingement",
                     "Hip and knee pain",
                     "Movement compensations and asymmetries",
-                    "Core instability and weakness",
-                    "Post-concussion movement disorders"
+                    "Core instability and weakness"
                   ].map((condition, index) => (
                     <div key={index} className="flex items-start gap-3 p-4 bg-card rounded-lg border">
                       <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />

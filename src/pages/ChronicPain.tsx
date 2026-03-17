@@ -43,6 +43,9 @@ const ChronicPain = () => {
             </div>
           </section>
 
+
+          <WhatIsDNS />
+
           {/* Pain Conditions */}
           <section className="py-20">
             <div className="container px-4">

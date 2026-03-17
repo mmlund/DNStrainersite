@@ -1,9 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
-import { Zap, Target } from "lucide-react";
+import { Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
+import soccerPlayerIcon from "@/assets/soccer-player-icon.png";
 
 const SportsPerformance = () => {
   return (

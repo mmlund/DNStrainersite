@@ -1,9 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
-import { Zap, Target } from "lucide-react";
+import { Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet";
+import soccerPlayerIcon from "@/assets/soccer-player-icon.png";
 
 const SportsPerformance = () => {
   return (
@@ -23,7 +24,7 @@ const SportsPerformance = () => {
             <div className="container px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
-                  <Zap className="w-8 h-8 text-primary" />
+                  <img src={soccerPlayerIcon} alt="Sports performance icon" className="w-8 h-8" />
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                   DNS Sports Performance Training

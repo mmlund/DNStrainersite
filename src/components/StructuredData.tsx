@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
+import { SITE_URL } from '@/lib/seo';
 
 const StructuredData = () => {
   useEffect(() => {
-    // LocalBusiness Schema
     const localBusinessSchema = {
       "@context": "https://schema.org",
       "@type": "MedicalBusiness",
       "name": "DNS Training North Vancouver - Eva Andersson",
       "description": "Prague School-certified Dynamic Neuromuscular Stabilization (DNS) training and rehabilitation. Expert injury rehabilitation, sports performance, and chronic pain management on The North Shore.",
-      "url": window.location.origin,
+      "url": SITE_URL,
       "telephone": "+1-604-305-1418",
       "email": "info@dnstrainer.com",
       "address": {
@@ -25,17 +25,11 @@ const StructuredData = () => {
         "longitude": "-123.0748"
       },
       "areaServed": [
-        {
-          "@type": "City",
-          "name": "North Vancouver"
-        },
-        {
-          "@type": "City",
-          "name": "West Vancouver"
-        }
+        { "@type": "City", "name": "North Vancouver" },
+        { "@type": "City", "name": "West Vancouver" }
       ],
       "priceRange": "$$",
-      "image": window.location.origin + "/assets/eva-andersson.png",
+      "image": `${SITE_URL}/og-image.png`,
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -50,22 +44,11 @@ const StructuredData = () => {
         "jobTitle": "DNS Certified Practitioner",
         "description": "DNS-certified practitioner trained by The Prague School. Doctor of Naprapathy with five years of post-secondary clinical education.",
         "alumniOf": [
-          {
-            "@type": "Organization",
-            "name": "The Prague School of Rehabilitation and Manual Medicine"
-          },
-          {
-            "@type": "Organization",
-            "name": "Scandinavian College of Naprapathic Manual Medicine"
-          }
+          { "@type": "Organization", "name": "The Prague School of Rehabilitation and Manual Medicine" },
+          { "@type": "Organization", "name": "Scandinavian College of Naprapathic Manual Medicine" }
         ]
       },
-      "medicalSpecialty": [
-        "Rehabilitation",
-        "Sports Medicine",
-        "Pain Management",
-        "Physical Therapy"
-      ],
+      "medicalSpecialty": ["Rehabilitation", "Sports Medicine", "Pain Management", "Physical Therapy"],
       "availableService": [
         {
           "@type": "MedicalTherapy",
@@ -90,7 +73,6 @@ const StructuredData = () => {
       ]
     };
 
-    // FAQPage Schema
     const faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -130,7 +112,6 @@ const StructuredData = () => {
       ]
     };
 
-    // Inject schemas into head
     const script1 = document.createElement('script');
     script1.type = 'application/ld+json';
     script1.text = JSON.stringify(localBusinessSchema);

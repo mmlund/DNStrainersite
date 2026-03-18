@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -16,10 +16,12 @@ const BookSession = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Book Your Session | DNS Training North Vancouver</title>
-        <meta name="robots" content="noindex, nofollow" />
-      </Helmet>
+      <SEOHead
+        title="Book Your Session | DNS Training North Vancouver"
+        description="Book a DNS training session with Eva Andersson in North Vancouver."
+        canonical="/book-session"
+        noindex
+      />
       
       <div className="min-h-screen bg-gradient-to-br from-primary/5 to-secondary/5 flex items-center justify-center p-4">
         <Card className="w-full max-w-2xl shadow-xl">

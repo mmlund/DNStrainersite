@@ -3,18 +3,22 @@ import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import { Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 import soccerPlayerIcon from "@/assets/soccer-player-icon.png";
 
 const SportsPerformance = () => {
   return (
     <>
-      <Helmet>
-        <title>Sports Performance Training North Vancouver | DNS | Eva Andersson</title>
-        <meta name="description" content="Enhance athletic performance with DNS training in North Vancouver. Improve dynamic stability, power transfer, and movement efficiency for competitive advantage on The North Shore." />
-        <meta name="keywords" content="sports performance North Vancouver, DNS athletic training, dynamic stability, movement optimization North Shore, Eva Andersson" />
-        <link rel="canonical" href={`${window.location.origin}/sports-performance`} />
-      </Helmet>
+      <SEOHead
+        title="Sports Performance Training North Vancouver | DNS | Eva Andersson"
+        description="Enhance athletic performance with DNS training in North Vancouver. Improve dynamic stability, power transfer, and movement efficiency for competitive advantage on The North Shore."
+        canonical="/sports-performance"
+        keywords="sports performance North Vancouver, DNS athletic training, dynamic stability, movement optimization North Shore, Eva Andersson"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Sports Performance", url: "/sports-performance" },
+        ]}
+      />
       
       <div className="min-h-screen">
         <Navigation />
@@ -48,30 +52,12 @@ const SportsPerformance = () => {
                 </h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   {[
-                    {
-                      title: "Enhanced Power Transfer",
-                      description: "Optimize kinetic chain efficiency for explosive movements and force generation"
-                    },
-                    {
-                      title: "Improved Movement Economy",
-                      description: "Reduce energy waste through efficient neuromuscular coordination patterns"
-                    },
-                    {
-                      title: "Injury Resistance",
-                      description: "Build robust dynamic stability to withstand training loads and competition demands"
-                    },
-                    {
-                      title: "Faster Recovery",
-                      description: "Proper stabilization patterns enhance recovery between training sessions"
-                    },
-                    {
-                      title: "Sport-Specific Integration",
-                      description: "Transfer optimal patterns to your specific athletic movements and demands"
-                    },
-                    {
-                      title: "Competitive Longevity",
-                      description: "Sustainable performance through reduced injury risk and efficient movement"
-                    }
+                    { title: "Enhanced Power Transfer", description: "Optimize kinetic chain efficiency for explosive movements and force generation" },
+                    { title: "Improved Movement Economy", description: "Reduce energy waste through efficient neuromuscular coordination patterns" },
+                    { title: "Injury Resistance", description: "Build robust dynamic stability to withstand training loads and competition demands" },
+                    { title: "Faster Recovery", description: "Proper stabilization patterns enhance recovery between training sessions" },
+                    { title: "Sport-Specific Integration", description: "Transfer optimal patterns to your specific athletic movements and demands" },
+                    { title: "Competitive Longevity", description: "Sustainable performance through reduced injury risk and efficient movement" }
                   ].map((benefit, index) => (
                     <div key={index} className="bg-card p-6 rounded-lg border-2 hover:border-primary transition-all">
                       <h3 className="text-xl font-bold mb-3 text-foreground">{benefit.title}</h3>
@@ -101,7 +87,6 @@ const SportsPerformance = () => {
                     This neuromuscular foundation enables efficient power transfer through the kinetic chain, reduces energy leaks, and provides the stability necessary for explosive movements without compensation patterns that lead to injury.
                   </p>
                 </div>
-
               </div>
             </div>
           </section>
@@ -115,18 +100,9 @@ const SportsPerformance = () => {
                 </h2>
                 <div className="grid md:grid-cols-3 gap-6">
                   {[
-                    {
-                      category: "Endurance Athletes",
-                      sports: ["Runners", "Cyclists", "Triathletes", "Cross-country skiers"]
-                    },
-                    {
-                      category: "Power & Strength",
-                      sports: ["Weightlifters", "CrossFit athletes", "Powerlifters", "Strongman competitors"]
-                    },
-                    {
-                      category: "Team & Court Sports",
-                      sports: ["Hockey", "Basketball", "Soccer", "Tennis"]
-                    }
+                    { category: "Endurance Athletes", sports: ["Runners", "Cyclists", "Triathletes", "Cross-country skiers"] },
+                    { category: "Power & Strength", sports: ["Weightlifters", "CrossFit athletes", "Powerlifters", "Strongman competitors"] },
+                    { category: "Team & Court Sports", sports: ["Hockey", "Basketball", "Soccer", "Tennis"] }
                   ].map((group, index) => (
                     <div key={index} className="bg-card p-6 rounded-lg border">
                       <h3 className="text-xl font-bold mb-4 text-foreground">{group.category}</h3>

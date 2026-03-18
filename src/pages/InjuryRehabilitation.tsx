@@ -6,17 +6,21 @@ import FirstDNSSession from "@/components/FirstDNSSession";
 import DevelopmentalPatterns from "@/components/DevelopmentalPatterns";
 import { Shield, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 
 const InjuryRehabilitation = () => {
   return (
     <>
-      <Helmet>
-        <title>Injury Rehabilitation North Vancouver | DNS Recovery | Eva Andersson</title>
-        <meta name="description" content="Evidence-based DNS injury rehabilitation in North Vancouver. Post-injury recovery for sports injuries, back pain, and musculoskeletal dysfunction using Prague School methodology." />
-        <meta name="keywords" content="injury rehabilitation North Vancouver, DNS recovery, sports injury treatment, post-injury rehab North Shore, Eva Andersson" />
-        <link rel="canonical" href={`${window.location.origin}/injury-rehabilitation`} />
-      </Helmet>
+      <SEOHead
+        title="Injury Rehabilitation North Vancouver | DNS Recovery | Eva Andersson"
+        description="Evidence-based DNS injury rehabilitation in North Vancouver. Post-injury recovery for sports injuries, back pain, and musculoskeletal dysfunction using Prague School methodology."
+        canonical="/injury-rehabilitation"
+        keywords="injury rehabilitation North Vancouver, DNS recovery, sports injury treatment, post-injury rehab North Shore, Eva Andersson"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Injury Rehabilitation", url: "/injury-rehabilitation" },
+        ]}
+      />
       
       <div className="min-h-screen">
         <Navigation />
@@ -85,7 +89,6 @@ const InjuryRehabilitation = () => {
                     Eva Andersson's DNS training enables precise assessment of dysfunctional patterns and systematic progression through developmental positions to rebuild dynamic stability from the ground up.
                   </p>
                 </div>
-
               </div>
             </div>
           </section>
@@ -99,22 +102,10 @@ const InjuryRehabilitation = () => {
                 </h2>
                 <div className="space-y-4">
                   {[
-                    {
-                      title: "Addresses Root Causes",
-                      description: "Rather than managing symptoms, DNS corrects the underlying neuromuscular patterns that caused injury"
-                    },
-                    {
-                      title: "Prevents Re-Injury",
-                      description: "By establishing optimal movement patterns, DNS significantly reduces recurrence risk"
-                    },
-                    {
-                      title: "Evidence-Based Methodology",
-                      description: "Developed by The Prague School over decades of clinical research and neuroscience"
-                    },
-                    {
-                      title: "Whole-Body Integration",
-                      description: "Treats the kinetic chain as an integrated system rather than isolated body parts"
-                    }
+                    { title: "Addresses Root Causes", description: "Rather than managing symptoms, DNS corrects the underlying neuromuscular patterns that caused injury" },
+                    { title: "Prevents Re-Injury", description: "By establishing optimal movement patterns, DNS significantly reduces recurrence risk" },
+                    { title: "Evidence-Based Methodology", description: "Developed by The Prague School over decades of clinical research and neuroscience" },
+                    { title: "Whole-Body Integration", description: "Treats the kinetic chain as an integrated system rather than isolated body parts" }
                   ].map((item, index) => (
                     <div key={index} className="bg-card p-6 rounded-lg border">
                       <h3 className="text-xl font-bold mb-2 text-foreground">{item.title}</h3>

@@ -1,14 +1,16 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 
 const Payment = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Helmet>
-        <title>Payment - DNS Trainer</title>
-        <meta name="robots" content="noindex, nofollow" />
-      </Helmet>
+      <SEOHead
+        title="Payment - DNS Trainer"
+        description="Payment page for DNS training sessions."
+        canonical="/payment"
+        noindex
+      />
       
       <Navigation />
       

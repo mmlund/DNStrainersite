@@ -38,8 +38,32 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/what-is-dns" className="text-white/80 hover:text-white transition-colors">
-                  Learn More: What is DNS?
+                <a href="/science-behind-dns" className="text-white/80 hover:text-white transition-colors">
+                  The Science Behind DNS
+                </a>
+              </li>
+              <li>
+                <a href="/booking-terms" className="text-white/80 hover:text-white transition-colors">
+                  Booking Terms & Conditions
+                </a>
+              </li>
+            </ul>
+
+            <h4 className="font-semibold mt-6 mb-3">Services</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="/injury-rehabilitation" className="text-white/80 hover:text-white transition-colors">
+                  Injury Rehabilitation
+                </a>
+              </li>
+              <li>
+                <a href="/sports-performance" className="text-white/80 hover:text-white transition-colors">
+                  Sports Performance
+                </a>
+              </li>
+              <li>
+                <a href="/chronic-pain" className="text-white/80 hover:text-white transition-colors">
+                  Chronic Pain Management
                 </a>
               </li>
               <li>
@@ -48,8 +72,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/booking-terms" className="text-white/80 hover:text-white transition-colors">
-                  Booking Terms & Conditions
+                <a href="/what-is-dns" className="text-white/80 hover:text-white transition-colors">
+                  What is DNS?
                 </a>
               </li>
             </ul>

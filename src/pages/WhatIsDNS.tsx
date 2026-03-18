@@ -2,30 +2,22 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import { Card, CardContent } from "@/components/ui/card";
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 import crawlInfant from "@/assets/crawl-infant.png";
 
 const WhatIsDNS = () => {
   return (
     <>
-      <Helmet>
-        <title>What is DNS? | Dynamic Neuromuscular Stabilization Explained | Eva Andersson</title>
-        <meta name="description" content="Learn about Dynamic Neuromuscular Stabilization (DNS) - The Prague School approach to rehabilitation and performance. Video explanation by DNS practitioner Eva Andersson in North Vancouver." />
-        <meta name="keywords" content="what is DNS, Dynamic Neuromuscular Stabilization explained, Prague School, developmental kinesiology, Eva Andersson North Vancouver" />
-        <link rel="canonical" href={`${window.location.origin}/what-is-dns`} />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "VideoObject",
-            "name": "What is Dynamic Neuromuscular Stabilization (DNS)?",
-            "description": "Comprehensive explanation of DNS methodology from The Prague School, presented by DNS-certified practitioner Eva Andersson",
-            "thumbnailUrl": window.location.origin + "/assets/eva-andersson.png",
-            "uploadDate": new Date().toISOString(),
-            "contentUrl": "VIDEO_URL_PLACEHOLDER",
-            "embedUrl": "VIDEO_EMBED_URL_PLACEHOLDER"
-          })}
-        </script>
-      </Helmet>
+      <SEOHead
+        title="What is DNS? | Dynamic Neuromuscular Stabilization Explained | Eva Andersson"
+        description="Learn about Dynamic Neuromuscular Stabilization (DNS) - The Prague School approach to rehabilitation and performance. Video explanation by DNS practitioner Eva Andersson in North Vancouver."
+        canonical="/what-is-dns"
+        keywords="what is DNS, Dynamic Neuromuscular Stabilization explained, Prague School, developmental kinesiology, Eva Andersson North Vancouver"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "What is DNS?", url: "/what-is-dns" },
+        ]}
+      />
       
       <div className="min-h-screen">
         <Navigation />

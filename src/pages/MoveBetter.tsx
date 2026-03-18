@@ -3,31 +3,23 @@ import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Zap, Shield } from "lucide-react";
-import { Helmet } from "react-helmet";
+import SEOHead from "@/components/SEOHead";
 import crawlAdult from "@/assets/crawl-adult.png";
 import surfer from "@/assets/surfer.jpg";
 
 const MoveBetter = () => {
   return (
     <>
-      <Helmet>
-        <title>Move Better, Move Stronger | DNS Training North Vancouver | Eva Andersson</title>
-        <meta name="description" content="Improve movement quality and dynamic stability with DNS training in North Vancouver. Learn how to move better and stronger with Prague School methodology from Eva Andersson." />
-        <meta name="keywords" content="move better North Vancouver, DNS training, dynamic stability, movement quality, Eva Andersson, Prague School" />
-        <link rel="canonical" href={`${window.location.origin}/move-better`} />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "VideoObject",
-            "name": "Move Better, Move Stronger with DNS",
-            "description": "Learn how Dynamic Neuromuscular Stabilization improves movement quality, dynamic stability, and performance with DNS-certified practitioner Eva Andersson",
-            "thumbnailUrl": window.location.origin + "/assets/eva-andersson.png",
-            "uploadDate": new Date().toISOString(),
-            "contentUrl": "VIDEO_URL_PLACEHOLDER",
-            "embedUrl": "VIDEO_EMBED_URL_PLACEHOLDER"
-          })}
-        </script>
-      </Helmet>
+      <SEOHead
+        title="Move Better, Move Stronger | DNS Training North Vancouver | Eva Andersson"
+        description="Improve movement quality and dynamic stability with DNS training in North Vancouver. Learn how to move better and stronger with Prague School methodology from Eva Andersson."
+        canonical="/move-better"
+        keywords="move better North Vancouver, DNS training, dynamic stability, movement quality, Eva Andersson, Prague School"
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Move Better, Move Stronger", url: "/move-better" },
+        ]}
+      />
       
       <div className="min-h-screen">
         <Navigation />

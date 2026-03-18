@@ -16,10 +16,12 @@ const BookingTerms = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Booking Terms & Conditions | DNS Training North Vancouver</title>
-        <meta name="robots" content="noindex, nofollow" />
-      </Helmet>
+      <SEOHead
+        title="Booking Terms & Conditions | DNS Training North Vancouver"
+        description="Booking terms and conditions for DNS training sessions with Eva Andersson."
+        canonical="/booking-terms"
+        noindex
+      />
       
       <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <Card className="w-full max-w-2xl max-h-[80vh] overflow-y-auto">

@@ -9,6 +9,9 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">DNS Training North Vancouver</h3>
             <p className="text-white/80 mb-3">
+              DNStrainer is a movement training and education business located in North Vancouver. DNStrainer does not provide massage therapy or clinical treatments.
+            </p>
+            <p className="text-white/80 mb-3">
               Prague School-certified Dynamic Neuromuscular Stabilization training and rehabilitation on The North Shore.
             </p>
             <p className="text-white/80 text-sm">

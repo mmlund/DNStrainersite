@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import babyCrawlIcon from "@/assets/baby-crawl-icon.png";
-import developmentalDna from "@/assets/developmental-dna.png";
+import developmentalDna from "@/assets/developmental-dna-new.png";
 import firstAidIcon from "@/assets/first-aid-icon.png";
 import dnsCoreIcon from "@/assets/dns-core-icon.png";
 

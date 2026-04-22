@@ -8,7 +8,7 @@ import { Activity, Zap, Target, Trophy } from "lucide-react";
 import stabilityDiagram from "@/assets/good-vs-poor-stability.jpg";
 import surferImg from "@/assets/surfer-wave.jpg";
 import sprinterImg from "@/assets/sprinter-blocks.webp";
-import foundationVideo from "@/assets/dns-athletic-foundation.mp4";
+
 
 const AthleticFoundation = () => {
   return (
@@ -185,17 +185,6 @@ const AthleticFoundation = () => {
                   <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                     It is hard to train your stabilizing system in a group class. This is a "feed-forward" mechanism controlled subconsciously by your nervous system.
                   </p>
-                </div>
-
-                <div className="bg-[#e8eeef] rounded-lg overflow-hidden mb-12 max-w-3xl mx-auto">
-                  <video
-                    src={foundationVideo}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full mix-blend-multiply"
-                  />
                 </div>
 
                 <h3 className="text-2xl font-bold text-foreground mb-8 text-center">

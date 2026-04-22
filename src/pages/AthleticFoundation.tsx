@@ -187,17 +187,6 @@ const AthleticFoundation = () => {
                   </p>
                 </div>
 
-                <div className="bg-[#e8eeef] rounded-lg overflow-hidden mb-12 max-w-3xl mx-auto">
-                  <video
-                    src={foundationVideo}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full mix-blend-multiply"
-                  />
-                </div>
-
                 <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
                   In your 1-on-1 Performance Audit, we investigate:
                 </h3>

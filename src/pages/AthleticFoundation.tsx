@@ -8,7 +8,7 @@ import { Activity, Zap, Target, Trophy } from "lucide-react";
 import stabilityDiagram from "@/assets/good-vs-poor-stability.jpg";
 import surferImg from "@/assets/surfer-wave.jpg";
 import sprinterImg from "@/assets/sprinter-blocks.webp";
-import foundationVideo from "@/assets/dns-athletic-foundation.mp4";
+
 
 const AthleticFoundation = () => {
   return (

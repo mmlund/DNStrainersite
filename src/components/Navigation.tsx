@@ -24,21 +24,6 @@ const Navigation = () => {
             <a href="/#services" className="text-foreground hover:text-primary transition-colors">
               Services
             </a>
-            <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-foreground hover:text-primary transition-colors outline-none">
-                DNS Usages
-                <ChevronDown className="w-4 h-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="start" className="bg-background z-50">
-                {usageLinks.map((link) => (
-                  <DropdownMenuItem key={link.to} asChild>
-                    <Link to={link.to} className="cursor-pointer">
-                      {link.label}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
             <a href="/#about" className="text-foreground hover:text-primary transition-colors">
               About Eva
             </a>
@@ -62,32 +47,6 @@ const Navigation = () => {
             <a href="/#services" className="block text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
               Services
             </a>
-            <div>
-              <button
-                className="flex items-center gap-1 text-foreground hover:text-primary transition-colors w-full"
-                onClick={() => setIsUsagesOpen(!isUsagesOpen)}
-              >
-                DNS Usages
-                <ChevronDown className={`w-4 h-4 transition-transform ${isUsagesOpen ? "rotate-180" : ""}`} />
-              </button>
-              {isUsagesOpen && (
-                <div className="pl-4 mt-2 space-y-2">
-                  {usageLinks.map((link) => (
-                    <Link
-                      key={link.to}
-                      to={link.to}
-                      className="block text-foreground hover:text-primary transition-colors"
-                      onClick={() => {
-                        setIsOpen(false);
-                        setIsUsagesOpen(false);
-                      }}
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
             <a href="/#about" className="block text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
               About Eva
             </a>

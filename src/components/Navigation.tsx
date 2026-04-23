@@ -1,23 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Menu, ChevronDown } from "lucide-react";
+import { Menu } from "lucide-react";
 import { useState } from "react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import dnsLogo from "@/assets/dns-logo-new.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isUsagesOpen, setIsUsagesOpen] = useState(false);
-
-  const usageLinks = [
-    { label: "For Chronic Pain", to: "/chronic-pain-movement-assessment" },
-    { label: "For Athletes", to: "/the-athletic-foundation" },
-  ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">

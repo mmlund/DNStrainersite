@@ -17,7 +17,6 @@ const Navigation = () => {
   const usageLinks = [
     { label: "For Chronic Pain", to: "/chronic-pain-movement-assessment" },
     { label: "For Athletes", to: "/the-athletic-foundation" },
-    { label: "For Longevity", to: "/structural-durability-protocol" },
   ];
 
   return (

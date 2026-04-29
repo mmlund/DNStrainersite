@@ -50,6 +50,49 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## SEO Prerendering & Lovable Coordination
+
+This project includes a custom build-time prerendering step to ensure search engines (like Google) and social media platforms can index the fully rendered pages rather than the empty SPA shell.
+
+### How it works
+1. **Dependencies**: Uses `puppeteer`, `serve`, and `tsx` (added to `devDependencies`).
+2. **Script (`scripts/prerender.ts`)**: A custom Node script that parses `scripts/sitemap-config.ts` (excluding private routes), serves the `dist/` directory locally, and uses a headless browser to visit each route. It waits for the page to fully load, then saves the fully rendered HTML back to `dist/<route>.html`.
+3. **Verification**: Prerendered pages will contain `<html data-prerendered="true">` in the source code.
+
+### Coordination with Lovable (IMPORTANT)
+Lovable's preview environment is fast and lightweight, and running a headless Chrome browser (Puppeteer) during Lovable's automated builds is risky and can cause crashes. To prevent this, the prerender step is **decoupled** from the standard build command.
+
+- **`"build": "vite build"`**: This is the standard command used by Lovable. It is fast and *does not* run the prerender script. **Lovable should continue using this script.**
+- **`"build:prod": "vite build && bun run prerender"`**: This is the production build command. It should **only** be used by your production hosting provider (e.g., Render, Vercel, Netlify). 
+
+**Instructions for Lovable AI**: 
+Please leave `scripts/prerender.ts` and the `puppeteer`/`serve`/`tsx` dependencies intact. You may completely ignore the `"prerender"` and `"build:prod"` scripts in `package.json`, as they are intended strictly for the separate production deployment pipeline.
+
+### Adding or Changing Pages (Workflow)
+The prerendering pipeline runs **automatically** on Render every time code is pushed to GitHub (via Render's automatic GitHub webhooks). You do not need a separate GitHub Action. 
+
+When modifying or adding pages, use the following workflow:
+
+1. **Changing Text/Images on an Existing Page**
+   - Just push to GitHub. Render automatically rebuilds the site, Puppeteer recrawls it, and the new HTML is instantly deployed.
+
+2. **Adding a New Page to Google Search (Indexed)**
+   - Open `scripts/sitemap-config.ts`.
+   - Add the new route to the `SITEMAP_ROUTES` array.
+   - Push to GitHub. The script automatically adds it to the sitemap XML and prerenders it.
+
+3. **Adding a Hidden/Unlisted Page (SEO Preview Only)**
+   - If you want a page to have a nice preview title/image when shared on social media, but DO NOT want it indexed in `sitemap.xml` (like a private promotion).
+   - Open `scripts/prerender.ts`.
+   - Add the route to the `EXTRA_ROUTES_TO_PRERENDER` array.
+   - Push to GitHub.
+
+4. **Adding an Internal/System Page (No SEO needed)**
+   - If you add a route where SEO doesn't matter (e.g., a checkout portal or admin screen).
+   - Open `scripts/prerender.ts`.
+   - Add the route to the `EXCLUDED_ROUTES` array. 
+   - Push to GitHub. The script will generate a lightweight shell file for it so that direct links still load correctly without a 404 error.
+
 ## What technologies are used for this project?
 
 This project is built with:

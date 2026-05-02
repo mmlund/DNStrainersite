@@ -179,7 +179,7 @@ const ChronicPainMovementAssessment = () => {
               <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    It Starts with Breathing
+                    It Often Starts with Breathing
                   </h2>
                   <p className="text-lg text-muted-foreground mb-4">
                     A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in stabilization.

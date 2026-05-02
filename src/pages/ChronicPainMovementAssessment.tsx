@@ -5,19 +5,20 @@ import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card } from "@/components/ui/card";
-import { Brain, Target, Eye, Activity } from "lucide-react";
-import painMap from "@/assets/musculoskeletal-pain-map.png";
+import { Eye, Wind, Activity } from "lucide-react";
+import painCollage from "@/assets/cpma-pain-collage.png";
+import developmentalFoundation from "@/assets/cpma-developmental-foundation.png";
+import dnsNapkin from "@/assets/cpma-dns-napkin.png";
 import assessmentImage from "@/assets/movement-assessment-quadruped.jpg";
-import assessmentVideo from "@/assets/movement-assessment-video.mp4";
 
 const ChronicPainMovementAssessment = () => {
   return (
     <>
       <SEOHead
-        title="Chronic Pain Movement Assessment North Vancouver | DNS Clinical Audit | Eva Andersson"
-        description="Stop the pain treatment loop. Individualized DNS clinical movement assessment in North Vancouver uncovers the stabilization architecture driving recurring back, neck, shoulder, and hip pain."
+        title="Chronic Pain Movement Assessment | DNS North Vancouver | Eva Andersson"
+        description="When pain keeps coming back, the underlying stabilization pattern may not have been addressed. Book a one-on-one DNS movement assessment in North Vancouver."
         canonical="/chronic-pain-movement-assessment"
-        keywords="chronic pain assessment North Vancouver, DNS clinical movement audit, recurring back pain, Prague School rehabilitation, stabilization architecture, Eva Andersson"
+        keywords="chronic pain assessment North Vancouver, DNS movement assessment, recurring back pain, Prague School, Eva Andersson"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Chronic Pain Movement Assessment", url: "/chronic-pain-movement-assessment" },
@@ -30,168 +31,133 @@ const ChronicPainMovementAssessment = () => {
           {/* Hero */}
           <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
             <div className="container px-4">
-              <div className="max-w-4xl mx-auto text-center">
-                <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-4">
-                  Beyond Symptom Management
-                </p>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                  Why Your Pain May Keep Coming Back
-                </h1>
-                <p className="text-xl text-muted-foreground mb-8">
-                  If you have tried many different things—and the pain still returns—it is time to look at the <strong className="text-foreground">stabilization architecture</strong> of your nervous system.
-                </p>
-                <Button size="lg" asChild>
-                  <a href="/book-session">Book Your Individualized DNS Assessment</a>
-                </Button>
-              </div>
-            </div>
-          </section>
-
-          {/* The Treatment Loop */}
-          <section className="py-20">
-            <div className="container px-4">
               <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    The "Treatment Loop" May End Here
-                  </h2>
+                  <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-4">
+                    DNS Movement Assessment
+                  </p>
+                  <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                    When Pain Keeps Coming Back
+                  </h1>
                   <p className="text-lg text-muted-foreground mb-4">
-                    You have likely spent years managing your symptoms. You get temporary relief, but within weeks or months, the same pattern in your lower back, neck, shoulder, or hip reasserts itself.
+                    You have probably tried a number of things already. Maybe you've had some relief — but then, weeks or months later, the same pattern in your lower back, neck, shoulder, or hip shows up again.
                   </p>
-                  <p className="text-lg font-semibold text-foreground mb-4">
-                    You are not broken—you are compensating.
+                  <p className="text-lg text-muted-foreground mb-8">
+                    That's frustrating. And it doesn't mean something is fundamentally wrong with you. It may mean that the underlying reason your body loads that area hasn't been addressed yet.
                   </p>
-                  <p className="text-lg text-muted-foreground">
-                    Many traditional treatments, that I also use, focus on where you feel the pain. At DNStrainer, we use an individualized clinical assessment to investigate <em>why</em> your body is loading that area incorrectly in the first place.
-                  </p>
+                  <Button size="lg" asChild>
+                    <a href="/book-session">Book a One-on-One DNS Assessment</a>
+                  </Button>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-6">
                   <img
-                    src={painMap}
-                    alt="Diagram of common musculoskeletal pain locations including neck, shoulder, back, hip, leg, and foot"
-                    className="w-full mix-blend-multiply"
+                    src={painCollage}
+                    alt="Sketches of common chronic pain areas including wrist, shoulder, neck, knee, back and hip"
+                    className="w-full mix-blend-multiply rounded"
                   />
                 </div>
               </div>
             </div>
           </section>
 
-          {/* Core Philosophy */}
+          {/* What DNS Looks At */}
+          <section className="py-20">
+            <div className="container px-4">
+              <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div className="bg-[#e8eeef] rounded-lg p-6 order-2 md:order-1">
+                  <img
+                    src={developmentalFoundation}
+                    alt="Illustration showing innate developmental movement foundation in an infant and reconnecting to stability as an adult"
+                    className="w-full mix-blend-multiply rounded"
+                  />
+                </div>
+                <div className="order-1 md:order-2">
+                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                    What DNS Looks At
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    Dynamic Neuromuscular Stabilization (DNS) is based on a fairly simple idea: the way your brain organizes movement matters as much as the strength of your muscles.
+                  </p>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    When we're infants, our nervous system develops stabilization patterns automatically — we all reach milestones like sitting and crawling in roughly the same way, with efficient muscle coordination. For various reasons — injuries, prolonged postures, stress, habits — those patterns can get disrupted over time. When they do, the body compensates. And those compensations can lead to areas being repeatedly overloaded.
+                  </p>
+                  <p className="text-lg text-foreground font-medium">
+                    DNS uses an individualized assessment to look at how you stabilize, not just where it hurts.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Why same spot */}
           <section className="py-20 bg-muted/30">
             <div className="container px-4">
               <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
-                  The Core Philosophy
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
+                  Why the Same Spot Keeps Hurting
                 </h2>
-                <p className="text-xl text-primary font-semibold text-center mb-10 italic">
-                  "The source of pain may not be the cause of pain."
+                <p className="text-lg text-muted-foreground mb-8 text-center">
+                  Two people with identical-looking lower back pain might have completely different reasons for it.
                 </p>
-                <p className="text-lg text-muted-foreground mb-6">
-                  We utilize the principles of the Prague School of Rehabilitation, founded on the groundbreaking work of Professor Vladimir Janda and developed further.
-                </p>
-                <Card className="p-8 border-l-4 border-l-primary bg-card">
-                  <p className="text-lg text-foreground italic leading-relaxed">
-                    "Janda argued that the nervous system and musculoskeletal system cannot be separated clinically—they are one functional unit. When the brain organizes movement suboptimally, predictable patterns of muscle tightness and weakness develop. The place where you feel pain is usually the area being overloaded, not the area causing the overloading."
-                  </p>
-                </Card>
-              </div>
-            </div>
-          </section>
-
-          {/* Two People, Same Pain */}
-          <section className="py-20">
-            <div className="container px-4">
-              <div className="max-w-5xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
-                  Why Two People with the Same Pain May Need Different Solutions
-                </h2>
-                <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
-                  Because every body is unique, an identical-looking lower back pain could be driven by completely different "weak links":
-                </p>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-3 gap-6 mb-8">
                   {[
-                    {
-                      label: "Case A",
-                      title: "Pelvic Floor Activation",
-                      description: "Insufficient activation of the pelvic floor during breathing.",
-                    },
-                    {
-                      label: "Case B",
-                      title: "Scapular & Thoracic",
-                      description: "Poor scapular stability combined with a restricted thoracic spine.",
-                    },
-                    {
-                      label: "Case C",
-                      title: "Diaphragm Dysfunction",
-                      description: "A seated posture that has impaired the diaphragm's ability to function as both a breathing and postural muscle.",
-                    },
-                  ].map((item, i) => (
+                    { label: "Person 1", text: "Related to how the pelvic floor activates during breathing." },
+                    { label: "Person 2", text: "Involves the shoulder blade and thoracic spine." },
+                    { label: "Person 3", text: "A seated posture has changed how the diaphragm functions." },
+                  ].map((c, i) => (
                     <Card key={i} className="p-6 border-2 hover:border-primary transition-all">
-                      <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">{item.label}</p>
-                      <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
-                      <p className="text-muted-foreground">{item.description}</p>
+                      <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">{c.label}</p>
+                      <p className="text-muted-foreground">{c.text}</p>
                     </Card>
                   ))}
                 </div>
-                <p className="text-lg text-muted-foreground text-center mt-10 max-w-3xl mx-auto">
-                  Without an individualized assessment of how your brain organizes movement, treating the "symptom" is only a temporary fix.
+                <p className="text-lg text-muted-foreground text-center">
+                  Without looking at how your nervous system organizes movement as a whole, addressing only the painful area may only provide temporary relief.
                 </p>
               </div>
             </div>
           </section>
 
-          {/* One-on-One Clinical Advantage */}
-          <section className="py-20 bg-muted/30">
+          {/* What Happens in a Session */}
+          <section className="py-20">
             <div className="container px-4">
               <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    The One-on-One Clinical Advantage
+                    What Happens in a Session
                   </h2>
                   <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                    DNStrainer does not offer group classes or generic exercise plans. Because DNS is a detail-sensitive framework, it usually requires a <strong className="text-foreground">practitioner-led, one-on-one assessment</strong>.
+                    DNStrainer offers private, one-on-one sessions. DNS is detail-sensitive — it's difficult to assess and correct stabilization patterns in a group setting.
                   </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-                  <div className="bg-[#e8eeef] rounded-lg overflow-hidden">
-                    <video
-                      src={assessmentVideo}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      className="w-full mix-blend-multiply"
-                    />
-                  </div>
-                  <div className="bg-[#e8eeef] rounded-lg overflow-hidden">
-                    <img
-                      src={assessmentImage}
-                      alt="Eva demonstrating a quadruped DNS assessment position with controlled reach"
-                      className="w-full mix-blend-multiply"
-                    />
-                  </div>
+                <div className="bg-[#e8eeef] rounded-lg p-6 mb-12 max-w-3xl mx-auto">
+                  <img
+                    src={assessmentImage}
+                    alt="Eva guiding a quadruped DNS movement assessment"
+                    className="w-full mix-blend-multiply rounded"
+                  />
                 </div>
 
                 <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
-                  What we investigate during your Clinical Movement Audit:
+                  In a session, Eva looks at:
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   {[
                     {
-                      icon: Target,
+                      icon: Activity,
                       title: "Movement Patterns",
-                      description: "We look at your weight-bearing patterns to find the weak link in your stabilizing chain.",
+                      description: "How you bear weight and where the 'weak link' in your stabilizing chain might be.",
                     },
                     {
-                      icon: Brain,
-                      title: "Nervous System Organization",
-                      description: "Can your abdominal wall resist pressure symmetrically while you breathe? Can your shoulder blade remain centered when supporting weight?",
+                      icon: Wind,
+                      title: "Breathing & Stabilization",
+                      description: "Whether your diaphragm is contributing to both breathing and postural stability. There's good clinical evidence that people with reduced ability to use the diaphragm for both functions are more likely to experience back pain.",
                     },
                     {
                       icon: Eye,
                       title: "Real-Time Correction",
-                      description: "Eva provides constant visual and manual cueing to ensure your brain 'finds' the correct stabilization pattern before the movement begins. You may need help and guidance to feel what is right.",
+                      description: "Eva provides visual and manual cues to help your nervous system find the correct stabilization pattern. Sometimes you need guidance to feel what 'right' actually feels like.",
                     },
                   ].map((item, i) => (
                     <Card key={i} className="p-6">
@@ -207,20 +173,77 @@ const ChronicPainMovementAssessment = () => {
             </div>
           </section>
 
-          {/* In Expert Hands */}
+          {/* It Starts with Breathing */}
+          <section className="py-20 bg-muted/30">
+            <div className="container px-4">
+              <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                    It Starts with Breathing
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in stabilization.
+                  </p>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    When it contracts properly, it stimulates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
+                  </p>
+                  <p className="text-lg text-muted-foreground">
+                    If this isn't happening well, other muscles have to pick up the slack — and they often aren't designed for that job long-term.
+                  </p>
+                </div>
+                <div className="bg-[#e8eeef] rounded-lg p-6">
+                  <img
+                    src={dnsNapkin}
+                    alt="Sketch explaining intra-abdominal pressure, diaphragm and DNS stabilization principles"
+                    className="w-full mix-blend-multiply rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* About Eva */}
           <section className="py-20">
             <div className="container px-4">
               <div className="max-w-4xl mx-auto text-center">
-                <Activity className="w-12 h-12 text-primary mx-auto mb-6" />
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  In Expert Hands: Practitioner-Led Care
+                  About Eva
                 </h2>
-                <p className="text-lg text-muted-foreground mb-6">
-                  You deserve a practitioner who explains the mechanism of your recovery.
+                <p className="text-lg text-muted-foreground mb-4">
+                  Eva Andersson is certified by the Prague School of Rehabilitation — the group that developed DNS under Professor Pavel Kolář. She focuses on identifying dysfunctional stabilization patterns and helping patients retrain them through specific manual treatment and exercises.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  <strong className="text-foreground">Eva Andersson</strong> is a Prague School Certified practitioner who bridges the gap between clinical investigation and movement retraining. By focusing on neuromuscular integrity and movement patterns rather than just muscle strength, Eva helps you stop "managing" your pain and start addressing the stabilization architecture that keeps it locked in place.
+                  The exercises themselves are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–15 minutes of daily practice is needed until the patterns become automatic.
                 </p>
+              </div>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section className="py-20 bg-muted/30">
+            <div className="container px-4">
+              <div className="max-w-3xl mx-auto">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
+                  Frequently Asked Questions
+                </h2>
+                <Accordion type="single" collapsible className="w-full">
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger className="text-left text-lg font-semibold">
+                      I've tried DNS exercises from YouTube. How is this different?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground text-base">
+                      DNS exercises look simple, but the difference between doing the movement and actually activating the correct stabilization pattern is subtle. Without someone watching and correcting in real time, it's easy to perform the exercise while your nervous system still uses the old compensatory pattern. A practitioner can detect that and help you find the correct activation.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-2">
+                    <AccordionTrigger className="text-left text-lg font-semibold">
+                      Do I need a referral to start?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground text-base">
+                      No. You can book directly.
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
               </div>
             </div>
           </section>
@@ -230,54 +253,17 @@ const ChronicPainMovementAssessment = () => {
             <div className="container px-4">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  Ready to Stop Treating the Symptom?
+                  Ready to Look at This Differently?
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  If the same body part keeps going wrong despite treatment, it is time to ask why the pattern keeps returning.
+                  If your pain keeps returning, it may be worth investigating whether your stabilization patterns are part of the picture.
                 </p>
                 <Button size="lg" asChild>
-                  <a href="/book-session">Book Your Individualized DNS Assessment</a>
+                  <a href="/book-session">Book a One-on-One DNS Assessment</a>
                 </Button>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ */}
-          <section className="py-20">
-            <div className="container px-4">
-              <div className="max-w-3xl mx-auto">
-                <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-2 text-center">
-                  Clinical Deep-Dive into Your Movement Architecture
+                <p className="text-sm text-muted-foreground mt-4">
+                  Or email us at <a href="mailto:info@dnstrainer.com" className="text-primary hover:underline">info@dnstrainer.com</a>
                 </p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
-                  FAQ for the Chronic Sufferer
-                </h2>
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger className="text-left text-lg font-semibold">
-                      I've tried DNS exercises from YouTube. Why is this different?
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-base">
-                      DNS is not a list of exercises; it is a clinical method. Without a practitioner to detect the subtle compensations your brain uses to "cheat" the movement, you may simply be reinforcing the same faulty patterns that cause your pain.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-2">
-                    <AccordionTrigger className="text-left text-lg font-semibold">
-                      How is this different from regular Physiotherapy?
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-base">
-                      First of all, it may not be—since it is highly dependent on the therapist. Nothing prevents a physiotherapist or a registered massage therapist from also using the DNS method. But in clinical practice this often has a different focus on acute rehab or more medical referral pathways. DNStrainer focuses on global movement retraining. We look at how your nervous system programs movement across your entire body to find the "source" of your overload. We feel that this requires a more dedicated approach.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-3">
-                    <AccordionTrigger className="text-left text-lg font-semibold">
-                      Do I need a referral to start?
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-base">
-                      No. Our private sessions are designed for anyone seeking to understand and solve their recurring movement issues through a clinical lens.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
               </div>
             </div>
           </section>

@@ -10,6 +10,7 @@ import InjuryRehabilitation from "./pages/InjuryRehabilitation";
 import SportsPerformance from "./pages/SportsPerformance";
 import ChronicPain from "./pages/ChronicPain";
 import ChronicPainMovementAssessment from "./pages/ChronicPainMovementAssessment";
+import DraftPain from "./pages/DraftPain";
 import AthleticFoundation from "./pages/AthleticFoundation";
 import StructuralDurabilityProtocol from "./pages/StructuralDurabilityProtocol";
 import BookingTerms from "./pages/BookingTerms";
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/sports-performance" element={<SportsPerformance />} />
           <Route path="/chronic-pain" element={<ChronicPain />} />
           <Route path="/chronic-pain-movement-assessment" element={<ChronicPainMovementAssessment />} />
+          <Route path="/draft-pain" element={<DraftPain />} />
           <Route path="/the-athletic-foundation" element={<AthleticFoundation />} />
           <Route path="/structural-durability-protocol" element={<StructuralDurabilityProtocol />} />
           <Route path="/booking-terms" element={<BookingTerms />} />

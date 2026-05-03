@@ -70,7 +70,7 @@ const PerformanceLongevityDNS = () => {
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Every athlete has what DNS founder Professor Pavel Kolář calls a <strong className="text-foreground">Functional Threshold</strong>. This is the point at which your deep stabilizing system can no longer keep up with the demands of your sport.
+                  Every athlete has what DNS founder <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář</a> calls a <strong className="text-foreground">Functional Threshold</strong>. This is the point at which your deep stabilizing system can no longer keep up with the demands of your sport.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
                   When you push past this threshold, your brain defaults to cruder compensatory patterns. You can still perform — but the load gets distributed differently. Instead of being absorbed by the muscles designed for the job, it gets forced into structures like discs, joint capsules, and tendons.

@@ -173,7 +173,7 @@ const DNSBreathingTraining = () => {
                   There's solid clinical evidence linking diaphragm dysfunction to lower back pain. People who have difficulty using the diaphragm for both breathing and stabilization simultaneously tend to have higher rates of back problems.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  This also matters for performance. If your core doesn't stiffen automatically before you move, force gets lost. Your limbs work harder than they need to, and the load ends up in structures — discs, ligaments, joint capsules — that aren't designed to carry it repeatedly.
+                  This also matters for performance. If your core doesn't "stiffen" automatically before you move, force gets lost. Your limbs work harder than they need to, and the load ends up in structures — discs, ligaments, joint capsules — that aren't designed to carry it repeatedly.
                 </p>
                 <p className="text-lg text-foreground font-medium">
                   For some people, correcting the breathing pattern can have a noticeable effect relatively quickly. For others, it's one piece of a larger puzzle. But it's almost always worth investigating if you have persistent stability or pain issues.

@@ -215,32 +215,28 @@ const PerformanceLongevityDNS = () => {
                 </div>
 
                 <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
-                  In a one-on-one session, Eva investigates:
+                  In a session, Eva looks at:
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   {[
                     {
-                      icon: Zap,
-                      title: "Where Force is Leaking",
-                      description: "Identifying which sport-specific movements are being compromised by poor stabilization.",
+                      icon: Activity,
+                      title: "Movement Patterns",
                     },
                     {
                       icon: Wind,
-                      title: "Diaphragm Function",
-                      description: "Whether your diaphragm is working as both a breathing and a postural muscle simultaneously. This matters particularly for climbing, descending, and sustained effort.",
+                      title: "Breathing & Stabilization",
                     },
                     {
-                      icon: Target,
-                      title: "Movement Pattern Retraining",
-                      description: "Moving beyond strengthening to ensure your nervous system chooses efficient patterns when it counts.",
+                      icon: Eye,
+                      title: "Real-Time Correction",
                     },
                   ].map((item, i) => (
-                    <Card key={i} className="p-6">
-                      <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-4">
+                    <Card key={i} className="p-6 text-center">
+                      <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-4 mx-auto">
                         <item.icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h4 className="text-xl font-bold text-foreground mb-3">{item.title}</h4>
-                      <p className="text-muted-foreground">{item.description}</p>
+                      <h4 className="text-xl font-bold text-foreground">{item.title}</h4>
                     </Card>
                   ))}
                 </div>

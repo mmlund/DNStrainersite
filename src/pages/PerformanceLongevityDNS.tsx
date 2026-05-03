@@ -42,7 +42,7 @@ const PerformanceLongevityDNS = () => {
                     For the trail runners, mountain bikers, skiers, and climbers on the North Shore — fitness is rarely the problem. You have the strength and the drive.
                   </p>
                   <p className="text-lg text-muted-foreground mb-8">
-                    But there's a question worth asking: can your stabilization system keep up with your training for the next 20 years?
+                    But there's a question worth asking: can your core and "movement stabilization" system keep up with your training for the next 20 years?
                   </p>
                   <Button size="lg" asChild>
                     <a href="/book-session">Book a One-on-One Movement Session</a>
@@ -118,7 +118,7 @@ const PerformanceLongevityDNS = () => {
                     Why Fitness Alone May Not Be Enough
                   </h2>
                   <p className="text-lg text-muted-foreground mb-4">
-                    You can build substantial strength on top of compensatory patterns. Many people do — and perform well for years. But the stabilization system underneath is a feed-forward mechanism controlled by the nervous system. It's not something you can strengthen in the conventional sense. It needs to be <strong className="text-foreground">retrained</strong>.
+                    You can build substantial strength on top of compensatory patterns. Many people do — and perform well for years. But the core and "movement stabilization" system underneath is a feed-forward mechanism controlled by the nervous system. It's not something you can strengthen in the conventional sense. It needs to be <strong className="text-foreground">retrained</strong>.
                   </p>
                   <p className="text-lg text-muted-foreground">
                     DNS uses developmental postures — positions we all moved through in our first year of life — to re-establish the stabilization patterns that should be running in the background automatically.

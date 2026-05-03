@@ -121,7 +121,7 @@ const PerformanceLongevityDNS = () => {
                     You can build substantial strength on top of compensatory patterns. Many people do — and perform well for years. But the core and "movement stabilization" system underneath is a feed-forward mechanism controlled by the nervous system. It's not something you can strengthen in the conventional sense. It needs to be <strong className="text-foreground">retrained</strong>.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    DNS uses developmental postures — positions we all moved through in our first year of life — to re-establish the stabilization patterns that should be running in the background automatically.
+                    DNS is based on developmental postures — positions we all moved through in our first year of life — to re-establish the stabilization patterns that should be running in the background automatically.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-4">

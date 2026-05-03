@@ -92,28 +92,10 @@ const ChronicPainMovementAssessment = () => {
           {/* Why same spot */}
           <section className="py-20 bg-muted/30">
             <div className="container px-4">
-              <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
-                  Why the Same Spot Keeps Hurting
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                  Your progression may be hindered by how your brain organizes movement
                 </h2>
-                <p className="text-lg text-muted-foreground mb-8 text-center">
-                  Two people with identical-looking lower back pain might have completely different reasons for it.
-                </p>
-                <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  {[
-                    { label: "Person 1", text: "Related to how the pelvic floor activates during breathing." },
-                    { label: "Person 2", text: "Involves the shoulder blade and thoracic spine." },
-                    { label: "Person 3", text: "A seated posture has changed how the diaphragm functions." },
-                  ].map((c, i) => (
-                    <Card key={i} className="p-6 border-2 hover:border-primary transition-all">
-                      <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">{c.label}</p>
-                      <p className="text-muted-foreground">{c.text}</p>
-                    </Card>
-                  ))}
-                </div>
-                <p className="text-lg text-muted-foreground text-center">
-                  Without looking at how your nervous system organizes movement as a whole, addressing only the painful area may only provide temporary relief.
-                </p>
               </div>
             </div>
           </section>

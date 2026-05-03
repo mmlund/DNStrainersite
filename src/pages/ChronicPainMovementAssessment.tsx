@@ -101,9 +101,9 @@ const ChronicPainMovementAssessment = () => {
                 </p>
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   {[
-                    { label: "Person 1", text: "Related to how the pelvic floor activates during breathing." },
-                    { label: "Person 2", text: "Involves the shoulder blade and thoracic spine." },
-                    { label: "Person 3", text: "A seated posture has changed how the diaphragm functions." },
+                    { label: "Person 1", text: "Poor posture." },
+                    { label: "Person 2", text: "Poor core." },
+                    { label: "Person 3", text: "Poor ergonomics." },
                   ].map((c, i) => (
                     <Card key={i} className="p-6 border-2 hover:border-primary transition-all">
                       <p className="text-sm font-bold text-primary uppercase tracking-wider mb-2">{c.label}</p>
@@ -112,7 +112,7 @@ const ChronicPainMovementAssessment = () => {
                   ))}
                 </div>
                 <p className="text-lg text-muted-foreground text-center">
-                  Without looking at how your nervous system organizes movement as a whole, addressing only the painful area may only provide temporary relief.
+                  Without looking at how your nervous system organizes movement as a whole, you may only achieve temporary relief.
                 </p>
               </div>
             </div>

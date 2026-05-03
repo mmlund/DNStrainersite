@@ -138,7 +138,7 @@ const DNSBreathingTraining = () => {
                 <div>
                   <div className="flex items-center gap-3 mb-6">
                     <Wind className="w-8 h-8 text-primary" />
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">What "Correct" DNS Breathing Looks Like</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">What "Correct" Breathing Looks Like</h2>
                   </div>
                   <p className="text-lg text-muted-foreground mb-4">
                     DNS breathing isn't about breathing deeper or slower — it's about breathing <em>in the right direction</em>.
@@ -150,7 +150,7 @@ const DNSBreathingTraining = () => {
                     A useful way to think about it: imagine the trunk as a cylinder. When you breathe in, the entire cylinder should expand slightly — not just the front wall.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    When this works well, the intra-abdominal pressure it generates supports the spine from the inside. Your back muscles don't have to work as hard, and when you move, your core has already "switched on" before the movement begins.
+                    When this works well, the intra-abdominal pressure it generates supports the spine from the inside, in balance with your back muscles.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-4">

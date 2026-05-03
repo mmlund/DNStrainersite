@@ -110,7 +110,7 @@ const DNSBreathingTraining = () => {
                       description: "Tend to shift breathing toward the upper chest. The diaphragm still moves, but less effectively, and its stabilization contribution drops.",
                     },
                     {
-                      title: "Injury or pain",
+                      title: "Pain",
                       description: "Breathing patterns often shift due to the pain, and they don't always return to normal after the pain resolves.",
                     },
                     {

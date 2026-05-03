@@ -107,7 +107,7 @@ const DNSBreathingTraining = () => {
                     },
                     {
                       title: "Stress and anxiety",
-                      description: "Tend to shift breathing toward the upper chest. The diaphragm still moves, but less effectively, and its stabilization contribution drops.",
+                      description: "Tend to shift breathing toward the upper chest. The diaphragm still moves, but less effectively.",
                     },
                     {
                       title: "Pain",

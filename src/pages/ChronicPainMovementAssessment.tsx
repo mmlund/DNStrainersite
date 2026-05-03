@@ -209,34 +209,6 @@ const ChronicPainMovementAssessment = () => {
             </div>
           </section>
 
-          {/* FAQ */}
-          <section className="py-20 bg-muted/30">
-            <div className="container px-4">
-              <div className="max-w-3xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10 text-center">
-                  Frequently Asked Questions
-                </h2>
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger className="text-left text-lg font-semibold">
-                      I've tried DNS exercises from YouTube. How is this different?
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-base">
-                      DNS exercises look simple, but the difference between doing the movement and actually activating the correct stabilization pattern is subtle. Without someone watching and correcting in real time, it's easy to perform the exercise while your nervous system still uses the old compensatory pattern. A practitioner can detect that and help you find the correct activation.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-2">
-                    <AccordionTrigger className="text-left text-lg font-semibold">
-                      Do I need a referral to start?
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground text-base">
-                      No. You can book directly.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </div>
-            </div>
-          </section>
 
           {/* CTA */}
           <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">

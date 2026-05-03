@@ -42,7 +42,7 @@ const PerformanceLongevityDNS = () => {
                     For the trail runners, mountain bikers, skiers, and climbers on the North Shore — fitness is rarely the problem. You have the strength and the drive.
                   </p>
                   <p className="text-lg text-muted-foreground mb-8">
-                    But there's a question worth asking: can your core and "movement stabilization" system keep up with your training for the next 20 years?
+                    Is your foundation built to support your goals for the next two decades? Ensure your movement patterns can match your ambitions.
                   </p>
                   <Button size="lg" asChild>
                     <a href="/book-session">Book a One-on-One Movement Session</a>

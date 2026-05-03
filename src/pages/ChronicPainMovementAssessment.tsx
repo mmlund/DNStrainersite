@@ -227,7 +227,7 @@ const ChronicPainMovementAssessment = () => {
             </div>
           </section>
 
-          <BookingCTA />
+          
         </main>
         <Footer />
       </div>

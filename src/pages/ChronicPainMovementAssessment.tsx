@@ -145,30 +145,17 @@ const ChronicPainMovementAssessment = () => {
                 <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
                   In a session, Eva looks at:
                 </h3>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                   {[
-                    {
-                      icon: Activity,
-                      title: "Movement Patterns",
-                      description: "How you bear weight and where the 'weak link' in your stabilizing chain might be.",
-                    },
-                    {
-                      icon: Wind,
-                      title: "Breathing & Stabilization",
-                      description: "Whether your diaphragm is contributing to both breathing and postural stability. There's good clinical evidence that people with reduced ability to use the diaphragm for both functions are more likely to experience back pain.",
-                    },
-                    {
-                      icon: Eye,
-                      title: "Real-Time Correction",
-                      description: "Eva provides visual and manual cues to help your nervous system find the correct stabilization pattern. Sometimes you need guidance to feel what 'right' actually feels like.",
-                    },
+                    { icon: Activity, title: "Movement Patterns" },
+                    { icon: Wind, title: "Breathing & Stabilization" },
+                    { icon: Eye, title: "Real-Time Correction" },
                   ].map((item, i) => (
-                    <Card key={i} className="p-6">
-                      <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-4">
-                        <item.icon className="w-6 h-6 text-primary" />
+                    <Card key={i} className="p-8 flex flex-col items-center text-center hover:border-primary transition-all">
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-5">
+                        <item.icon className="w-8 h-8 text-primary" />
                       </div>
-                      <h4 className="text-xl font-bold text-foreground mb-3">{item.title}</h4>
-                      <p className="text-muted-foreground">{item.description}</p>
+                      <h4 className="text-xl font-bold text-foreground">{item.title}</h4>
                     </Card>
                   ))}
                 </div>

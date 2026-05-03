@@ -111,7 +111,7 @@ const DNSBreathingTraining = () => {
                     },
                     {
                       title: "Poor posture",
-                      description: "A slouched posture pushes the ribcage down toward the pelvis, limiting the diaphragm's ability to descend fully. Over time, the nervous system adapts to a shallower, chest-dominant pattern.",
+                      description: "For example, a slouched posture pushes the ribcage down toward the pelvis, limiting the diaphragm's ability to descend fully. Over time, the nervous system adapts to a shallower, chest-dominant pattern.",
                     },
                     {
                       title: "Habitual chest breathing",

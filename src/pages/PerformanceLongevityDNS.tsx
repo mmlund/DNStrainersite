@@ -99,7 +99,7 @@ const PerformanceLongevityDNS = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">Force Leakage</h2>
                   </div>
                   <p className="text-lg text-muted-foreground mb-4">
-                    There's a concept in DNS called <strong className="text-foreground">force leakage</strong> — the dissipation of effort through joints that aren't designed to carry it. Your lower back, knees, and hips end up absorbing force that should be transmitted cleanly to the ground (or the pedals, or the rock face).
+                    There's a concept in DNS called <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3578435/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>force leakage</strong></a> — the dissipation of effort through joints that aren't designed to carry it. Your lower back, knees, and hips end up absorbing force that should be transmitted cleanly to the ground (or the pedals, or the rock face).
                   </p>
                   <p className="text-lg text-muted-foreground">
                     This happens when the core doesn't stiffen automatically before your limbs move. DNS calls this the <em>punctum fixum</em> — a stable platform that your limbs can pull against. When it's working well, power transfers efficiently. When it's not, some of that effort just leaks away.

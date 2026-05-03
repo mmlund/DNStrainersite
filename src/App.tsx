@@ -14,6 +14,7 @@ import DraftPain from "./pages/DraftPain";
 import AthleticFoundation from "./pages/AthleticFoundation";
 import StructuralDurabilityProtocol from "./pages/StructuralDurabilityProtocol";
 import PerformanceLongevityDNS from "./pages/PerformanceLongevityDNS";
+import DNSBreathingTraining from "./pages/DNSBreathingTraining";
 import BookingTerms from "./pages/BookingTerms";
 import BookSession from "./pages/BookSession";
 import Payment from "./pages/Payment";
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/the-athletic-foundation" element={<AthleticFoundation />} />
           <Route path="/structural-durability-protocol" element={<StructuralDurabilityProtocol />} />
           <Route path="/performance-longevity-dns" element={<PerformanceLongevityDNS />} />
+          <Route path="/dns-breathing-training" element={<DNSBreathingTraining />} />
           <Route path="/booking-terms" element={<BookingTerms />} />
           <Route path="/book-session" element={<BookSession />} />
           <Route path="/payment" element={<Payment />} />

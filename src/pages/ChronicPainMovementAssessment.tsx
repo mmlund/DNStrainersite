@@ -172,13 +172,10 @@ const ChronicPainMovementAssessment = () => {
                     It Often Starts with Breathing
                   </h2>
                   <p className="text-lg text-muted-foreground mb-4">
-                    A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in stabilization.
-                  </p>
-                  <p className="text-lg text-muted-foreground mb-4">
-                    When it contracts properly, it stimulates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
+                    A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in the muscular skeletal system.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    If this isn't happening well, other muscles have to pick up the slack — and they often aren't designed for that job long-term.
+                    When it contracts properly, it stimulates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-6">

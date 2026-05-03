@@ -61,20 +61,29 @@ const DNSBreathingTraining = () => {
           {/* Two Jobs, One Muscle */}
           <section className="py-20">
             <div className="container px-4">
-              <div className="max-w-4xl mx-auto">
-                <div className="flex items-center gap-3 mb-6">
-                  <Layers className="w-8 h-8 text-primary" />
-                  <h2 className="text-3xl md:text-4xl font-bold text-foreground">Two Jobs, One Muscle</h2>
+              <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <Layers className="w-8 h-8 text-primary" />
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">Two Jobs, One Muscle</h2>
+                  </div>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    When you inhale, the diaphragm descends. If it descends properly — not just in the front, but in all directions — it creates pressure inside the abdominal cavity. This is called <strong className="text-foreground">intra-abdominal pressure (IAP)</strong>.
+                  </p>
+                  <p className="text-lg text-muted-foreground mb-4">
+                    That pressure does something important: it "stiffen" the space around your spine. At the same time, it triggers the pelvic floor and deep abdominal wall to co-activate. Together, these muscles form a cylinder of support around the trunk.
+                  </p>
+                  <p className="text-lg text-muted-foreground">
+                    This isn't something you have to think about. In a well-functioning system, it happens automatically before you move — before you reach, step, lift, or twist. Your nervous system does it for you. The problem is that for many people, it stops working this way.
+                  </p>
                 </div>
-                <p className="text-lg text-muted-foreground mb-4">
-                  When you inhale, the diaphragm descends. If it descends properly — not just in the front, but in all directions — it creates pressure inside the abdominal cavity. This is called <strong className="text-foreground">intra-abdominal pressure (IAP)</strong>.
-                </p>
-                <p className="text-lg text-muted-foreground mb-4">
-                  That pressure does something important: it stiffen the space around your spine. At the same time, it triggers the pelvic floor and deep abdominal wall to co-activate. Together, these muscles form a cylinder of support around the trunk.
-                </p>
-                <p className="text-lg text-muted-foreground">
-                  This isn't something you have to think about. In a well-functioning system, it happens automatically before you move — before you reach, step, lift, or twist. Your nervous system does it for you. The problem is that for many people, it stops working this way.
-                </p>
+                <div className="bg-[#e8eeef] rounded-lg p-4">
+                  <img
+                    src={diaphragmBreathingIAP}
+                    alt="Diagram showing diaphragm descent and intra-abdominal pressure creating 360-degree spinal support"
+                    className="w-full mix-blend-multiply rounded"
+                  />
+                </div>
               </div>
             </div>
           </section>

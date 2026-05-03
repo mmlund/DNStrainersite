@@ -79,7 +79,7 @@ const ChronicPainMovementAssessment = () => {
                     Dynamic Neuromuscular Stabilization (DNS) is based on a fairly simple idea: the way your brain organizes movement matters.
                   </p>
                   <p className="text-lg text-muted-foreground mb-4">
-                    When we're infants, our nervous system develops stabilization patterns automatically — we all reach milestones like sitting and crawling in roughly the same way, with efficient muscle coordination. For various reasons — injuries, prolonged postures, stress, habits — those patterns can get disrupted over time. When they do, the body compensates. And those compensations can lead to areas being repeatedly overloaded.
+                    When we're infants, our nervous system develops stabilization patterns automatically — we all reach milestones like sitting and crawling in roughly the same way, with efficient muscle coordination. For various reasons — injuries, poor postures, stress, habits — those patterns can get disrupted over time. When they do, the body compensates. And those compensations can lead to areas being repeatedly overloaded.
                   </p>
                   <p className="text-lg text-foreground font-medium">
                     DNS uses an individualized assessment to look at how you stabilize, not just where it hurts.

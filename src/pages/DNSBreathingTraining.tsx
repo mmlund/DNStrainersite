@@ -102,16 +102,16 @@ const DNSBreathingTraining = () => {
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   {[
                     {
-                      title: "Poor posture",
-                      description: "A slouched posture pushes the ribcage down toward the pelvis, limiting the diaphragm's ability to descend fully. Over time, the nervous system adapts to a shallower, chest-dominant pattern.",
-                    },
-                    {
                       title: "Stress and anxiety",
                       description: "Tend to shift breathing toward the upper chest. The diaphragm still moves, but less effectively.",
                     },
                     {
                       title: "Pain",
                       description: "Breathing patterns often shift due to the pain, and they don't always return to normal after the pain resolves.",
+                    },
+                    {
+                      title: "Poor posture",
+                      description: "A slouched posture pushes the ribcage down toward the pelvis, limiting the diaphragm's ability to descend fully. Over time, the nervous system adapts to a shallower, chest-dominant pattern.",
                     },
                     {
                       title: "Habitual chest breathing",

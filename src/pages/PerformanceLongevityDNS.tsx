@@ -96,13 +96,13 @@ const PerformanceLongevityDNS = () => {
                 <div className="order-1 md:order-2">
                   <div className="flex items-center gap-3 mb-6">
                     <TrendingDown className="w-8 h-8 text-primary" />
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">Force Leakage</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">Stop the Leaks: Efficiency in Movement</h2>
                   </div>
                   <p className="text-lg text-muted-foreground mb-4">
-                    There's a concept in DNS called <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3578435/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>force leakage</strong></a> — the dissipation of effort through joints that aren't designed to carry it. Your lower back, knees, and hips end up absorbing force that should be transmitted cleanly to the ground (or the pedals, or the rock face).
+                    In the DNS framework, we look for what we call <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3578435/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>"force leakage."</strong></a> This is when the energy you generate to move — whether you're pedaling, climbing, or running — dissipates through your joints instead of being directed into your performance. Your lower back, knees, and hips end up absorbing "leaked" force they weren't designed to carry.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    This happens when the core doesn't stiffen automatically before your limbs move. DNS calls this the <em>punctum fixum</em> — a stable platform that your limbs can pull against. When it's working well, power transfers efficiently. When it's not, some of that effort just leaks away.
+                    To fix this, we train the <em>punctum fixum</em> — a Latin term for a "fixed point." Think of it as a solid anchor. Before your arms or legs move, your core must automatically stiffen to create a stable platform. When that platform is rock-solid, power transfers cleanly. When it's soft, your effort simply leaks away into your joints.
                   </p>
                 </div>
               </div>

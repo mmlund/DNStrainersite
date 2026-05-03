@@ -141,9 +141,6 @@ const DNSBreathingTraining = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">What "Correct" Breathing Looks Like</h2>
                   </div>
                   <p className="text-lg text-muted-foreground mb-4">
-                    Correct breathing isn't about breathing deeper or slower — it's about breathing <em>in the right direction</em>.
-                  </p>
-                  <p className="text-lg text-muted-foreground mb-4">
                     When the diaphragm works fully, contracting downwards, you should see expansion in all directions: front, sides, and back of the lower ribcage and abdomen. This is sometimes called <strong className="text-foreground">360-degree expansion</strong>. It's not about pushing your belly out — that's a common misconception. It's about even pressure distribution.
                   </p>
                   <p className="text-lg text-muted-foreground mb-4">

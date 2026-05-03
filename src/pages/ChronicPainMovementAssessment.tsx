@@ -43,7 +43,7 @@ const ChronicPainMovementAssessment = () => {
                     You have probably tried a number of things already. Maybe you've had some relief — but then, weeks or months later, the same pattern in your lower back, neck, shoulder, or hip shows up again.
                   </p>
                   <p className="text-lg text-muted-foreground mb-8">
-                    That's frustrating. And it doesn't mean something is fundamentally wrong with you. It may mean that the underlying reason your body loads that area hasn't been addressed yet.
+                    That's frustrating. And it doesn't mean something is fundamentally wrong with you. It may mean that imbalances in your muscle patterns haven't been addressed yet.
                   </p>
                   <Button size="lg" asChild>
                     <a href="/book-session">Book a One-on-One DNS Assessment</a>

@@ -132,9 +132,12 @@ const ChronicPainMovementAssessment = () => {
                 </div>
 
                 <div className="bg-[#e8eeef] rounded-lg p-6 mb-12 max-w-3xl mx-auto">
-                  <img
-                    src={assessmentImage}
-                    alt="Eva guiding a quadruped DNS movement assessment"
+                  <video
+                    src="/videos/cpma-3m-supine.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="w-full mix-blend-multiply rounded"
                   />
                 </div>

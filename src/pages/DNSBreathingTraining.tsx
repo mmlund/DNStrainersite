@@ -111,7 +111,7 @@ const DNSBreathingTraining = () => {
                     },
                     {
                       title: "Injury or pain",
-                      description: "When something hurts, your body changes how it moves. Breathing patterns often shift due to the pain and changing movement patterns, and they don't always return to normal after the pain resolves.",
+                      description: "Breathing patterns often shift due to the pain, and they don't always return to normal after the pain resolves.",
                     },
                     {
                       title: "Habitual chest breathing",

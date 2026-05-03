@@ -191,7 +191,7 @@ const DNSBreathingTraining = () => {
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground">The Gap Between Understanding and Doing</h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Here's the honest part: understanding how DNS breathing works and actually retraining the pattern are two different things.
+                  Here's the honest part: understanding how breathing works and actually retraining the pattern are two different things.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
                   Some people can read about it, try it, and feel the difference immediately. Others find it surprisingly difficult to change a pattern they've used for years — especially because the diaphragm operates largely below conscious awareness.

@@ -127,7 +127,7 @@ const ChronicPainMovementAssessment = () => {
                     What Happens in a Session
                   </h2>
                   <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                    DNStrainer offers private, one-on-one sessions. DNS is detail-sensitive — it's difficult to assess and correct stabilization patterns in a group setting.
+                    DNStrainer offers private, one-on-one sessions. DNS is directly dependent on the quality of your movement.
                   </p>
                 </div>
 

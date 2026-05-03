@@ -4,7 +4,7 @@ import BookingCTA from "@/components/BookingCTA";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Activity, Wind, Target, Zap, Gauge, TrendingDown } from "lucide-react";
+import { Activity, Wind, Target, Zap, Gauge, TrendingDown, Eye } from "lucide-react";
 import sprinterComparison from "@/assets/perf-sprinter-comparison.png";
 import surferDns from "@/assets/perf-surfer-dns.png";
 import babySwimmer from "@/assets/perf-baby-swimmer.png";

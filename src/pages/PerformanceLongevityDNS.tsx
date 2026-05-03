@@ -66,17 +66,17 @@ const PerformanceLongevityDNS = () => {
                 <div className="flex items-center gap-3 mb-6">
                   <Gauge className="w-8 h-8 text-primary" />
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                    The Functional Threshold
+                    The Functional Gap
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Every athlete has what DNS founder <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář</a> calls a <strong className="text-foreground">Functional Threshold</strong>. This is the point at which your deep stabilizing system can no longer keep up with the demands of your sport.
+                  Every athlete has what DNS founder <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář</a> calls a <strong className="text-foreground">functional gap</strong>. This is the precise moment when the demands of your activity exceed your deep stabilizing system's capacity to maintain control.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  When you push past this threshold, your brain defaults to cruder compensatory patterns. You can still perform — but the load gets distributed differently. Instead of being absorbed by the muscles designed for the job, it gets forced into structures like discs, joint capsules, and tendons.
+                  Once you enter this gap, your brain defaults to "primitive" compensatory strategies. You can still perform. But instead of load being managed by the appropriate muscular chains, it is shunted into your discs, joint capsules, and tendons.
                 </p>
                 <p className="text-lg text-foreground font-medium">
-                  In the short term, you're fast. Over time, this can become a recipe for overuse injuries.
+                  While performance may be preserved in the short term, you are essentially "borrowing" from your joint health to pay for your performance — a primary driver of chronic overuse injuries.
                 </p>
               </div>
             </div>

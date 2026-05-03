@@ -71,7 +71,7 @@ const DNSBreathingTraining = () => {
                     When you inhale, the diaphragm descends. If it descends properly — not just in the front, but in all directions — it creates pressure inside the abdominal cavity. This is called <strong className="text-foreground">intra-abdominal pressure (IAP)</strong>.
                   </p>
                   <p className="text-lg text-muted-foreground mb-4">
-                    That pressure does something important: it activate the space around your spine. At the same time, it triggers the pelvic floor and deep abdominal wall to co-activate. Together, these muscles form a cylinder of support around the trunk.
+                    That pressure does something important: it activates the space around your spine. At the same time, it triggers the pelvic floor and deep abdominal wall to co-activate. Together, these muscles form a cylinder of support around the trunk.
                   </p>
                   <p className="text-lg text-muted-foreground">
                     This isn't something you have to think about. In a well-functioning system, it happens automatically before you move — before you reach, step, lift, or twist. Your nervous system does it for you. The problem is that for many people, it stops working this way.

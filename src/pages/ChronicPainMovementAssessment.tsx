@@ -175,7 +175,7 @@ const ChronicPainMovementAssessment = () => {
                     A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in the muscular skeletal system.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    When it contracts properly, it stimulates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
+                    When it contracts properly, it activates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-6">
@@ -197,10 +197,10 @@ const ChronicPainMovementAssessment = () => {
                   About Eva
                 </h2>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Eva Andersson is certified by the Prague School of Rehabilitation — the group that developed DNS under Professor Pavel Kolář. She focuses on identifying dysfunctional stabilization patterns and helping patients retrain them through specific manual treatment and exercises.
+                  Eva Andersson is certified by the <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Prague School of Rehabilitation</a> — the group that developed DNS under Professor Pavel Kolář. She focuses on identifying dysfunctional stabilization patterns and helping patients retrain them through specific manual treatment and exercises.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  The exercises themselves are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–15 minutes of daily practice is needed until the patterns become automatic.
+                  The exercises themselves are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–20 minutes of daily practice is needed until the patterns become automatic.
                 </p>
               </div>
             </div>

@@ -144,7 +144,7 @@ const DNSBreathingTraining = () => {
                     Correct breathing isn't about breathing deeper or slower — it's about breathing <em>in the right direction</em>.
                   </p>
                   <p className="text-lg text-muted-foreground mb-4">
-                    When the diaphragm works fully, you should see expansion in all directions: front, sides, and back of the lower ribcage and abdomen. This is sometimes called <strong className="text-foreground">360-degree expansion</strong>. It's not about pushing your belly out — that's a common misconception. It's about even pressure distribution.
+                    When the diaphragm works fully, contracting downwards, you should see expansion in all directions: front, sides, and back of the lower ribcage and abdomen. This is sometimes called <strong className="text-foreground">360-degree expansion</strong>. It's not about pushing your belly out — that's a common misconception. It's about even pressure distribution.
                   </p>
                   <p className="text-lg text-muted-foreground mb-4">
                     A useful way to think about it: imagine the trunk as a cylinder. When you breathe in, the entire cylinder should expand slightly — not just the front wall.

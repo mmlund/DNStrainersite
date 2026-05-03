@@ -126,8 +126,11 @@ const ChronicPainMovementAssessment = () => {
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                     What Happens in a Session
                   </h2>
-                  <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                  <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
                     DNStrainer offers private, one-on-one sessions. DNS is directly dependent on the quality of your movement.
+                  </p>
+                  <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                    DNS exercises look simple, but the difference between doing the movement with the right quality is subtle. Without someone watching and correcting in real time, it's easy to perform the exercise while your nervous system still uses the old compensatory pattern. A practitioner can detect that and help you find the correct activation.
                   </p>
                 </div>
 

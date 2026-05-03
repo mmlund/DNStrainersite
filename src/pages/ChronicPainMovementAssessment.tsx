@@ -175,7 +175,7 @@ const ChronicPainMovementAssessment = () => {
                     A common factor in poor stability is an incorrect breathing pattern. The diaphragm isn't just for breathing — it also plays an important role in the muscular skeletal system.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    When it contracts properly, it stimulates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
+                    When it contracts properly, it activates the pelvic floor and abdominal wall muscles to co-activate, creating intra-abdominal pressure that supports the spine.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-6">

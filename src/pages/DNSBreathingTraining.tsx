@@ -37,7 +37,7 @@ const DNSBreathingTraining = () => {
                     Why Your Diaphragm Does More Than You Think
                   </h1>
                   <p className="text-lg text-muted-foreground mb-4">
-                    Most people think of the diaphragm as a breathing muscle — and it is. But it also has a second, less well-known function: it's one of the most important muscles for stabilizing your spine.
+                    Most people think of the diaphragm as a breathing muscle — and it is. But it also has a second, less well-known function: it's one of the most important muscles for core stability.
                   </p>
                   <p className="text-lg text-muted-foreground mb-8">
                     In Dynamic Neuromuscular Stabilization (DNS), this dual role of the diaphragm is central. When it works well, breathing and stability happen together, automatically. When it doesn't, one function tends to suffer — and that's often where problems begin.

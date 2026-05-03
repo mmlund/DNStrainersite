@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Wind, Activity, AlertCircle, Target, Layers, Hand } from "lucide-react";
 import goodVsPoorStability from "@/assets/good-vs-poor-stability.jpg";
 import breathingSpinalConnection from "@/assets/breathing-spinal-connection-dns.png";
+import diaphragmBreathingIAP from "@/assets/diaphragm-breathing-iap-dns.png";
 
 const DNSBreathingTraining = () => {
   return (

@@ -115,13 +115,13 @@ const PerformanceLongevityDNS = () => {
               <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    Why Fitness Alone May Not Be Enough
+                    Accessing Your Original Blueprint
                   </h2>
                   <p className="text-lg text-muted-foreground mb-4">
-                    You can build substantial strength on top of compensatory patterns. Many people do — and perform well for years. But the core and "dynamic stabilization" system underneath is a feed-forward mechanism controlled by the nervous system. It's not something you can strengthen in the conventional sense. It needs to be <strong className="text-foreground">retrained</strong>.
+                    DNS is based on developmental kinesiology — the study of how we moved in our first year of life. As infants, we didn't go to the gym; our nervous system naturally "unlocked" stabilization patterns as we learned to roll, crawl, and sit.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    DNS is based on developmental postures — positions we all moved through in our first year of life — to re-establish the stabilization patterns that should be running in the background automatically.
+                    Over time — due to injuries, desk jobs, or specialized sports — we often lose access to these "factory settings." Our brain starts using compensatory shortcuts. DNS uses those same developmental positions from your first year of life to "re-boot" your system. We aren't just building muscle; we are re-establishing the connection of muscle patterns that should be running in the background automatically.
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-4">

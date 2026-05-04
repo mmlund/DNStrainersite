@@ -51,11 +51,16 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20 flex flex-col h-full">
         <div className="max-w-2xl mt-[-1vh]">
           <h1 className="mb-6 font-bold leading-tight">
-            <span className="text-primary-foreground text-6xl md:text-8xl block">Master Dynamic</span>
-            <span className="text-primary-foreground text-6xl md:text-8xl block">Stability</span>
-            <span className="text-accent text-4xl md:text-6xl block">Move Better</span>
-            <span className="text-accent text-4xl md:text-6xl block">Feel Better</span>
-            <span className="text-accent text-4xl md:text-6xl block">Perform Better</span>
+            <span className="sr-only">
+              Master Dynamic Stability. Move Better, Feel Better, Perform Better.
+            </span>
+            <span aria-hidden="true">
+              <span className="text-primary-foreground text-6xl md:text-8xl block">Master Dynamic</span>
+              <span className="text-primary-foreground text-6xl md:text-8xl block">Stability</span>
+              <span className="text-accent text-4xl md:text-6xl block">Move Better</span>
+              <span className="text-accent text-4xl md:text-6xl block">Feel Better</span>
+              <span className="text-accent text-4xl md:text-6xl block">Perform Better</span>
+            </span>
           </h1>
 
           <p className="max-w-xl mb-8 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">

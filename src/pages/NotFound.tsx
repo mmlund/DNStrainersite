@@ -1,8 +1,17 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { usePageMeta } from "@/hooks/use-page-meta";
 
 const NotFound = () => {
   const location = useLocation();
+
+  usePageMeta({
+    title: "Page Not Found | DNS Training North Vancouver",
+    description:
+      "The page you are looking for does not exist. Return to DNS Training North Vancouver with Eva Andersson.",
+    canonical: "/404",
+    noindex: true,
+  });
 
   useEffect(() => {
     console.error("404 Error: User attempted to access non-existent route:", location.pathname);

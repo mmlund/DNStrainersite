@@ -103,14 +103,20 @@ const HomeV2 = () => {
           />
           <div className="container relative z-10 px-4 py-20 flex flex-col h-full">
             <div className="max-w-2xl mt-[-1vh]">
-              <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
+              <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-10">
                 DNS Training in North Vancouver
               </h1>
-              <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 leading-relaxed">
-                One-on-one Dynamic Neuromuscular Stabilization sessions with Prague School-certified practitioner Eva Andersson.
-              </p>
-              <p className="text-lg text-accent font-semibold mb-8">
-                Move Better. Feel Better. Perform Better.
+
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 mb-8 text-accent">
+                <span className="text-2xl md:text-4xl font-semibold tracking-tight">Move Better</span>
+                <span className="hidden md:inline text-accent/50 text-3xl">•</span>
+                <span className="text-2xl md:text-4xl font-semibold tracking-tight">Feel Better</span>
+                <span className="hidden md:inline text-accent/50 text-3xl">•</span>
+                <span className="text-2xl md:text-4xl font-semibold tracking-tight">Perform Better</span>
+              </div>
+
+              <p className="text-lg md:text-xl text-primary-foreground/90 leading-relaxed">
+                Dynamic Neuromuscular Stabilization (DNS) optimizes your neuromuscular coordination and core stabilization patterns for injury rehabilitation, chronic pain management, and performance enhancement.
               </p>
             </div>
             <div className="mt-auto mb-[10vh] flex justify-start">

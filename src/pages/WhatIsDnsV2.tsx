@@ -200,10 +200,31 @@ const WhatIsDnsV2 = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          </div>
+        </section>
+
+        {/* 5b. Three Pillars of DNS */}
+        <section className="py-20 bg-background">
+          <div className="container px-4">
+            <div className="max-w-3xl mx-auto text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                The Three Pillars of DNS
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                The framework that guides every assessment, treatment, and training session.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {pillars.map((p) => (
-                <Card key={p.title} className="border-2 hover:border-primary transition-colors">
-                  <CardContent className="p-6">
+                <Card key={p.title} className="border-2 hover:border-primary transition-colors overflow-hidden flex flex-col">
+                  <div className="bg-[#e8eeef] flex items-center justify-center p-4">
+                    <img
+                      src={p.image}
+                      alt={p.title}
+                      className="w-full h-64 object-contain mix-blend-multiply"
+                    />
+                  </div>
+                  <CardContent className="p-6 flex-1">
                     <h3 className="text-xl font-bold text-foreground mb-3">{p.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{p.text}</p>
                   </CardContent>

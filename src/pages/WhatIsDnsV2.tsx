@@ -373,14 +373,25 @@ const WhatIsDnsV2 = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {helpCards.map((c) => (
-                <Link key={c.to} to={c.to} className="group">
-                  <Card className="h-full border-2 hover:border-primary transition-colors">
-                    <CardContent className="p-6">
+              {[
+                { title: "Chronic Pain", to: "/chronic-pain", text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement." },
+                { title: "Hands-on cues", to: "/what-is-dns", video: dnsSupineVideo, text: "Cues helps you feel what is right." },
+                { title: "Sports Performance & Longevity", to: "/sports-performance", text: "Is your foundation built to support your goals for the next two decades? You have the strength and drive — ensure your movement patterns can match your ambitions." },
+                { title: "Breathing", to: "/dns-breathing-training", text: "Most people think of the diaphragm as a breathing muscle. It also has a second, less well-known function: it's one of the most important muscles for stabilizing your spine." },
+                { title: "Posture", to: "/posture", text: "You've tried to fix your posture before. It works for a while — then the moment you stop thinking about it, you're back where you started. That's not a willpower problem." },
+                { title: "Core Stability", to: "/core-stability", text: "You can have very strong core muscles and still have poor core stability. The difference often comes down to timing — about 20 milliseconds of difference in when the deep stabilizers fire." },
+              ].map((c) => (
+                <Link key={c.to + c.title} to={c.to} className="group">
+                  <Card className="h-full border-2 hover:border-primary transition-colors overflow-hidden flex flex-col">
+                    {c.video && (
+                      <video src={c.video} autoPlay loop muted playsInline className="w-full h-48 object-cover" />
+                    )}
+                    <CardContent className="p-6 flex-1 flex flex-col">
                       <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                         {c.title}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed">{c.text}</p>
+                      <p className="text-muted-foreground leading-relaxed mb-4">{c.text}</p>
+                      <span className="text-primary font-semibold mt-auto">Learn more →</span>
                     </CardContent>
                   </Card>
                 </Link>

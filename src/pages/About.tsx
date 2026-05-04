@@ -97,7 +97,7 @@ const About = () => {
               })}
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The exercises are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–15 minutes of daily practice is needed until the patterns become automatic.
+              The exercises are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–20 minutes of daily practice is needed until the patterns become automatic.
             </p>
           </div>
         </section>

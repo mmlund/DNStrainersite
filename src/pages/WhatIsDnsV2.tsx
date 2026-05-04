@@ -15,6 +15,7 @@ import evaImage from "@/assets/eva-andersson.png";
 import pillarKinesiology from "@/assets/pillar-developmental-kinesiology.png";
 import pillarIAP from "@/assets/pillar-iap-regulation.png";
 import pillarClinical from "@/assets/pillar-clinical-applications.png";
+import dnsSupineVideo from "@/assets/dns-supine.mp4";
 import newNaturalMovementVideo from "@/assets/natural-movement-new.mp4";
 import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";
 import naturalMovementVideo from "@/assets/natural-movement-video.mp4";

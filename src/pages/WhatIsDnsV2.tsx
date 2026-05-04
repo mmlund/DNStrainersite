@@ -12,6 +12,9 @@ import diaphragmIAP from "@/assets/diaphragm-breathing-iap-dns.png";
 import movementAssessment from "@/assets/movement-assessment-quadruped.jpg";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import evaImage from "@/assets/eva-andersson.png";
+import pillarKinesiology from "@/assets/pillar-developmental-kinesiology.png";
+import pillarIAP from "@/assets/pillar-iap-regulation.png";
+import pillarClinical from "@/assets/pillar-clinical-applications.png";
 
 const causes = [
   {

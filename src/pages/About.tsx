@@ -6,6 +6,7 @@ import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import evaImage from "@/assets/eva-andersson.png";
+import AboutEva from "@/components/AboutEva";
 
 const credentials = [
   {
@@ -59,34 +60,8 @@ const About = () => {
 
       <main className="pt-16">
         {/* Intro */}
-        <section className="py-20 bg-background">
-          <div className="container px-4 max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-[auto_1fr] gap-10 items-center">
-              <img
-                src={evaImage}
-                alt="Eva Andersson — DNS Certified Practitioner"
-                className="w-56 h-56 md:w-72 md:h-72 rounded-2xl object-cover shadow-lg border-4 border-primary/10 mx-auto"
-              />
-              <div>
-                <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-3">Eva Andersson</h1>
-                <p className="text-lg md:text-xl text-primary font-semibold mb-8">
-                  DNS Certified Practitioner · Prague School Trained · Doctor of Naprapathy
-                </p>
-                <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-                  <p>
-                    Eva Andersson is a DNS-certified practitioner trained directly by the Prague School of Rehabilitation and Manual Medicine — the institution that developed Dynamic Neuromuscular Stabilization under Professor Pavel Kolář.
-                  </p>
-                  <p>
-                    She holds a Doctor of Naprapathy degree from the Scandinavian College of Naprapathic Manual Medicine — five years of post-secondary education in biomechanics, neuromuscular therapy, and manual medicine.
-                  </p>
-                  <p>
-                    Eva is also a licensed Registered Massage Therapist in British Columbia and has been treating patients in Canada and Sweden for over 25 years.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <AboutEva headline="Eva Andersson" as="h1" />
+
 
         {/* How a Session Works */}
         <section className="py-20 bg-muted/30">

@@ -2,15 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Mail, Award, Heart, Clock } from "lucide-react";
 import evaImage from "@/assets/eva-andersson.png";
 
-const AboutEva = () => {
+interface AboutEvaProps {
+  headline?: string;
+  as?: "h1" | "h2";
+}
+
+const AboutEva = ({ headline = "Meet Eva Andersson", as: HeadingTag = "h2" }: AboutEvaProps) => {
   return (
     <section id="about" className="py-20 bg-muted/30">
       <div className="container px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Meet Eva Andersson
-            </h2>
+            <HeadingTag className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+              {headline}
+            </HeadingTag>
             <p className="text-xl text-primary font-semibold mb-2">DNS Certified Practitioner | The Prague School</p>
             <p className="text-lg text-muted-foreground">Doctor of Naprapathy | Scandinavian College</p>
           </div>

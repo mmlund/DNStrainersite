@@ -186,7 +186,7 @@ const WhatIsDnsV2 = () => {
               />
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  First, It Starts With Breathing
+                  It Often Starts with Breathing
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   A common cause of poor stability is an incorrect breathing pattern. Therefore, the DNS approach begins with an assessment and correction of breathing. The diaphragm is a respiratory–inhalation muscle, but it also performs a very important stabilization function. There is strong clinical evidence that back pain is more prevalent in those individuals with reduced ability to activate the diaphragm's dual function of postural stability and breathing. The correct use of the diaphragm stimulates the contraction of pelvic floor and abdominal wall muscles — "the cylinder" — which increases Intra-Abdominal Pressure (IAP). The co-contraction of these muscles regulates IAP and is key for core stability.

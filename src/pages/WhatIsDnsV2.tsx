@@ -122,10 +122,7 @@ const WhatIsDnsV2 = () => {
                   Dynamic Neuromuscular Stabilization (DNS) — it's an intimidating mouthful, but bear with me while I explain this exciting approach for the restoration of correct core stability. Its applications are wide — from prevention and rehabilitation of chronic pain to the optimization of athletic performance.
                 </p>
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                <img src={crawlInfant} alt="Infant crawling — innate movement pattern" className="rounded-2xl shadow-lg w-full" />
-                <img src={crawlAdult} alt="Adult reconnecting to developmental movement" className="rounded-2xl shadow-lg w-full mt-8" />
-              </div>
+              <img src={breathingSpinalConnection} alt="DNS breathing and spinal connection — diaphragm, IAP and deep stabilizing co-activation chain" className="rounded-2xl shadow-lg w-full" />
             </div>
           </div>
         </section>

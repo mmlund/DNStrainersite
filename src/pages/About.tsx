@@ -13,16 +13,19 @@ const credentials = [
     icon: Award,
     title: "Prague School of Rehabilitation and Manual Medicine",
     text: "DNS certification from Professor Pavel Kolář's institution — the world authority on Dynamic Neuromuscular Stabilization.",
+    link: "https://www.rehabps.com/",
   },
   {
     icon: GraduationCap,
     title: "Scandinavian College of Naprapathic Manual Medicine",
     text: "Doctor of Naprapathy — five years of post-secondary clinical education covering biomechanics, neuromuscular therapy, orthopedic examination, and manual medicine.",
+    link: "https://naprapathogskolan.se/the-scandinavian-college-of-naprapathic-manual-medicine",
   },
   {
     icon: BadgeCheck,
     title: "Registered Massage Therapist",
     text: "Licensed and registered with the College of Massage Therapists of British Columbia.",
+    link: "https://cchpbc.ca/for-professionals/registered-massage-therapists/",
   },
 ];
 
@@ -74,7 +77,7 @@ const About = () => {
                 Eva focuses on identifying dysfunctional stabilization patterns and helping patients retrain them through specific manual treatment and exercises.
               </p>
               <p>
-                Sessions are one-on-one. DNS is detail-sensitive — it's difficult to assess and correct stabilization patterns in a group setting. The nervous system has to learn to fire correctly before movement begins, and that requires individual attention.
+                Sessions are one-on-one. The nervous system has to learn to fire correctly before movement begins, and that requires individual attention.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-10">
@@ -94,7 +97,7 @@ const About = () => {
               })}
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The exercises are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–15 minutes of daily practice is needed until the patterns become automatic.
+              The exercises are initially slow and simple — the goal is to establish correct stabilization before adding complexity. Typically, 10–20 minutes of daily practice is needed until the patterns become automatic.
             </p>
           </div>
         </section>
@@ -114,7 +117,15 @@ const About = () => {
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                         <Icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h3 className="text-lg font-bold text-foreground mb-3">{c.title}</h3>
+                      <h3 className="text-lg font-bold text-foreground mb-3">
+                        {c.link ? (
+                          <a href={c.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
+                            {c.title}
+                          </a>
+                        ) : (
+                          c.title
+                        )}
+                      </h3>
                       <p className="text-muted-foreground">{c.text}</p>
                     </CardContent>
                   </Card>

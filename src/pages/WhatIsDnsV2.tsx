@@ -32,14 +32,17 @@ const pillars = [
   {
     title: "Developmental Kinesiology Foundation",
     text: "DNS is grounded in the predictable movement patterns infants develop in their first year — the blueprint for ideal adult stability.",
+    image: pillarKinesiology,
   },
   {
     title: "Intra-Abdominal Pressure Regulation",
     text: "The coordinated activity of the diaphragm, pelvic floor, and abdominal wall creates the pressure that supports the spine during every movement.",
+    image: pillarIAP,
   },
   {
     title: "Clinical Applications",
     text: "From chronic pain rehabilitation to high-level athletic performance, DNS principles apply across the full spectrum of human movement.",
+    image: pillarClinical,
   },
 ];
 

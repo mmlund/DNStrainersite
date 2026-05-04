@@ -6,6 +6,7 @@ import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import evaImage from "@/assets/eva-andersson.png";
+import AboutEva from "@/components/AboutEva";
 
 const credentials = [
   {

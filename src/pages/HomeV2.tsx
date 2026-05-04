@@ -17,8 +17,8 @@ const helpCards = [
     to: "/chronic-pain",
   },
   {
-    title: "DNS in Action",
-    text: "See a 3-month developmental supine position — the foundation of DNS training.",
+    title: "Hands-on cues",
+    text: "Cues helps you feel what is right.",
     to: "/what-is-dns",
     video: dnsSupineVideo,
   },

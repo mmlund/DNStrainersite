@@ -410,7 +410,7 @@ const WhatIsDnsV2 = () => {
               Where DNS Comes From
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              DNS was developed by <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář and his research group at Charles University in Prague, Czech Republic</a>. It has been rapidly gaining attention and acceptance worldwide as an effective functional rehabilitation approach.
+              DNS was developed by <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář and his research group at Charles University in Prague, Czech Republic</a>. It has been rapidly gaining attention and acceptance worldwide as an effective functional rehabilitation approach. A number of clinical papers have been <a href="https://www.rehabps.cz/rehab/literature.php" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">published</a>.
             </p>
           </div>
         </section>

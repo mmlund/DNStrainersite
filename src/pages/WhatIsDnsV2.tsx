@@ -155,8 +155,7 @@ const WhatIsDnsV2 = () => {
               {causes.map((c) => (
                 <Card key={c.title} className="border-2">
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-bold text-primary mb-3">{c.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">{c.text}</p>
+                    <h3 className="text-xl font-bold text-primary">{c.title}</h3>
                   </CardContent>
                 </Card>
               ))}

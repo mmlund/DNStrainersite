@@ -60,7 +60,7 @@ const About = () => {
 
       <main className="pt-16">
         {/* Intro */}
-        <AboutEva headline="Eva Andersson" />
+        <AboutEva headline="Eva Andersson" as="h1" />
 
 
         {/* How a Session Works */}

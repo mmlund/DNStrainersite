@@ -363,21 +363,44 @@ const WhatIsDnsV2 = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {helpCards.map((c) => (
-                <Link key={c.to} to={c.to} className="group">
-                  <Card className="h-full border-2 hover:border-primary transition-colors">
-                    <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
-                        {c.title}
-                      </h3>
-                      <p className="text-muted-foreground mb-4">{c.text}</p>
-                      <span className="text-primary font-semibold inline-flex items-center gap-1">
-                        Learn more <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </span>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
+              <div className="group relative overflow-hidden rounded-xl">
+                <img src={babyCrawlReaching} alt="Baby crawling and reaching demonstrating natural developmental movement" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Natural Movement Patterns</p>
+                </div>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={newNaturalMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={functionalStrengthVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Functional Strength</p>
+                </div>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={naturalMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">For All Ages & Abilities</p>
+                </div>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl">
+                <img src={surfer} alt="Surfer demonstrating dynamic stability on a wave" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Core Integration</p>
+                </div>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={restoringMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

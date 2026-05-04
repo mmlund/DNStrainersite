@@ -8,12 +8,19 @@ import SEOHead from "@/components/SEOHead";
 import WhatIsDNS from "@/components/WhatIsDNS";
 import heroBg from "@/assets/hero-bg.jpg";
 import evaImage from "@/assets/eva-andersson.png";
+import dnsSupineVideo from "@/assets/dns-supine.mp4";
 
 const helpCards = [
   {
     title: "Chronic Pain",
     text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement.",
     to: "/chronic-pain",
+  },
+  {
+    title: "DNS in Action",
+    text: "See a 3-month developmental supine position — the foundation of DNS training.",
+    to: "/what-is-dns",
+    video: dnsSupineVideo,
   },
   {
     title: "Sports Performance & Longevity",
@@ -145,8 +152,18 @@ const HomeV2 = () => {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {helpCards.map((c) => (
-                <Link key={c.to} to={c.to} className="group">
-                  <Card className="h-full border-2 hover:border-primary transition-colors">
+                <Link key={c.to + c.title} to={c.to} className="group">
+                  <Card className="h-full border-2 hover:border-primary transition-colors overflow-hidden">
+                    {c.video && (
+                      <video
+                        src={c.video}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="w-full h-48 object-cover"
+                      />
+                    )}
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                         {c.title}

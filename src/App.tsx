@@ -19,6 +19,8 @@ import BookingTerms from "./pages/BookingTerms";
 import BookSession from "./pages/BookSession";
 import Payment from "./pages/Payment";
 import ScienceBehindDNS from "./pages/ScienceBehindDNS";
+import HomeV2 from "./pages/HomeV2";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -46,6 +48,8 @@ const App = () => (
           <Route path="/book-session" element={<BookSession />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/science-behind-dns" element={<ScienceBehindDNS />} />
+          <Route path="/home-v2" element={<HomeV2 />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

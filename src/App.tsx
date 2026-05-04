@@ -22,6 +22,8 @@ import ScienceBehindDNS from "./pages/ScienceBehindDNS";
 import HomeV2 from "./pages/HomeV2";
 import WhatIsDnsV2 from "./pages/WhatIsDnsV2";
 import About from "./pages/About";
+import Posture from "./pages/Posture";
+import CoreStability from "./pages/CoreStability";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,7 +35,11 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<HomeV2 />} />
+          <Route path="/home" element={<HomeV2 />} />
+          <Route path="/index-old" element={<Index />} />
+          <Route path="/posture" element={<Posture />} />
+          <Route path="/core-stability" element={<CoreStability />} />
           <Route path="/what-is-dns" element={<WhatIsDNS />} />
           <Route path="/move-better" element={<MoveBetter />} />
           <Route path="/injury-rehabilitation" element={<InjuryRehabilitation />} />
@@ -49,7 +55,7 @@ const App = () => (
           <Route path="/book-session" element={<BookSession />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/science-behind-dns" element={<ScienceBehindDNS />} />
-          <Route path="/home-v2" element={<HomeV2 />} />
+          
           <Route path="/what-is-dns-v2" element={<WhatIsDnsV2 />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />

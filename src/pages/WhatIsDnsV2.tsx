@@ -267,8 +267,11 @@ const WhatIsDnsV2 = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 ...And Exercises
               </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                The focus of DNS exercises is learning good quality core function and joint centration in extremities using proper IAP (remember… breathing). We start with slow and simple motions so that we can later maintain stability in quicker and more complex exercises.
+              </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                The focus of DNS exercises is learning good quality core function and joint centration in extremities using proper IAP (remember… breathing). With incorrect breathing patterns, stability is compromised and exercises are not functional. This is why we start with slow and simple motions so that we can later maintain stability in quick, complex, sport-specific exercises. To correct, reinforce, and make permanent, this neuromuscular training requires 10–15 minutes of daily training using specific exercises until proper movement becomes automatic.
+                To correct, reinforce, and make permanent, this neuromuscular training requires 10–20 minutes of daily training using specific exercises until proper movement becomes automatic.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

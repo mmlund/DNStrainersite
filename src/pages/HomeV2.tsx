@@ -5,7 +5,8 @@ import { ArrowRight, AlertTriangle, Mail, Phone, MapPin } from "lucide-react";
 import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
-import heroBg from "@/assets/hero-dns-exercise.jpeg";
+import WhatIsDNS from "@/components/WhatIsDNS";
+import heroBg from "@/assets/hero-bg.jpg";
 import evaImage from "@/assets/eva-andersson.png";
 
 const helpCards = [
@@ -122,30 +123,13 @@ const HomeV2 = () => {
           </div>
         </section>
 
-        {/* What is DNS teaser */}
-        <section className="py-20 bg-background">
-          <div className="container px-4 max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 text-center">
-              What is Dynamic Neuromuscular Stabilization?
-            </h2>
-            <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
-              <p>
-                DNS is based on a fairly simple idea: humans are genetically wired for correct muscle patterns for stability. During our first year of life, as the central nervous system matures, we all reach developmental milestones — sitting, crawling, walking — with perfect stabilization patterns.
-              </p>
-              <p>
-                But then, "stuff" happens. Injuries, posture issues, incorrect training, stress — those patterns get disrupted. Compensation develops, and the muscle balance needed for correct stability is compromised. In adults, the first sign is often discomfort and pain.
-              </p>
-              <p>
-                DNS aims to restore those innate movement patterns through specific assessment, manual treatment, and training.
-              </p>
-            </div>
-            <div className="mt-8 text-center">
-              <Link to="/what-is-dns" className="text-primary font-semibold hover:underline">
-                Learn more about DNS →
-              </Link>
-            </div>
-          </div>
-        </section>
+        {/* What is DNS — same as / */}
+        <WhatIsDNS />
+        <div className="bg-background pb-20 text-center">
+          <Link to="/what-is-dns" className="text-primary font-semibold hover:underline">
+            Learn more about DNS →
+          </Link>
+        </div>
 
         {/* How DNS Can Help — routing cards */}
         <section className="py-20 bg-muted/30">

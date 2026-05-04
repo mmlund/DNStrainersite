@@ -181,30 +181,8 @@ const WhatIsDnsV2 = () => {
           </div>
         </section>
 
-        {/* 5. Breathing */}
-        <section className="py-20 bg-muted/30">
-          <div className="container px-4">
-            <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center mb-16">
-              <img
-                src={diaphragmIAP}
-                alt="Diaphragm, pelvic floor and abdominal wall forming the cylinder of intra-abdominal pressure"
-                className="rounded-2xl shadow-lg w-full"
-              />
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  It Often Starts with Breathing
-                </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  A common cause of poor stability is an incorrect breathing pattern. Therefore, the DNS approach begins with an assessment and correction of breathing. The diaphragm is a respiratory–inhalation muscle, but it also performs a very important stabilization function. There is strong clinical evidence that back pain is more prevalent in those individuals with reduced ability to activate the diaphragm's dual function of postural stability and breathing. The correct use of the diaphragm stimulates the contraction of pelvic floor and abdominal wall muscles — "the cylinder" — which increases Intra-Abdominal Pressure (IAP). The co-contraction of these muscles regulates IAP and is key for core stability.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
         {/* 5b. Three Pillars of DNS */}
-        <section className="py-20 bg-background">
+        <section className="py-20 bg-muted/30">
           <div className="container px-4">
             <div className="max-w-3xl mx-auto text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -230,6 +208,27 @@ const WhatIsDnsV2 = () => {
                   </CardContent>
                 </Card>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 5. Breathing */}
+        <section className="py-20 bg-background">
+          <div className="container px-4">
+            <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center mb-16">
+              <img
+                src={diaphragmIAP}
+                alt="Diaphragm, pelvic floor and abdominal wall forming the cylinder of intra-abdominal pressure"
+                className="rounded-2xl shadow-lg w-full"
+              />
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                  It Often Starts with Breathing
+                </h2>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  A common cause of poor stability is an incorrect breathing pattern. Therefore, the DNS approach begins with an assessment and correction of breathing. The diaphragm is a respiratory–inhalation muscle, but it also performs a very important stabilization function. There is strong clinical evidence that back pain is more prevalent in those individuals with reduced ability to activate the diaphragm's dual function of postural stability and breathing. The correct use of the diaphragm stimulates the contraction of pelvic floor and abdominal wall muscles — "the cylinder" — which increases Intra-Abdominal Pressure (IAP). The co-contraction of these muscles regulates IAP and is key for core stability.
+                </p>
+              </div>
             </div>
           </div>
         </section>

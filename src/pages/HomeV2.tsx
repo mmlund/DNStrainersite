@@ -17,7 +17,7 @@ const helpCards = [
   },
   {
     title: "Sports Performance & Longevity",
-    text: "You have the strength and the drive. But can your stabilization system keep up with your training for the next 20 years?",
+    text: "Is your foundation built to support your goals for the next two decades? You have the strength and drive — ensure your movement patterns can match your ambitions.",
     to: "/sports-performance",
   },
   {

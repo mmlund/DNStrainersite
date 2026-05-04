@@ -12,7 +12,7 @@ import evaImage from "@/assets/eva-andersson.png";
 const helpCards = [
   {
     title: "Chronic Pain",
-    text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement — not just where it hurts.",
+    text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement.",
     to: "/chronic-pain",
   },
   {

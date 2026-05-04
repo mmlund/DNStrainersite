@@ -8,12 +8,19 @@ import SEOHead from "@/components/SEOHead";
 import WhatIsDNS from "@/components/WhatIsDNS";
 import heroBg from "@/assets/hero-bg.jpg";
 import evaImage from "@/assets/eva-andersson.png";
+import dnsSupineVideo from "@/assets/dns-supine.mp4";
 
 const helpCards = [
   {
     title: "Chronic Pain",
     text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement.",
     to: "/chronic-pain",
+  },
+  {
+    title: "DNS in Action",
+    text: "See a 3-month developmental supine position — the foundation of DNS training.",
+    to: "/what-is-dns",
+    video: dnsSupineVideo,
   },
   {
     title: "Sports Performance & Longevity",

@@ -12,6 +12,9 @@ import diaphragmIAP from "@/assets/diaphragm-breathing-iap-dns.png";
 import movementAssessment from "@/assets/movement-assessment-quadruped.jpg";
 import dnsTherapyFemale from "@/assets/dns-therapy-female.png";
 import evaImage from "@/assets/eva-andersson.png";
+import pillarKinesiology from "@/assets/pillar-developmental-kinesiology.png";
+import pillarIAP from "@/assets/pillar-iap-regulation.png";
+import pillarClinical from "@/assets/pillar-clinical-applications.png";
 
 const causes = [
   {
@@ -32,14 +35,17 @@ const pillars = [
   {
     title: "Developmental Kinesiology Foundation",
     text: "DNS is grounded in the predictable movement patterns infants develop in their first year — the blueprint for ideal adult stability.",
+    image: pillarKinesiology,
   },
   {
     title: "Intra-Abdominal Pressure Regulation",
     text: "The coordinated activity of the diaphragm, pelvic floor, and abdominal wall creates the pressure that supports the spine during every movement.",
+    image: pillarIAP,
   },
   {
     title: "Clinical Applications",
     text: "From chronic pain rehabilitation to high-level athletic performance, DNS principles apply across the full spectrum of human movement.",
+    image: pillarClinical,
   },
 ];
 
@@ -194,10 +200,31 @@ const WhatIsDnsV2 = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          </div>
+        </section>
+
+        {/* 5b. Three Pillars of DNS */}
+        <section className="py-20 bg-background">
+          <div className="container px-4">
+            <div className="max-w-3xl mx-auto text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                The Three Pillars of DNS
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                The framework that guides every assessment, treatment, and training session.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {pillars.map((p) => (
-                <Card key={p.title} className="border-2 hover:border-primary transition-colors">
-                  <CardContent className="p-6">
+                <Card key={p.title} className="border-2 hover:border-primary transition-colors overflow-hidden flex flex-col">
+                  <div className="bg-[#e8eeef] flex items-center justify-center p-4">
+                    <img
+                      src={p.image}
+                      alt={p.title}
+                      className="w-full h-64 object-contain mix-blend-multiply"
+                    />
+                  </div>
+                  <CardContent className="p-6 flex-1">
                     <h3 className="text-xl font-bold text-foreground mb-3">{p.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{p.text}</p>
                   </CardContent>

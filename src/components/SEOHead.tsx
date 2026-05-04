@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { SITE_URL, DEFAULT_OG_IMAGE } from "@/lib/seo";
+import { usePageMeta, buildBreadcrumbJsonLd } from "@/hooks/use-page-meta";
 
 interface SEOHeadProps {
   title: string;
@@ -8,23 +9,40 @@ interface SEOHeadProps {
   keywords?: string;
   noindex?: boolean;
   breadcrumbs?: { name: string; url: string }[];
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const SEOHead = ({ title, description, canonical, keywords, noindex, breadcrumbs }: SEOHeadProps) => {
+const SEOHead = ({
+  title,
+  description,
+  canonical,
+  keywords,
+  noindex,
+  breadcrumbs,
+  jsonLd,
+}: SEOHeadProps) => {
   const fullCanonical = `${SITE_URL}${canonical}`;
 
   const breadcrumbSchema = breadcrumbs
-    ? {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": breadcrumbs.map((crumb, i) => ({
-          "@type": "ListItem",
-          "position": i + 1,
-          "name": crumb.name,
-          "item": `${SITE_URL}${crumb.url}`,
-        })),
-      }
+    ? buildBreadcrumbJsonLd(breadcrumbs)
     : null;
+
+  // Combine breadcrumb schema with any custom jsonLd from the caller.
+  const allJsonLd = [
+    ...(breadcrumbSchema ? [breadcrumbSchema] : []),
+    ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+  ];
+
+  // Imperatively keep head tags in sync — guarantees crawlers see the
+  // correct title/description/canonical/JSON-LD for the current SPA route
+  // even if Helmet hydration is delayed.
+  usePageMeta({
+    title,
+    description,
+    canonical,
+    noindex,
+    jsonLd: allJsonLd.length ? allJsonLd : undefined,
+  });
 
   return (
     <Helmet>
@@ -47,13 +65,6 @@ const SEOHead = ({ title, description, canonical, keywords, noindex, breadcrumbs
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
-
-      {/* Breadcrumb structured data */}
-      {breadcrumbSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(breadcrumbSchema)}
-        </script>
-      )}
     </Helmet>
   );
 };

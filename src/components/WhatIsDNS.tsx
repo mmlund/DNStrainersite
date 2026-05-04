@@ -6,7 +6,7 @@ import dnsCoreIcon from "@/assets/dns-core-icon.png";
 
 const iconFilter = "invert(32%) sepia(85%) saturate(1200%) hue-rotate(170deg) brightness(95%) contrast(101%)";
 
-const WhatIsDNS = () => {
+const WhatIsDNS = ({ showCards = true }: { showCards?: boolean }) => {
   return (
     <section id="what-is-dns" className="pt-20 pb-6 bg-background">
       <div className="container px-4">
@@ -37,6 +37,7 @@ const WhatIsDNS = () => {
           </div>
         </div>
 
+        {showCards && (
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="border-2 hover:border-primary transition-colors duration-300">
             <CardContent className="pt-8 flex flex-col items-center text-center">
@@ -74,6 +75,7 @@ const WhatIsDNS = () => {
             </CardContent>
           </Card>
         </div>
+        )}
       </div>
     </section>
   );

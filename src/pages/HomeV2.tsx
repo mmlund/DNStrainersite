@@ -5,7 +5,7 @@ import { ArrowRight, AlertTriangle, Mail, Phone, MapPin } from "lucide-react";
 import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
-import heroBg from "@/assets/hero-dns-exercise-flipped.jpeg";
+import heroBg from "@/assets/hero-dns-exercise.jpeg";
 import evaImage from "@/assets/eva-andersson.png";
 
 const helpCards = [
@@ -63,8 +63,8 @@ const HomeV2 = () => {
       <NavigationV2 />
 
       <main className="pt-16">
-        {/* Hero */}
-        <section className="relative min-h-[80vh] w-full flex items-center overflow-hidden">
+        {/* Hero — matches / Hero.tsx structure */}
+        <section className="relative h-screen w-full flex items-center overflow-hidden">
           <div
             className="absolute left-0 top-0 bottom-0 z-[1]"
             style={{
@@ -77,7 +77,12 @@ const HomeV2 = () => {
             src={heroBg}
             alt="DNS training session in North Vancouver"
             className="absolute top-0 bottom-0 h-full object-cover"
-            style={{ left: "20%", width: "80%", objectPosition: "center center" }}
+            style={{
+              transform: "scaleX(-1)",
+              left: "20%",
+              width: "80%",
+              objectPosition: "center center",
+            }}
           />
           <div
             className="absolute inset-0 z-[2]"
@@ -86,8 +91,17 @@ const HomeV2 = () => {
                 "linear-gradient(to right, hsl(195 85% 30% / 0.95) 0%, hsl(195 85% 30% / 0.85) 20%, hsl(195 85% 33% / 0.6) 40%, hsl(195 75% 45% / 0.25) 60%, transparent 80%)",
             }}
           />
-          <div className="container relative z-10 px-4 py-20">
-            <div className="max-w-2xl">
+          <div
+            className="absolute inset-0 z-[2]"
+            style={{
+              backdropFilter: "blur(6px)",
+              WebkitBackdropFilter: "blur(6px)",
+              maskImage: "linear-gradient(to right, black 0%, black 30%, transparent 60%)",
+              WebkitMaskImage: "linear-gradient(to right, black 0%, black 30%, transparent 60%)",
+            }}
+          />
+          <div className="container relative z-10 px-4 py-20 flex flex-col h-full">
+            <div className="max-w-2xl mt-[-1vh]">
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
                 DNS Training in North Vancouver
               </h1>
@@ -97,6 +111,8 @@ const HomeV2 = () => {
               <p className="text-lg text-accent font-semibold mb-8">
                 Move Better. Feel Better. Perform Better.
               </p>
+            </div>
+            <div className="mt-auto mb-[10vh] flex justify-start">
               <Button size="lg" variant="hero" asChild>
                 <Link to="/book-session">
                   Book Your Session <ArrowRight className="ml-2" />

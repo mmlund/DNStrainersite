@@ -117,7 +117,15 @@ const About = () => {
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                         <Icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h3 className="text-lg font-bold text-foreground mb-3">{c.title}</h3>
+                      <h3 className="text-lg font-bold text-foreground mb-3">
+                        {c.link ? (
+                          <a href={c.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
+                            {c.title}
+                          </a>
+                        ) : (
+                          c.title
+                        )}
+                      </h3>
                       <p className="text-muted-foreground">{c.text}</p>
                     </CardContent>
                   </Card>

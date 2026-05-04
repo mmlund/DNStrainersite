@@ -259,19 +259,46 @@ const WhatIsDnsV2 = () => {
           <div className="container px-4">
             <div className="max-w-4xl mx-auto text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                You Guessed It… There Are Exercises Involved
+                Then There Are Exercises
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 The focus of DNS exercises is learning good quality core function and joint centration in extremities using proper IAP (remember… breathing). With incorrect breathing patterns, stability is compromised and exercises are not functional. This is why we start with slow and simple motions so that we can later maintain stability in quick, complex, sport-specific exercises. To correct, reinforce, and make permanent, this neuromuscular training requires 10–15 minutes of daily training using specific exercises until proper movement becomes automatic.
               </p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-              <img src={crawlInfant} alt="Natural movement patterns" className="rounded-xl w-full aspect-square object-cover shadow-md" />
-              <img src={movementAssessment} alt="Functional strength" className="rounded-xl w-full aspect-square object-cover shadow-md" />
-              <img src={crawlAdult} alt="For all ages and abilities" className="rounded-xl w-full aspect-square object-cover shadow-md" />
-              <img src={dnsTherapyFemale} alt="Core integration" className="rounded-xl w-full aspect-square object-cover shadow-md" />
-              <img src={babyCrawlReaching} alt="Restoring movement quality" className="rounded-xl w-full aspect-square object-cover shadow-md" />
-              <img src={diaphragmIAP} alt="Breathing-driven stability" className="rounded-xl w-full aspect-square object-cover shadow-md" />
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+              <div className="group relative overflow-hidden rounded-xl">
+                <img src={babyCrawlReaching} alt="Baby crawling and reaching demonstrating natural developmental movement" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Natural Movement Patterns</p>
+                </div>
+              </div>
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={newNaturalMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+              </div>
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={functionalStrengthVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Functional Strength</p>
+                </div>
+              </div>
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={naturalMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">For All Ages & Abilities</p>
+                </div>
+              </div>
+              <div className="group relative overflow-hidden rounded-xl">
+                <img src={surfer} alt="Surfer demonstrating dynamic stability on a wave" className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Core Integration</p>
+                </div>
+              </div>
+              <div className="group relative overflow-hidden rounded-xl">
+                <video src={restoringMovementVideo} autoPlay loop muted playsInline className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                  <p className="text-white font-semibold text-lg">Restoring Movement Quality</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

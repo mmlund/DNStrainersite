@@ -5,7 +5,7 @@ import { ArrowRight, AlertTriangle, Mail, Phone, MapPin } from "lucide-react";
 import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-dns-exercise-flipped.jpeg";
 import evaImage from "@/assets/eva-andersson.png";
 
 const helpCards = [

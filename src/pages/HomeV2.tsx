@@ -130,7 +130,7 @@ const HomeV2 = () => {
         </section>
 
         {/* What is DNS — same as / */}
-        <WhatIsDNS />
+        <WhatIsDNS showCards={false} />
         <div className="bg-background pb-20 text-center">
           <Link to="/what-is-dns" className="text-primary font-semibold hover:underline">
             Learn more about DNS →

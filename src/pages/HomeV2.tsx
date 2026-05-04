@@ -77,7 +77,7 @@ const HomeV2 = () => {
             src={heroBg}
             alt="DNS training session in North Vancouver"
             className="absolute top-0 bottom-0 h-full object-cover"
-            style={{ transform: "scaleX(-1)", left: "20%", width: "80%", objectPosition: "center center" }}
+            style={{ left: "20%", width: "80%", objectPosition: "center center" }}
           />
           <div
             className="absolute inset-0 z-[2]"

@@ -105,7 +105,22 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/85e8ed4e-fa2b-4f89-a601-b589f9680622) and click on Share -> Publish.
+While Lovable provides a simple "Publish" option, **this project relies on Render for production hosting** to successfully execute the SEO Prerendering pipeline.
+
+### Deploying to Render (Production)
+1. Log into your [Render Dashboard](https://dashboard.render.com).
+2. Click **New +** and select **Static Site**.
+3. Connect the `DNStrainersite` GitHub repository.
+4. Configure the service exactly as follows:
+   - **Name:** `dnstrainer-production` (or your preferred name)
+   - **Branch:** `main`
+   - **Root Directory:** *(leave blank)*
+   - **Build Command:** `bun install && bun run build:prod`
+   - **Publish Directory:** `dist`
+5. Click **Create Static Site**.
+6. **CRITICAL STEP:** Once the site is created, click the **Redirects/Rewrites** tab in the left-hand menu. 
+   - Ensure there are **NO** rules listed there.
+   - If Render automatically added a rule that says `/*` rewrites to `/index.html`, you **must delete it**. Because the prerendering script generates physical `.html` files for every route, Render's native "Clean URLs" will serve those files directly, and a rewrite rule would break this functionality.
 
 ## Can I connect a custom domain to my Lovable project?
 

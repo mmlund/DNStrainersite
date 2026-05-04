@@ -77,7 +77,7 @@ const About = () => {
                 Eva focuses on identifying dysfunctional stabilization patterns and helping patients retrain them through specific manual treatment and exercises.
               </p>
               <p>
-                Sessions are one-on-one. DNS is detail-sensitive — it's difficult to assess and correct stabilization patterns in a group setting. The nervous system has to learn to fire correctly before movement begins, and that requires individual attention.
+                Sessions are one-on-one. The nervous system has to learn to fire correctly before movement begins, and that requires individual attention.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-10">

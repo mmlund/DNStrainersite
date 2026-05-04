@@ -15,6 +15,11 @@ import evaImage from "@/assets/eva-andersson.png";
 import pillarKinesiology from "@/assets/pillar-developmental-kinesiology.png";
 import pillarIAP from "@/assets/pillar-iap-regulation.png";
 import pillarClinical from "@/assets/pillar-clinical-applications.png";
+import newNaturalMovementVideo from "@/assets/natural-movement-new.mp4";
+import functionalStrengthVideo from "@/assets/functional-strength-video.mp4";
+import naturalMovementVideo from "@/assets/natural-movement-video.mp4";
+import restoringMovementVideo from "@/assets/dns-shorter.mp4";
+import surfer from "@/assets/surfer.png";
 
 const causes = [
   {

@@ -265,7 +265,7 @@ const WhatIsDnsV2 = () => {
           <div className="container px-4">
             <div className="max-w-4xl mx-auto text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                ....And Exercises
+                Then There Are Exercises
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 The focus of DNS exercises is learning good quality core function and joint centration in extremities using proper IAP (remember… breathing). With incorrect breathing patterns, stability is compromised and exercises are not functional. This is why we start with slow and simple motions so that we can later maintain stability in quick, complex, sport-specific exercises. To correct, reinforce, and make permanent, this neuromuscular training requires 10–15 minutes of daily training using specific exercises until proper movement becomes automatic.
@@ -389,7 +389,7 @@ const WhatIsDnsV2 = () => {
               Where DNS Comes From
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              DNS was developed by <a href="https://www.rehabps.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Professor Pavel Kolář and his research group at Charles University in Prague, Czech Republic</a>. It has been rapidly gaining attention and acceptance worldwide as an effective functional rehabilitation approach.
+              DNS was developed by Professor Pavel Kolář and his research group at Charles University in Prague, Czech Republic. It has been rapidly gaining attention and acceptance worldwide as an effective functional rehabilitation approach.
             </p>
           </div>
         </section>

@@ -20,6 +20,7 @@ import BookSession from "./pages/BookSession";
 import Payment from "./pages/Payment";
 import ScienceBehindDNS from "./pages/ScienceBehindDNS";
 import HomeV2 from "./pages/HomeV2";
+import WhatIsDnsV2 from "./pages/WhatIsDnsV2";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/payment" element={<Payment />} />
           <Route path="/science-behind-dns" element={<ScienceBehindDNS />} />
           <Route path="/home-v2" element={<HomeV2 />} />
+          <Route path="/what-is-dns-v2" element={<WhatIsDnsV2 />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

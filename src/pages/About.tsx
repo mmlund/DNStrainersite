@@ -13,16 +13,19 @@ const credentials = [
     icon: Award,
     title: "Prague School of Rehabilitation and Manual Medicine",
     text: "DNS certification from Professor Pavel Kolář's institution — the world authority on Dynamic Neuromuscular Stabilization.",
+    link: "https://www.rehabps.com/",
   },
   {
     icon: GraduationCap,
     title: "Scandinavian College of Naprapathic Manual Medicine",
     text: "Doctor of Naprapathy — five years of post-secondary clinical education covering biomechanics, neuromuscular therapy, orthopedic examination, and manual medicine.",
+    link: "https://naprapathogskolan.se/the-scandinavian-college-of-naprapathic-manual-medicine",
   },
   {
     icon: BadgeCheck,
     title: "Registered Massage Therapist",
     text: "Licensed and registered with the College of Massage Therapists of British Columbia.",
+    link: "https://cchpbc.ca/for-professionals/registered-massage-therapists/",
   },
 ];
 

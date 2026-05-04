@@ -26,14 +26,14 @@ const NavigationV2 = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/home-v2" className="flex items-center gap-1.5">
+          <Link to="/" className="flex items-center gap-1.5">
             <img src={dnsLogo} alt="DNS Trainer Logo" className="h-[4.2rem]" />
             <span className="text-accent font-bold text-lg tracking-wider">DNS TRAINER</span>
           </Link>
 
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-6">
-            <Link to="/home-v2" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors">
               Home
             </Link>
             <Link to="/what-is-dns" className="text-foreground hover:text-primary transition-colors">
@@ -68,7 +68,7 @@ const NavigationV2 = () => {
         {/* Mobile menu */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-3">
-            <Link to="/home-v2" className="block text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
+            <Link to="/" className="block text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>
               Home
             </Link>
             <Link to="/what-is-dns" className="block text-foreground hover:text-primary" onClick={() => setIsOpen(false)}>

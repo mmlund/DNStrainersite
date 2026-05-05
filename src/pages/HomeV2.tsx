@@ -14,7 +14,7 @@ const helpCards = [
   {
     title: "Chronic Pain",
     text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement.",
-    to: "/chronic-pain",
+    to: "/chronic-pain-movement-assessment",
   },
   {
     title: "Hands-on cues",
@@ -25,7 +25,7 @@ const helpCards = [
   {
     title: "Sports Performance & Longevity",
     text: "Is your foundation built to support your goals for the next two decades? You have the strength and drive — ensure your movement patterns can match your ambitions.",
-    to: "/sports-performance",
+    to: "/performance-longevity-dns",
   },
   {
     title: "Breathing",

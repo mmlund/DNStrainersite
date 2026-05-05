@@ -121,7 +121,13 @@ const PerformanceLongevityDNS = () => {
                     DNS is based on developmental kinesiology — the study of how we moved in our first year of life. As infants, we didn't go to the gym; our nervous system naturally "unlocked" stabilization patterns as we learned to roll, crawl, and sit.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Over time — due to injuries, desk jobs, or specialized sports — we often lose access to these "factory settings." Our brain starts using compensatory shortcuts. DNS uses those same developmental positions from your first year of life to "re-boot" your system. We aren't just building muscle; we are re-establishing the connection of muscle patterns that should be running in the background automatically.
+                    Over time — due to injuries, desk jobs, or specialized sports — we often lose access to these "factory settings." Our brain starts using compensatory shortcuts. DNS uses those same developmental positions from your first year of life to "re-boot" your system. We aren't just building muscle; we are re-establishing the connection of muscle patterns that should be running in the background automatically.{" "}
+                    <a
+                      href="/what-is-dns"
+                      className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
+                    >
+                      Learn More
+                    </a>
                   </p>
                 </div>
                 <div className="bg-[#e8eeef] rounded-lg p-4">

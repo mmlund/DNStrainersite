@@ -56,7 +56,7 @@ const Posture = () => {
                   DNS and Posture
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                  Why "Sit Up Straight" Doesn't Work Long-Term
+                  DNS and Posture: Why "Sit Up Straight" Doesn't Work Long-Term
                 </h1>
                 <p className="text-lg text-muted-foreground mb-4">
                   You've probably tried to fix your posture before. Pulled your shoulders back. Tucked your chin. Maybe bought a standing desk or a posture corrector. It works for a while — then the moment you stop thinking about it, you're back where you started.

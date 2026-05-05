@@ -26,6 +26,7 @@ const BookSession = () => {
       <div className="min-h-screen bg-gradient-to-br from-primary/5 to-secondary/5 flex items-center justify-center p-4">
         <Card className="w-full max-w-2xl shadow-xl">
           <CardHeader className="space-y-2">
+            <h1 className="text-3xl font-bold text-foreground">Book Your DNS Training Session</h1>
             <CardTitle className="text-2xl flex items-center gap-2">
               <Calendar className="w-6 h-6 text-primary" />
               Before You Book Your Session

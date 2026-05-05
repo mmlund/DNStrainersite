@@ -19,4 +19,5 @@ export const SITEMAP_ROUTES: SitemapRoute[] = [
   { path: "/posture", priority: 0.8, changefreq: "monthly" },
   { path: "/core-stability", priority: 0.8, changefreq: "monthly" },
   { path: "/about", priority: 0.7, changefreq: "monthly" },
+  { path: "/book-session", priority: 0.6, changefreq: "monthly" },
 ];

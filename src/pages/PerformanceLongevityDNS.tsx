@@ -266,6 +266,22 @@ const PerformanceLongevityDNS = () => {
                 <Button size="lg" asChild>
                   <a href="/book-session">Book a One-on-One Movement Session</a>
                 </Button>
+                <p className="text-lg mt-6 mb-2">
+                  <a
+                    href="/what-is-dns"
+                    className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
+                  >
+                    Learn more about DNS
+                  </a>
+                </p>
+                <p className="text-lg mb-2">
+                  <a
+                    href="/about"
+                    className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
+                  >
+                    About Eva
+                  </a>
+                </p>
                 <p className="text-sm text-muted-foreground mt-4">
                   Or email us at <a href="mailto:info@dnstrainer.com" className="text-primary hover:underline">info@dnstrainer.com</a>
                 </p>

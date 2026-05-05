@@ -11,13 +11,39 @@ const Posture = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHead
-        title='DNS and Posture | Why "Sit Up Straight" Doesn&apos;t Work | North Vancouver'
+        title={`DNS and Posture | Why "Sit Up Straight" Doesn't Work | North Vancouver`}
         description="Posture isn't a position you hold through willpower — it's a reflection of whether your stabilization system is working automatically. DNS posture training in North Vancouver with Eva Andersson."
         canonical="/posture"
+        keywords="DNS posture, posture correction North Vancouver, why posture correction doesn't work, posture and stabilization, posture training North Vancouver, DNS posture training, Eva Andersson"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Posture", url: "/posture" },
         ]}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "MedicalWebPage",
+          name: "DNS and Posture: Why Sit Up Straight Doesn't Work Long-Term",
+          description:
+            "Posture isn't a position you hold through willpower — it's a reflection of whether your stabilization system is working automatically.",
+          url: "https://dnstrainer.com/posture",
+          about: {
+            "@type": "MedicalCondition",
+            name: "Poor Posture",
+            associatedAnatomy: {
+              "@type": "AnatomicalStructure",
+              name: "Spine",
+            },
+          },
+          mainContentOfPage: {
+            "@type": "WebPageElement",
+            cssSelector: "main",
+          },
+          specialty: {
+            "@type": "MedicalSpecialty",
+            name: "Rehabilitation",
+          },
+          lastReviewed: "2026-05-05",
+        }}
       />
       <NavigationV2 />
       <main className="pt-16 flex-1">
@@ -30,7 +56,7 @@ const Posture = () => {
                   DNS and Posture
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                  Why "Sit Up Straight" Doesn't Work Long-Term
+                  DNS and Posture: Why "Sit Up Straight" Doesn't Work Long-Term
                 </h1>
                 <p className="text-lg text-muted-foreground mb-4">
                   You've probably tried to fix your posture before. Pulled your shoulders back. Tucked your chin. Maybe bought a standing desk or a posture corrector. It works for a while — then the moment you stop thinking about it, you're back where you started.
@@ -110,7 +136,7 @@ const Posture = () => {
                 What DNS Looks At Differently
               </h2>
               <p className="text-lg text-muted-foreground mb-12 text-center max-w-3xl mx-auto">
-                Dynamic Neuromuscular Stabilization approaches posture as an output of the whole stabilization system, not as an isolated thing to correct. The assessment starts from the inside out:
+                <a href="/what-is-dns" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">Dynamic Neuromuscular Stabilization</a> approaches posture as an output of the whole stabilization system, not as an isolated thing to correct. The assessment starts from the inside out:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 {[
@@ -205,7 +231,7 @@ const Posture = () => {
                 How a Session Works
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                In a one-on-one session, Eva assesses how your deep system is functioning — whether the diaphragm is stabilizing, whether intra-abdominal pressure is being generated evenly, how your ribcage and pelvis relate to each other.
+                In a one-on-one session, <a href="/about" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">Eva</a> assesses how your deep system is functioning — whether the diaphragm is stabilizing (see <a href="/dns-breathing-training" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">DNS breathing training</a>), whether intra-abdominal pressure is being generated evenly, how your ribcage and pelvis relate to each other.
               </p>
               <p className="text-lg text-muted-foreground mb-4">
                 From there, the work is about re-establishing correct patterns through specific positions and cues. Some people feel the difference in one session. For others, it takes a few sessions plus daily practice (usually 10–15 minutes) before the new pattern starts to become the default.

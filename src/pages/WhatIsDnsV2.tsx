@@ -71,12 +71,12 @@ const helpCards = [
   {
     title: "Chronic Pain",
     text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement — not just where it hurts.",
-    to: "/chronic-pain",
+    to: "/chronic-pain-movement-assessment",
   },
   {
     title: "Sports Performance & Longevity",
     text: "You have the strength and the drive. But can your stabilization system keep up with your training for the next 20 years?",
-    to: "/sports-performance",
+    to: "/performance-longevity-dns",
   },
   {
     title: "Breathing",
@@ -373,9 +373,9 @@ const WhatIsDnsV2 = () => {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {[
-                { title: "Chronic Pain", to: "/chronic-pain", text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement." },
+                { title: "Chronic Pain", to: "/chronic-pain-movement-assessment", text: "Your pain keeps coming back despite treatment. DNS looks at how your body stabilizes during movement." },
                 { title: "Hands-on cues", to: "/what-is-dns", video: dnsSupineVideo, text: "Cues helps you feel what is right." },
-                { title: "Sports Performance & Longevity", to: "/sports-performance", text: "Is your foundation built to support your goals for the next two decades? You have the strength and drive — ensure your movement patterns can match your ambitions." },
+                { title: "Sports Performance & Longevity", to: "/performance-longevity-dns", text: "Is your foundation built to support your goals for the next two decades? You have the strength and drive — ensure your movement patterns can match your ambitions." },
                 { title: "Breathing", to: "/dns-breathing-training", text: "Most people think of the diaphragm as a breathing muscle. It also has a second, less well-known function: it's one of the most important muscles for stabilizing your spine." },
                 { title: "Posture", to: "/posture", text: "You've tried to fix your posture before. It works for a while — then the moment you stop thinking about it, you're back where you started. That's not a willpower problem." },
                 { title: "Core Stability", to: "/core-stability", text: "You can have very strong core muscles and still have poor core stability. The difference often comes down to timing — about 20 milliseconds of difference in when the deep stabilizers fire." },

@@ -106,8 +106,8 @@ const Posture = () => {
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
               <div className="bg-[#e8eeef] rounded-lg p-6 order-2 md:order-1">
                 <img
-                  src={femaleKyphosis}
-                  alt="Side profile comparison of slouched and upright standing posture in a woman"
+                  src={maleKyphosis}
+                  alt="Side-by-side comparison of upright posture and kyphotic (slouched) posture in a man"
                   className="w-full mix-blend-multiply rounded"
                 />
               </div>

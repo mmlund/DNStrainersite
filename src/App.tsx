@@ -8,6 +8,7 @@ import PerformanceLongevityDNS from "./pages/PerformanceLongevityDNS";
 import DNSBreathingTraining from "./pages/DNSBreathingTraining";
 import BookSession from "./pages/BookSession";
 import HomeV2 from "./pages/HomeV2";
+import ScrollToTop from "./components/ScrollToTop";
 import WhatIsDnsV2 from "./pages/WhatIsDnsV2";
 import About from "./pages/About";
 import Posture from "./pages/Posture";

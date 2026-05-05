@@ -11,13 +11,39 @@ const Posture = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHead
-        title='DNS and Posture | Why "Sit Up Straight" Doesn&apos;t Work | North Vancouver'
+        title={`DNS and Posture | Why "Sit Up Straight" Doesn't Work | North Vancouver`}
         description="Posture isn't a position you hold through willpower — it's a reflection of whether your stabilization system is working automatically. DNS posture training in North Vancouver with Eva Andersson."
         canonical="/posture"
+        keywords="DNS posture, posture correction North Vancouver, why posture correction doesn't work, posture and stabilization, posture training North Vancouver, DNS posture training, Eva Andersson"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Posture", url: "/posture" },
         ]}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "MedicalWebPage",
+          name: "DNS and Posture: Why Sit Up Straight Doesn't Work Long-Term",
+          description:
+            "Posture isn't a position you hold through willpower — it's a reflection of whether your stabilization system is working automatically.",
+          url: "https://dnstrainer.com/posture",
+          about: {
+            "@type": "MedicalCondition",
+            name: "Poor Posture",
+            associatedAnatomy: {
+              "@type": "AnatomicalStructure",
+              name: "Spine",
+            },
+          },
+          mainContentOfPage: {
+            "@type": "WebPageElement",
+            cssSelector: "main",
+          },
+          specialty: {
+            "@type": "MedicalSpecialty",
+            name: "Rehabilitation",
+          },
+          lastReviewed: "2026-05-05",
+        }}
       />
       <NavigationV2 />
       <main className="pt-16 flex-1">

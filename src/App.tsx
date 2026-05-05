@@ -4,7 +4,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import WhatIsDNS from "./pages/WhatIsDNS";
 import MoveBetter from "./pages/MoveBetter";
 import InjuryRehabilitation from "./pages/InjuryRehabilitation";
 import SportsPerformance from "./pages/SportsPerformance";
@@ -36,11 +35,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomeV2 />} />
-          <Route path="/home" element={<HomeV2 />} />
           <Route path="/index-old" element={<Index />} />
           <Route path="/posture" element={<Posture />} />
           <Route path="/core-stability" element={<CoreStability />} />
-          <Route path="/what-is-dns" element={<WhatIsDNS />} />
+          <Route path="/what-is-dns" element={<WhatIsDnsV2 />} />
           <Route path="/move-better" element={<MoveBetter />} />
           <Route path="/injury-rehabilitation" element={<InjuryRehabilitation />} />
           <Route path="/sports-performance" element={<SportsPerformance />} />
@@ -56,7 +54,6 @@ const App = () => (
           <Route path="/payment" element={<Payment />} />
           <Route path="/science-behind-dns" element={<ScienceBehindDNS />} />
           
-          <Route path="/what-is-dns-v2" element={<WhatIsDnsV2 />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

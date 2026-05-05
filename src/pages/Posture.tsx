@@ -231,7 +231,7 @@ const Posture = () => {
                 How a Session Works
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                In a one-on-one session, Eva assesses how your deep system is functioning — whether the diaphragm is stabilizing, whether intra-abdominal pressure is being generated evenly, how your ribcage and pelvis relate to each other.
+                In a one-on-one session, <a href="/about" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">Eva</a> assesses how your deep system is functioning — whether the diaphragm is stabilizing (see <a href="/dns-breathing-training" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">DNS breathing training</a>), whether intra-abdominal pressure is being generated evenly, how your ribcage and pelvis relate to each other.
               </p>
               <p className="text-lg text-muted-foreground mb-4">
                 From there, the work is about re-establishing correct patterns through specific positions and cues. Some people feel the difference in one session. For others, it takes a few sessions plus daily practice (usually 10–15 minutes) before the new pattern starts to become the default.

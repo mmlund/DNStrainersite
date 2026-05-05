@@ -136,7 +136,7 @@ const Posture = () => {
                 What DNS Looks At Differently
               </h2>
               <p className="text-lg text-muted-foreground mb-12 text-center max-w-3xl mx-auto">
-                Dynamic Neuromuscular Stabilization approaches posture as an output of the whole stabilization system, not as an isolated thing to correct. The assessment starts from the inside out:
+                <a href="/what-is-dns" className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors">Dynamic Neuromuscular Stabilization</a> approaches posture as an output of the whole stabilization system, not as an isolated thing to correct. The assessment starts from the inside out:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 {[

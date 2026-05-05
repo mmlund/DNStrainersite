@@ -11,8 +11,8 @@ import {
 import dnsLogo from "@/assets/dns-logo-new.png";
 
 const whoItHelps = [
-  { label: "Chronic Pain", to: "/chronic-pain" },
-  { label: "Sports Performance & Longevity", to: "/sports-performance" },
+  { label: "Chronic Pain", to: "/chronic-pain-movement-assessment" },
+  { label: "Sports Performance & Longevity", to: "/performance-longevity-dns" },
   { label: "Breathing", to: "/dns-breathing-training" },
   { label: "Posture", to: "/posture" },
   { label: "Core Stability", to: "/core-stability" },

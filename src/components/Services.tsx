@@ -16,7 +16,7 @@ const Services = () => {
       customIconAlt: "Bandaid icon for injury rehabilitation",
       title: "Injury Rehabilitation",
       description: "Evidence-based DNS protocols for post-injury recovery. We address musculoskeletal dysfunctions by restoring optimal movement patterns and neuromuscular coordination, accelerating healing and preventing re-injury.",
-      link: "/injury-rehabilitation"
+      link: "/chronic-pain-movement-assessment"
     },
     {
       icon: null as any,
@@ -24,7 +24,7 @@ const Services = () => {
       customIconAlt: "Soccer player icon for sports performance",
       title: "Sports Performance Enhancement",
       description: "Elevate athletic performance through improved dynamic stability, power transfer efficiency, and movement quality. DNS training optimizes the kinetic chain for sport-specific demands and competitive advantage.",
-      link: "/sports-performance"
+      link: "/performance-longevity-dns"
     },
     {
       icon: null as any,
@@ -32,7 +32,7 @@ const Services = () => {
       customIconAlt: "Pain management icon",
       title: "Chronic Pain Management",
       description: "Address persistent pain conditions (chronic low back pain, neck and shoulder pain, hip, knee, and foot problems) by correcting underlying movement dysfunction and restoring proper muscle function patterns.",
-      link: "/chronic-pain"
+      link: "/chronic-pain-movement-assessment"
     },
     {
       icon: null as any,

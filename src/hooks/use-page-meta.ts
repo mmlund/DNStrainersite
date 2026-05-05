@@ -105,6 +105,13 @@ export function usePageMeta({
         ? jsonLd
         : [jsonLd]
       : [];
+    // Remove any pre-existing JSON-LD blocks injected by this hook (e.g.
+    // from a prerendered HTML snapshot) before adding fresh ones to prevent
+    // duplicate schemas on hydration.
+    document.head
+      .querySelectorAll('script[type="application/ld+json"][data-page-meta="true"]')
+      .forEach((el) => el.parentNode?.removeChild(el));
+
     const injectedScripts: HTMLScriptElement[] = [];
     jsonLdBlocks.forEach((block) => {
       const script = document.createElement("script");

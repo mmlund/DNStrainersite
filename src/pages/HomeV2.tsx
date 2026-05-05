@@ -60,6 +60,69 @@ const steps = [
   { n: "4", title: "Home Practice Plan", text: "Simple exercises to reinforce progress." },
 ];
 
+const medicalBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "DNS Training North Vancouver - Eva Andersson",
+  "url": "https://dnstrainer.com",
+  "telephone": "+1-604-305-1418",
+  "email": "info@dnstrainer.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Suite 202B - 101 West 16th Street",
+    "addressLocality": "North Vancouver",
+    "addressRegion": "BC",
+    "postalCode": "V7M 1T3",
+    "addressCountry": "CA",
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 49.3172, "longitude": -123.0748 },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00",
+  },
+  "priceRange": "$$",
+  "areaServed": ["North Vancouver", "West Vancouver", "Vancouver"],
+  "medicalSpecialty": ["Rehabilitation", "SportsMedicine", "PainManagement"],
+  "founder": {
+    "@type": "Person",
+    "name": "Eva Andersson",
+    "jobTitle": "DNS Certified Practitioner",
+    "alumniOf": [
+      { "@type": "EducationalOrganization", "name": "The Prague School of Rehabilitation and Manual Medicine" },
+      { "@type": "EducationalOrganization", "name": "Scandinavian College of Naprapathic Manual Medicine" },
+    ],
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is DNS?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Dynamic Neuromuscular Stabilization (DNS) is a rehabilitation and training approach developed by the Prague School that uses principles of developmental kinesiology to restore correct core stability and movement patterns." },
+    },
+    {
+      "@type": "Question",
+      "name": "Where is DNS training available in North Vancouver?",
+      "acceptedAnswer": { "@type": "Answer", "text": "DNStrainer offers one-on-one DNS training sessions at Liberation Fitness / Scandinavian Clinic, Suite 202B - 101 West 16th Street, North Vancouver, BC V7M 1T3." },
+    },
+    {
+      "@type": "Question",
+      "name": "What conditions does DNS help with?",
+      "acceptedAnswer": { "@type": "Answer", "text": "DNS is used for chronic pain management, sports performance enhancement, injury rehabilitation, posture correction, and breathing dysfunction. It addresses the underlying stabilization patterns rather than just symptoms." },
+    },
+    {
+      "@type": "Question",
+      "name": "What are Eva Andersson's qualifications?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Eva Andersson is a DNS-certified practitioner trained by the Prague School of Rehabilitation and Manual Medicine. She holds a Doctor of Naprapathy degree from the Scandinavian College of Naprapathic Manual Medicine and is a licensed Registered Massage Therapist in British Columbia with over 25 years of clinical experience." },
+    },
+  ],
+};
+
 const HomeV2 = () => {
   return (
     <div className="min-h-screen">
@@ -67,6 +130,7 @@ const HomeV2 = () => {
         title="DNS Training North Vancouver | Eva Andersson | Prague School Certified"
         description="Prague School-certified Dynamic Neuromuscular Stabilization (DNS) training in North Vancouver. One-on-one sessions for chronic pain, sports performance, and movement quality."
         canonical="/"
+        jsonLd={[medicalBusinessSchema, faqSchema]}
       />
       <NavigationV2 />
 

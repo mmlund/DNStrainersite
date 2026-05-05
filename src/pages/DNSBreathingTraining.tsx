@@ -220,7 +220,13 @@ const DNSBreathingTraining = () => {
                   If you're curious about whether your breathing pattern might be affecting your stability or contributing to a pain issue, a single session can often clarify that. Eva assesses how your diaphragm is functioning in different positions and can tell you fairly quickly whether this is a relevant factor for you.
                 </p>
                 <p className="text-lg text-muted-foreground mb-8">
-                  No commitment beyond that — some people need ongoing work, others just need a few corrections and some exercises to practice at home.
+                  No commitment beyond that — some people need ongoing work, others just need a few corrections and some exercises to practice at home.{" "}
+                  <a
+                    href="/what-is-dns"
+                    className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
+                  >
+                    Learn More
+                  </a>
                 </p>
                 <Button size="lg" asChild>
                   <a href="/book-session">Book a Session</a>

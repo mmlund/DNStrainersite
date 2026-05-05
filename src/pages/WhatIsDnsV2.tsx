@@ -101,7 +101,7 @@ const WhatIsDnsV2 = () => {
       <SEOHead
         title="What is Dynamic Neuromuscular Stabilization (DNS)? | DNStrainer"
         description="DNS uses developmental kinesiology to restore correct core stability. Learn how it works — from breathing and joint centration to why expert coaching matters. Prague School-certified training in North Vancouver."
-        canonical="https://www.dnstrainer.com/what-is-dns"
+        canonical="https://dnstrainer.com/what-is-dns"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "What is DNS?", url: "/what-is-dns" },

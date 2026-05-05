@@ -8,4 +8,5 @@
   <url><loc>https://dnstrainer.com/posture</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://dnstrainer.com/core-stability</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://dnstrainer.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dnstrainer.com/book-session</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

@@ -4,7 +4,7 @@ import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import maleKyphosis from "@/assets/posture-male-kyphosis.png";
-import frontBackSide from "@/assets/posture-front-back-side.png";
+import developmentalKinesiology from "@/assets/posture-developmental-kinesiology.png";
 import femaleKyphosis from "@/assets/posture-female-kyphosis.png";
 import femaleKyphosis2 from "@/assets/posture-female-kyphosis-2.png";
 
@@ -184,8 +184,8 @@ const Posture = () => {
               </div>
               <div className="bg-[#e8eeef] rounded-lg p-6">
                 <img
-                  src={frontBackSide}
-                  alt="Multiple views of standing posture from front, side and back showing alignment differences"
+                  src={developmentalKinesiology}
+                  alt="Hand-drawn illustration of developmental kinesiology stages from supine to prone to quadruped"
                   className="w-full mix-blend-multiply rounded"
                 />
               </div>

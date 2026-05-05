@@ -1,4 +1,4 @@
-import Navigation from "@/components/Navigation";
+import NavigationV2 from "@/components/NavigationV2";
 import Footer from "@/components/Footer";
 import BookingCTA from "@/components/BookingCTA";
 import SEOHead from "@/components/SEOHead";
@@ -24,7 +24,7 @@ const DNSBreathingTraining = () => {
       />
 
       <div className="min-h-screen">
-        <Navigation />
+        <NavigationV2 />
         <main className="pt-16">
           {/* Hero */}
           <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">

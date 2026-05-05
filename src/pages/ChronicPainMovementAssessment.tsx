@@ -82,7 +82,13 @@ const ChronicPainMovementAssessment = () => {
                     When we're infants, our nervous system develops stabilization patterns automatically — we all reach milestones like sitting and crawling in roughly the same way, with efficient muscle coordination. For various reasons — injuries, poor postures, stress, habits — those patterns can get disrupted over time. When they do, the body compensates. And those compensations can lead to areas being repeatedly overloaded.
                   </p>
                   <p className="text-lg text-foreground font-medium">
-                    DNS uses an individualized assessment to look at your biomechanical function.
+                    DNS uses an individualized assessment to look at your biomechanical function.{" "}
+                    <a
+                      href="/what-is-dns"
+                      className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors"
+                    >
+                      Learn more
+                    </a>
                   </p>
                 </div>
               </div>

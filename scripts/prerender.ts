@@ -84,6 +84,25 @@ async function main() {
       (window as any).__PRERENDERING = true;
     });
 
+    // Block tracking scripts to prevent phantom analytics data and double-tracking
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+      const url = req.url();
+      const blockedDomains = [
+        'googletagmanager.com',
+        'google-analytics.com',
+        'doubleclick.net',
+        'facebook.net',
+        'facebook.com'
+      ];
+      
+      if (blockedDomains.some(domain => url.includes(domain))) {
+        req.abort();
+      } else {
+        req.continue();
+      }
+    });
+
     page.on('console', msg => console.log('BROWSER LOG:', msg.text()));
     page.on('pageerror', err => console.error('BROWSER ERROR:', err.message));
 

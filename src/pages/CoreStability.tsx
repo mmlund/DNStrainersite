@@ -12,9 +12,9 @@ const CoreStability = () => {
     <div className="min-h-screen flex flex-col">
       <SEOHead
         title={`Core Stability | It's Not About How Strong Your Core Is | North Vancouver`}
-        description="Core stability is about timing and motor control, not muscle strength. DNS retrains the automatic activation your nervous system should be doing. One-on-one sessions in North Vancouver."
+        description="Core stability is about timing and motor control, not muscle strength. DNS retrains the automatic activation your nervous system should be doing. One-on-one sessions in North Vancouver with Eva Andersson."
         canonical="/core-stability"
-        keywords="core stability, DNS core training, motor control core, deep stabilizing system, intra-abdominal pressure, hollowing vs bracing, North Vancouver core training, Eva Andersson"
+        keywords="DNS core stability, core stability training, core stability vs core strength, deep core activation, DNS core exercises, core stability North Vancouver, Eva Andersson"
         breadcrumbs={[
           { name: "Home", url: "/" },
           { name: "Core Stability", url: "/core-stability" },
@@ -272,6 +272,14 @@ const CoreStability = () => {
                   className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
                 >
                   Learn more about DNS
+                </a>
+              </p>
+              <p className="text-lg mb-2">
+                <a
+                  href="/posture"
+                  className="text-primary underline underline-offset-4 hover:text-primary/80 transition-colors font-medium"
+                >
+                  Posture and stabilization
                 </a>
               </p>
               <p className="text-lg mb-2">
